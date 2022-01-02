@@ -1,0 +1,140 @@
+Namespace(K=2, T=2, adapt_lamda=True, amr_loss=False, beta=0.25, ckp_prefix='seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20', dataset='cifar100', dist=0.5, epochs=160, fix_budget=False, imprint_weights=True, lamda=5.0, less_forget=True, lw_mr=1.0, lw_ms=1, mimic_score=False, mr_loss=True, nb_cl=10, nb_cl_fg=50, nb_protos=20, nb_runs=1, num_classes=100, random_seed=1993, resume=True, rs_ratio=0.0)
+Files already downloaded and verified
+Files already downloaded and verified
+Order name:./checkpoint/seed_1993_cifar100_order_run_0.pkl
+Loading orders
+[68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+in_features: 64 out_features: 50
+Batch of classes number 5 arrives ...
+Max and Min of train labels: 0, 49
+Max and Min of valid labels: 0, 49
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_4_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		77.06 %
+  top 1 accuracy iCaRL          :		76.34 %
+  top 1 accuracy NCM            :		76.56 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		77.06 %
+  top 1 accuracy iCaRL          :		76.34 %
+  top 1 accuracy NCM            :		76.56 %
+Computing confusion matrix...
+in_features: 64 out_features: 50
+###############################
+Lamda for less forget is set to  11.180339887498949
+###############################
+Batch of classes number 6 arrives ...
+Imprint weights
+Max and Min of train labels: 0, 59
+Max and Min of valid labels: 0, 59
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_5_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		68.76 %
+  top 1 accuracy iCaRL          :		70.50 %
+  top 1 accuracy NCM            :		72.02 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		68.87 %
+  top 1 accuracy iCaRL          :		69.03 %
+  top 1 accuracy NCM            :		69.03 %
+Computing confusion matrix...
+in_features: 64 out_features1: 50 out_features2: 10
+###############################
+Lamda for less forget is set to  12.24744871391589
+###############################
+Batch of classes number 7 arrives ...
+Imprint weights
+Max and Min of train labels: 0, 69
+Max and Min of valid labels: 0, 69
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_6_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		64.08 %
+  top 1 accuracy iCaRL          :		66.00 %
+  top 1 accuracy NCM            :		69.34 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		64.43 %
+  top 1 accuracy iCaRL          :		63.99 %
+  top 1 accuracy NCM            :		64.87 %
+Computing confusion matrix...
+in_features: 64 out_features1: 60 out_features2: 10
+###############################
+Lamda for less forget is set to  13.228756555322953
+###############################
+Batch of classes number 8 arrives ...
+Imprint weights
+Max and Min of train labels: 0, 79
+Max and Min of valid labels: 0, 79
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_7_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		60.16 %
+  top 1 accuracy iCaRL          :		62.84 %
+  top 1 accuracy NCM            :		67.40 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		59.83 %
+  top 1 accuracy iCaRL          :		59.62 %
+  top 1 accuracy NCM            :		60.67 %
+Computing confusion matrix...
+in_features: 64 out_features1: 70 out_features2: 10
+###############################
+Lamda for less forget is set to  14.142135623730951
+###############################
+Batch of classes number 9 arrives ...
+Imprint weights
+Max and Min of train labels: 0, 89
+Max and Min of valid labels: 0, 89
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_8_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		55.50 %
+  top 1 accuracy iCaRL          :		59.70 %
+  top 1 accuracy NCM            :		65.52 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		56.23 %
+  top 1 accuracy iCaRL          :		55.86 %
+  top 1 accuracy NCM            :		57.40 %
+Computing confusion matrix...
+in_features: 64 out_features1: 80 out_features2: 10
+###############################
+Lamda for less forget is set to  15.0
+###############################
+Batch of classes number 10 arrives ...
+Imprint weights
+Max and Min of train labels: 0, 99
+Max and Min of valid labels: 0, 99
+ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MR_LFAD_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_9_model.pth
+###############################
+Loading models from checkpoint
+###############################
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+Computing accuracy on the original batch of classes...
+  top 1 accuracy CNN            :		53.20 %
+  top 1 accuracy iCaRL          :		57.66 %
+  top 1 accuracy NCM            :		64.20 %
+Computing cumulative accuracy...
+  top 1 accuracy CNN            :		54.13 %
+  top 1 accuracy iCaRL          :		53.90 %
+  top 1 accuracy NCM            :		54.88 %
+Computing confusion matrix...
