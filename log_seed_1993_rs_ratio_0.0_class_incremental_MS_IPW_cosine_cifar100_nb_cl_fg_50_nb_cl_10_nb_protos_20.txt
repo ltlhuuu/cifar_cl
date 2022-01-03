@@ -9,19 +9,657 @@ Batch of classes number 5 arrives ...
 Max and Min of train labels: 0, 49
 Max and Min of valid labels: 0, 49
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_4_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 196, Train Loss: 3.4949 Acc: 9.2000
+Test set: 50 Test Loss: 3.2309 Acc: 14.6600
+
+Epoch: 1, LR: [0.1]
+Train set: 196, Train Loss: 2.9655 Acc: 19.4560
+Test set: 50 Test Loss: 2.9485 Acc: 20.0000
+
+Epoch: 2, LR: [0.1]
+Train set: 196, Train Loss: 2.6491 Acc: 27.3440
+Test set: 50 Test Loss: 2.8232 Acc: 23.8400
+
+Epoch: 3, LR: [0.1]
+Train set: 196, Train Loss: 2.3875 Acc: 32.9520
+Test set: 50 Test Loss: 2.5386 Acc: 31.9800
+
+Epoch: 4, LR: [0.1]
+Train set: 196, Train Loss: 2.1689 Acc: 38.3000
+Test set: 50 Test Loss: 2.4854 Acc: 31.5000
+
+Epoch: 5, LR: [0.1]
+Train set: 196, Train Loss: 1.9821 Acc: 43.1720
+Test set: 50 Test Loss: 2.1109 Acc: 39.5200
+
+Epoch: 6, LR: [0.1]
+Train set: 196, Train Loss: 1.8254 Acc: 47.2440
+Test set: 50 Test Loss: 2.0957 Acc: 40.5200
+
+Epoch: 7, LR: [0.1]
+Train set: 196, Train Loss: 1.7058 Acc: 50.5320
+Test set: 50 Test Loss: 1.8306 Acc: 47.4600
+
+Epoch: 8, LR: [0.1]
+Train set: 196, Train Loss: 1.6147 Acc: 53.0240
+Test set: 50 Test Loss: 2.0727 Acc: 41.8200
+
+Epoch: 9, LR: [0.1]
+Train set: 196, Train Loss: 1.5303 Acc: 55.0600
+Test set: 50 Test Loss: 1.7427 Acc: 49.3000
+
+Epoch: 10, LR: [0.1]
+Train set: 196, Train Loss: 1.4697 Acc: 56.7520
+Test set: 50 Test Loss: 1.8990 Acc: 47.0400
+
+Epoch: 11, LR: [0.1]
+Train set: 196, Train Loss: 1.4210 Acc: 57.9160
+Test set: 50 Test Loss: 1.6909 Acc: 51.9600
+
+Epoch: 12, LR: [0.1]
+Train set: 196, Train Loss: 1.3627 Acc: 59.7560
+Test set: 50 Test Loss: 1.6257 Acc: 54.7000
+
+Epoch: 13, LR: [0.1]
+Train set: 196, Train Loss: 1.3340 Acc: 60.4880
+Test set: 50 Test Loss: 1.6883 Acc: 51.6000
+
+Epoch: 14, LR: [0.1]
+Train set: 196, Train Loss: 1.2731 Acc: 62.2000
+Test set: 50 Test Loss: 1.6432 Acc: 53.2000
+
+Epoch: 15, LR: [0.1]
+Train set: 196, Train Loss: 1.2447 Acc: 63.1760
+Test set: 50 Test Loss: 1.5279 Acc: 56.7400
+
+Epoch: 16, LR: [0.1]
+Train set: 196, Train Loss: 1.2241 Acc: 63.4000
+Test set: 50 Test Loss: 1.6758 Acc: 52.5800
+
+Epoch: 17, LR: [0.1]
+Train set: 196, Train Loss: 1.2056 Acc: 63.8640
+Test set: 50 Test Loss: 1.6934 Acc: 52.2600
+
+Epoch: 18, LR: [0.1]
+Train set: 196, Train Loss: 1.1845 Acc: 64.7680
+Test set: 50 Test Loss: 1.5546 Acc: 55.9800
+
+Epoch: 19, LR: [0.1]
+Train set: 196, Train Loss: 1.1670 Acc: 65.2320
+Test set: 50 Test Loss: 1.5909 Acc: 54.1400
+
+Epoch: 20, LR: [0.1]
+Train set: 196, Train Loss: 1.1347 Acc: 66.0520
+Test set: 50 Test Loss: 1.5440 Acc: 55.2000
+
+Epoch: 21, LR: [0.1]
+Train set: 196, Train Loss: 1.1233 Acc: 66.0400
+Test set: 50 Test Loss: 1.6752 Acc: 53.4600
+
+Epoch: 22, LR: [0.1]
+Train set: 196, Train Loss: 1.1095 Acc: 66.5800
+Test set: 50 Test Loss: 1.3199 Acc: 61.5800
+
+Epoch: 23, LR: [0.1]
+Train set: 196, Train Loss: 1.1013 Acc: 67.0000
+Test set: 50 Test Loss: 1.6897 Acc: 53.0000
+
+Epoch: 24, LR: [0.1]
+Train set: 196, Train Loss: 1.0839 Acc: 67.3960
+Test set: 50 Test Loss: 1.7131 Acc: 52.4400
+
+Epoch: 25, LR: [0.1]
+Train set: 196, Train Loss: 1.0638 Acc: 67.9360
+Test set: 50 Test Loss: 1.5410 Acc: 55.5600
+
+Epoch: 26, LR: [0.1]
+Train set: 196, Train Loss: 1.0633 Acc: 68.2000
+Test set: 50 Test Loss: 1.4107 Acc: 59.0800
+
+Epoch: 27, LR: [0.1]
+Train set: 196, Train Loss: 1.0625 Acc: 67.7720
+Test set: 50 Test Loss: 1.5712 Acc: 55.8600
+
+Epoch: 28, LR: [0.1]
+Train set: 196, Train Loss: 1.0321 Acc: 69.2200
+Test set: 50 Test Loss: 1.3927 Acc: 59.0600
+
+Epoch: 29, LR: [0.1]
+Train set: 196, Train Loss: 1.0291 Acc: 68.9520
+Test set: 50 Test Loss: 1.5339 Acc: 56.5000
+
+Epoch: 30, LR: [0.1]
+Train set: 196, Train Loss: 1.0252 Acc: 68.9400
+Test set: 50 Test Loss: 1.5320 Acc: 58.4600
+
+Epoch: 31, LR: [0.1]
+Train set: 196, Train Loss: 1.0128 Acc: 69.4880
+Test set: 50 Test Loss: 1.6121 Acc: 55.6200
+
+Epoch: 32, LR: [0.1]
+Train set: 196, Train Loss: 0.9965 Acc: 69.8520
+Test set: 50 Test Loss: 1.4868 Acc: 57.3400
+
+Epoch: 33, LR: [0.1]
+Train set: 196, Train Loss: 0.9938 Acc: 69.8040
+Test set: 50 Test Loss: 1.3914 Acc: 59.5000
+
+Epoch: 34, LR: [0.1]
+Train set: 196, Train Loss: 1.0046 Acc: 69.5000
+Test set: 50 Test Loss: 1.3956 Acc: 59.1200
+
+Epoch: 35, LR: [0.1]
+Train set: 196, Train Loss: 0.9817 Acc: 70.3280
+Test set: 50 Test Loss: 1.5769 Acc: 55.8400
+
+Epoch: 36, LR: [0.1]
+Train set: 196, Train Loss: 0.9881 Acc: 69.9880
+Test set: 50 Test Loss: 1.5696 Acc: 55.2200
+
+Epoch: 37, LR: [0.1]
+Train set: 196, Train Loss: 0.9690 Acc: 70.6040
+Test set: 50 Test Loss: 1.5768 Acc: 55.9200
+
+Epoch: 38, LR: [0.1]
+Train set: 196, Train Loss: 0.9697 Acc: 70.7520
+Test set: 50 Test Loss: 1.4780 Acc: 59.3000
+
+Epoch: 39, LR: [0.1]
+Train set: 196, Train Loss: 0.9611 Acc: 70.9120
+Test set: 50 Test Loss: 1.5997 Acc: 56.3400
+
+Epoch: 40, LR: [0.1]
+Train set: 196, Train Loss: 0.9512 Acc: 71.3400
+Test set: 50 Test Loss: 1.5943 Acc: 55.5800
+
+Epoch: 41, LR: [0.1]
+Train set: 196, Train Loss: 0.9620 Acc: 70.9680
+Test set: 50 Test Loss: 1.8392 Acc: 51.3400
+
+Epoch: 42, LR: [0.1]
+Train set: 196, Train Loss: 0.9380 Acc: 71.5120
+Test set: 50 Test Loss: 1.4651 Acc: 57.8800
+
+Epoch: 43, LR: [0.1]
+Train set: 196, Train Loss: 0.9336 Acc: 71.6200
+Test set: 50 Test Loss: 1.8086 Acc: 53.0200
+
+Epoch: 44, LR: [0.1]
+Train set: 196, Train Loss: 0.9413 Acc: 71.3200
+Test set: 50 Test Loss: 1.7679 Acc: 53.4600
+
+Epoch: 45, LR: [0.1]
+Train set: 196, Train Loss: 0.9327 Acc: 71.5880
+Test set: 50 Test Loss: 1.2847 Acc: 62.7200
+
+Epoch: 46, LR: [0.1]
+Train set: 196, Train Loss: 0.9385 Acc: 71.4240
+Test set: 50 Test Loss: 1.6534 Acc: 55.8000
+
+Epoch: 47, LR: [0.1]
+Train set: 196, Train Loss: 0.9362 Acc: 71.6320
+Test set: 50 Test Loss: 1.5165 Acc: 57.5600
+
+Epoch: 48, LR: [0.1]
+Train set: 196, Train Loss: 0.9102 Acc: 72.2680
+Test set: 50 Test Loss: 1.4307 Acc: 59.4800
+
+Epoch: 49, LR: [0.1]
+Train set: 196, Train Loss: 0.9272 Acc: 71.8760
+Test set: 50 Test Loss: 1.9767 Acc: 49.4600
+
+Epoch: 50, LR: [0.1]
+Train set: 196, Train Loss: 0.9153 Acc: 72.2040
+Test set: 50 Test Loss: 1.4039 Acc: 60.7200
+
+Epoch: 51, LR: [0.1]
+Train set: 196, Train Loss: 0.9126 Acc: 72.0200
+Test set: 50 Test Loss: 1.3529 Acc: 60.7400
+
+Epoch: 52, LR: [0.1]
+Train set: 196, Train Loss: 0.9089 Acc: 72.4760
+Test set: 50 Test Loss: 1.4765 Acc: 58.0000
+
+Epoch: 53, LR: [0.1]
+Train set: 196, Train Loss: 0.9033 Acc: 72.4800
+Test set: 50 Test Loss: 1.2727 Acc: 62.7800
+
+Epoch: 54, LR: [0.1]
+Train set: 196, Train Loss: 0.9166 Acc: 72.1240
+Test set: 50 Test Loss: 1.4253 Acc: 57.9800
+
+Epoch: 55, LR: [0.1]
+Train set: 196, Train Loss: 0.9039 Acc: 72.4320
+Test set: 50 Test Loss: 1.4047 Acc: 61.4400
+
+Epoch: 56, LR: [0.1]
+Train set: 196, Train Loss: 0.8919 Acc: 72.3760
+Test set: 50 Test Loss: 1.5066 Acc: 59.9000
+
+Epoch: 57, LR: [0.1]
+Train set: 196, Train Loss: 0.9068 Acc: 72.0480
+Test set: 50 Test Loss: 1.5787 Acc: 56.5200
+
+Epoch: 58, LR: [0.1]
+Train set: 196, Train Loss: 0.9009 Acc: 72.5800
+Test set: 50 Test Loss: 1.4487 Acc: 59.3200
+
+Epoch: 59, LR: [0.1]
+Train set: 196, Train Loss: 0.8857 Acc: 73.4400
+Test set: 50 Test Loss: 1.6946 Acc: 54.7200
+
+Epoch: 60, LR: [0.1]
+Train set: 196, Train Loss: 0.8933 Acc: 72.7280
+Test set: 50 Test Loss: 1.3476 Acc: 60.8200
+
+Epoch: 61, LR: [0.1]
+Train set: 196, Train Loss: 0.8930 Acc: 72.7240
+Test set: 50 Test Loss: 1.4079 Acc: 60.4000
+
+Epoch: 62, LR: [0.1]
+Train set: 196, Train Loss: 0.8684 Acc: 73.5120
+Test set: 50 Test Loss: 1.4885 Acc: 60.6000
+
+Epoch: 63, LR: [0.1]
+Train set: 196, Train Loss: 0.8884 Acc: 72.7200
+Test set: 50 Test Loss: 1.3359 Acc: 61.3000
+
+Epoch: 64, LR: [0.1]
+Train set: 196, Train Loss: 0.8925 Acc: 72.9600
+Test set: 50 Test Loss: 1.4586 Acc: 60.4800
+
+Epoch: 65, LR: [0.1]
+Train set: 196, Train Loss: 0.8797 Acc: 73.2480
+Test set: 50 Test Loss: 1.3446 Acc: 61.8600
+
+Epoch: 66, LR: [0.1]
+Train set: 196, Train Loss: 0.8660 Acc: 73.6320
+Test set: 50 Test Loss: 1.4223 Acc: 59.9600
+
+Epoch: 67, LR: [0.1]
+Train set: 196, Train Loss: 0.8773 Acc: 73.4920
+Test set: 50 Test Loss: 1.6484 Acc: 55.4800
+
+Epoch: 68, LR: [0.1]
+Train set: 196, Train Loss: 0.8668 Acc: 73.3440
+Test set: 50 Test Loss: 1.2373 Acc: 64.1200
+
+Epoch: 69, LR: [0.1]
+Train set: 196, Train Loss: 0.8741 Acc: 73.4080
+Test set: 50 Test Loss: 1.4445 Acc: 60.7600
+
+Epoch: 70, LR: [0.1]
+Train set: 196, Train Loss: 0.8731 Acc: 73.3960
+Test set: 50 Test Loss: 1.3529 Acc: 61.1200
+
+Epoch: 71, LR: [0.1]
+Train set: 196, Train Loss: 0.8582 Acc: 73.8720
+Test set: 50 Test Loss: 1.4260 Acc: 60.5000
+
+Epoch: 72, LR: [0.1]
+Train set: 196, Train Loss: 0.8668 Acc: 73.1400
+Test set: 50 Test Loss: 1.2865 Acc: 63.1800
+
+Epoch: 73, LR: [0.1]
+Train set: 196, Train Loss: 0.8508 Acc: 74.2480
+Test set: 50 Test Loss: 1.4026 Acc: 60.9200
+
+Epoch: 74, LR: [0.1]
+Train set: 196, Train Loss: 0.8615 Acc: 73.7320
+Test set: 50 Test Loss: 1.3928 Acc: 59.6000
+
+Epoch: 75, LR: [0.1]
+Train set: 196, Train Loss: 0.8655 Acc: 73.6800
+Test set: 50 Test Loss: 1.3922 Acc: 59.5400
+
+Epoch: 76, LR: [0.1]
+Train set: 196, Train Loss: 0.8615 Acc: 73.6280
+Test set: 50 Test Loss: 1.3252 Acc: 61.3800
+
+Epoch: 77, LR: [0.1]
+Train set: 196, Train Loss: 0.8614 Acc: 73.7040
+Test set: 50 Test Loss: 1.6912 Acc: 52.5800
+
+Epoch: 78, LR: [0.1]
+Train set: 196, Train Loss: 0.8529 Acc: 73.9480
+Test set: 50 Test Loss: 1.5284 Acc: 57.6400
+
+Epoch: 79, LR: [0.1]
+Train set: 196, Train Loss: 0.8590 Acc: 73.8880
+Test set: 50 Test Loss: 1.9658 Acc: 52.4200
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.5612 Acc: 83.1960
+Test set: 50 Test Loss: 0.7927 Acc: 75.9400
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.4450 Acc: 86.7040
+Test set: 50 Test Loss: 0.7638 Acc: 76.8600
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.4006 Acc: 88.0320
+Test set: 50 Test Loss: 0.7655 Acc: 77.1800
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.3709 Acc: 88.7480
+Test set: 50 Test Loss: 0.7709 Acc: 77.2200
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.3508 Acc: 89.3640
+Test set: 50 Test Loss: 0.7711 Acc: 76.8000
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.3272 Acc: 89.8720
+Test set: 50 Test Loss: 0.7708 Acc: 77.8200
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.3119 Acc: 90.3880
+Test set: 50 Test Loss: 0.7879 Acc: 76.9200
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2913 Acc: 91.2240
+Test set: 50 Test Loss: 0.7956 Acc: 76.8800
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2786 Acc: 91.5920
+Test set: 50 Test Loss: 0.7831 Acc: 77.6800
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2660 Acc: 91.8760
+Test set: 50 Test Loss: 0.8208 Acc: 77.0800
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2553 Acc: 92.3440
+Test set: 50 Test Loss: 0.8027 Acc: 76.6200
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2449 Acc: 92.7240
+Test set: 50 Test Loss: 0.8117 Acc: 77.2000
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2387 Acc: 92.8120
+Test set: 50 Test Loss: 0.8391 Acc: 76.8600
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2266 Acc: 93.3400
+Test set: 50 Test Loss: 0.8481 Acc: 76.2400
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2229 Acc: 93.2240
+Test set: 50 Test Loss: 0.8461 Acc: 76.7000
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2109 Acc: 93.7200
+Test set: 50 Test Loss: 0.8797 Acc: 76.2800
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2071 Acc: 93.7680
+Test set: 50 Test Loss: 0.8663 Acc: 76.4000
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.2017 Acc: 93.9320
+Test set: 50 Test Loss: 0.8634 Acc: 76.5000
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1866 Acc: 94.4840
+Test set: 50 Test Loss: 0.9029 Acc: 75.6400
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1881 Acc: 94.4120
+Test set: 50 Test Loss: 0.8957 Acc: 76.6000
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1783 Acc: 94.8720
+Test set: 50 Test Loss: 0.8827 Acc: 76.8600
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1761 Acc: 94.7760
+Test set: 50 Test Loss: 0.9156 Acc: 76.1000
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1724 Acc: 94.8560
+Test set: 50 Test Loss: 0.9503 Acc: 75.4000
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1689 Acc: 95.1040
+Test set: 50 Test Loss: 0.9140 Acc: 75.7600
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1669 Acc: 94.9560
+Test set: 50 Test Loss: 0.9517 Acc: 75.0200
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1721 Acc: 94.8160
+Test set: 50 Test Loss: 0.9356 Acc: 75.3200
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1575 Acc: 95.2360
+Test set: 50 Test Loss: 0.9646 Acc: 74.8400
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1550 Acc: 95.5280
+Test set: 50 Test Loss: 0.9506 Acc: 75.8200
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1611 Acc: 95.0480
+Test set: 50 Test Loss: 0.9412 Acc: 76.5800
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1629 Acc: 95.2040
+Test set: 50 Test Loss: 0.9283 Acc: 76.0400
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1507 Acc: 95.5480
+Test set: 50 Test Loss: 0.9583 Acc: 75.5600
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1589 Acc: 95.1280
+Test set: 50 Test Loss: 0.9646 Acc: 74.9800
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1580 Acc: 95.2280
+Test set: 50 Test Loss: 0.9560 Acc: 75.3600
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1575 Acc: 95.1240
+Test set: 50 Test Loss: 0.9658 Acc: 75.8800
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1552 Acc: 95.3280
+Test set: 50 Test Loss: 0.9732 Acc: 75.6800
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1438 Acc: 95.8560
+Test set: 50 Test Loss: 0.9791 Acc: 75.5000
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1500 Acc: 95.3800
+Test set: 50 Test Loss: 0.9874 Acc: 75.4400
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1489 Acc: 95.4600
+Test set: 50 Test Loss: 1.0349 Acc: 74.3600
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1476 Acc: 95.7120
+Test set: 50 Test Loss: 1.0295 Acc: 74.4200
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 196, Train Loss: 0.1511 Acc: 95.2880
+Test set: 50 Test Loss: 1.0260 Acc: 74.1800
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.1016 Acc: 97.3360
+Test set: 50 Test Loss: 0.9072 Acc: 76.8200
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0839 Acc: 98.0280
+Test set: 50 Test Loss: 0.9043 Acc: 77.2000
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0760 Acc: 98.2160
+Test set: 50 Test Loss: 0.9105 Acc: 77.1200
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0703 Acc: 98.6000
+Test set: 50 Test Loss: 0.9163 Acc: 77.0800
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0683 Acc: 98.5040
+Test set: 50 Test Loss: 0.9187 Acc: 77.0200
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0646 Acc: 98.7400
+Test set: 50 Test Loss: 0.9239 Acc: 77.1800
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0636 Acc: 98.6960
+Test set: 50 Test Loss: 0.9257 Acc: 77.1800
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0606 Acc: 98.8200
+Test set: 50 Test Loss: 0.9258 Acc: 77.2800
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0569 Acc: 99.0520
+Test set: 50 Test Loss: 0.9367 Acc: 77.0400
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0591 Acc: 98.8000
+Test set: 50 Test Loss: 0.9344 Acc: 77.1800
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0587 Acc: 98.8400
+Test set: 50 Test Loss: 0.9272 Acc: 77.3000
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0546 Acc: 99.0040
+Test set: 50 Test Loss: 0.9332 Acc: 77.0000
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0529 Acc: 99.0720
+Test set: 50 Test Loss: 0.9349 Acc: 77.1000
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0535 Acc: 99.0160
+Test set: 50 Test Loss: 0.9441 Acc: 76.7600
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0533 Acc: 99.0080
+Test set: 50 Test Loss: 0.9362 Acc: 77.2400
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0520 Acc: 99.0440
+Test set: 50 Test Loss: 0.9379 Acc: 76.9400
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0525 Acc: 99.0360
+Test set: 50 Test Loss: 0.9472 Acc: 77.1800
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0481 Acc: 99.2560
+Test set: 50 Test Loss: 0.9438 Acc: 77.2200
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0507 Acc: 99.1200
+Test set: 50 Test Loss: 0.9467 Acc: 77.2400
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0469 Acc: 99.2680
+Test set: 50 Test Loss: 0.9478 Acc: 77.4600
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0474 Acc: 99.2320
+Test set: 50 Test Loss: 0.9505 Acc: 77.2600
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0467 Acc: 99.2200
+Test set: 50 Test Loss: 0.9518 Acc: 77.2200
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0453 Acc: 99.2720
+Test set: 50 Test Loss: 0.9532 Acc: 77.2000
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0466 Acc: 99.2200
+Test set: 50 Test Loss: 0.9603 Acc: 77.0600
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0453 Acc: 99.1840
+Test set: 50 Test Loss: 0.9508 Acc: 77.3000
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0440 Acc: 99.2880
+Test set: 50 Test Loss: 0.9597 Acc: 77.3200
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0425 Acc: 99.3840
+Test set: 50 Test Loss: 0.9585 Acc: 77.3000
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0427 Acc: 99.3120
+Test set: 50 Test Loss: 0.9628 Acc: 77.1400
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0443 Acc: 99.2640
+Test set: 50 Test Loss: 0.9658 Acc: 77.0600
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0419 Acc: 99.3760
+Test set: 50 Test Loss: 0.9636 Acc: 77.3000
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0424 Acc: 99.3080
+Test set: 50 Test Loss: 0.9665 Acc: 77.0200
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0437 Acc: 99.2800
+Test set: 50 Test Loss: 0.9641 Acc: 77.2600
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0413 Acc: 99.3400
+Test set: 50 Test Loss: 0.9695 Acc: 77.2200
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0405 Acc: 99.3640
+Test set: 50 Test Loss: 0.9655 Acc: 77.2000
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0405 Acc: 99.3720
+Test set: 50 Test Loss: 0.9673 Acc: 77.2000
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0394 Acc: 99.4360
+Test set: 50 Test Loss: 0.9754 Acc: 76.8600
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0399 Acc: 99.3520
+Test set: 50 Test Loss: 0.9762 Acc: 77.0800
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0404 Acc: 99.3960
+Test set: 50 Test Loss: 0.9715 Acc: 77.0000
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0393 Acc: 99.4400
+Test set: 50 Test Loss: 0.9757 Acc: 77.1600
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 196, Train Loss: 0.0392 Acc: 99.4000
+Test set: 50 Test Loss: 0.9765 Acc: 77.1600
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		76.64 %
-  top 1 accuracy iCaRL          :		75.98 %
-  top 1 accuracy NCM            :		76.00 %
+  top 1 accuracy CNN            :		77.16 %
+  top 1 accuracy iCaRL          :		76.62 %
+  top 1 accuracy NCM            :		76.74 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		76.64 %
-  top 1 accuracy iCaRL          :		75.98 %
-  top 1 accuracy NCM            :		76.00 %
+  top 1 accuracy CNN            :		77.16 %
+  top 1 accuracy iCaRL          :		76.62 %
+  top 1 accuracy NCM            :		76.74 %
 Computing confusion matrix...
 in_features: 64 out_features: 50
 Batch of classes number 6 arrives ...
@@ -29,19 +667,658 @@ Imprint weights
 Max and Min of train labels: 0, 59
 Max and Min of valid labels: 0, 59
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_5_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 47, Train Loss1: 1.0643, Train Loss2: 1.5486,                Train Loss: 2.6130 Acc: 56.2333
+Test set: 60 Test Loss: 3.2022 Acc: 20.3000
+
+Epoch: 1, LR: [0.1]
+Train set: 47, Train Loss1: 0.9193, Train Loss2: 1.0326,                Train Loss: 1.9519 Acc: 69.6833
+Test set: 60 Test Loss: 2.8184 Acc: 30.3500
+
+Epoch: 2, LR: [0.1]
+Train set: 47, Train Loss1: 0.8554, Train Loss2: 0.8579,                Train Loss: 1.7132 Acc: 74.0000
+Test set: 60 Test Loss: 2.7717 Acc: 32.2333
+
+Epoch: 3, LR: [0.1]
+Train set: 47, Train Loss1: 0.8244, Train Loss2: 0.7669,                Train Loss: 1.5913 Acc: 76.6500
+Test set: 60 Test Loss: 2.5157 Acc: 36.3167
+
+Epoch: 4, LR: [0.1]
+Train set: 47, Train Loss1: 0.7934, Train Loss2: 0.6878,                Train Loss: 1.4812 Acc: 78.6667
+Test set: 60 Test Loss: 2.6354 Acc: 36.0167
+
+Epoch: 5, LR: [0.1]
+Train set: 47, Train Loss1: 0.7772, Train Loss2: 0.6294,                Train Loss: 1.4066 Acc: 80.5833
+Test set: 60 Test Loss: 2.1956 Acc: 41.8667
+
+Epoch: 6, LR: [0.1]
+Train set: 47, Train Loss1: 0.7534, Train Loss2: 0.5581,                Train Loss: 1.3115 Acc: 82.6000
+Test set: 60 Test Loss: 2.1657 Acc: 43.5833
+
+Epoch: 7, LR: [0.1]
+Train set: 47, Train Loss1: 0.7447, Train Loss2: 0.5269,                Train Loss: 1.2716 Acc: 83.8667
+Test set: 60 Test Loss: 2.3972 Acc: 41.7167
+
+Epoch: 8, LR: [0.1]
+Train set: 47, Train Loss1: 0.7407, Train Loss2: 0.5009,                Train Loss: 1.2417 Acc: 84.3667
+Test set: 60 Test Loss: 2.3603 Acc: 41.6167
+
+Epoch: 9, LR: [0.1]
+Train set: 47, Train Loss1: 0.7463, Train Loss2: 0.4919,                Train Loss: 1.2383 Acc: 84.2333
+Test set: 60 Test Loss: 2.3709 Acc: 41.1333
+
+Epoch: 10, LR: [0.1]
+Train set: 47, Train Loss1: 0.7161, Train Loss2: 0.4195,                Train Loss: 1.1356 Acc: 86.5167
+Test set: 60 Test Loss: 2.2000 Acc: 44.0500
+
+Epoch: 11, LR: [0.1]
+Train set: 47, Train Loss1: 0.7059, Train Loss2: 0.3816,                Train Loss: 1.0875 Acc: 88.8167
+Test set: 60 Test Loss: 2.3915 Acc: 40.6667
+
+Epoch: 12, LR: [0.1]
+Train set: 47, Train Loss1: 0.6997, Train Loss2: 0.3820,                Train Loss: 1.0817 Acc: 87.9000
+Test set: 60 Test Loss: 2.5023 Acc: 41.0333
+
+Epoch: 13, LR: [0.1]
+Train set: 47, Train Loss1: 0.6876, Train Loss2: 0.3215,                Train Loss: 1.0091 Acc: 90.0167
+Test set: 60 Test Loss: 2.4664 Acc: 42.1667
+
+Epoch: 14, LR: [0.1]
+Train set: 47, Train Loss1: 0.6976, Train Loss2: 0.3524,                Train Loss: 1.0500 Acc: 88.5667
+Test set: 60 Test Loss: 2.2341 Acc: 45.6333
+
+Epoch: 15, LR: [0.1]
+Train set: 47, Train Loss1: 0.6952, Train Loss2: 0.3378,                Train Loss: 1.0330 Acc: 89.4167
+Test set: 60 Test Loss: 2.4677 Acc: 41.4500
+
+Epoch: 16, LR: [0.1]
+Train set: 47, Train Loss1: 0.6865, Train Loss2: 0.3253,                Train Loss: 1.0118 Acc: 89.8667
+Test set: 60 Test Loss: 2.9173 Acc: 34.0167
+
+Epoch: 17, LR: [0.1]
+Train set: 47, Train Loss1: 0.6865, Train Loss2: 0.3200,                Train Loss: 1.0065 Acc: 89.9667
+Test set: 60 Test Loss: 2.2502 Acc: 44.6667
+
+Epoch: 18, LR: [0.1]
+Train set: 47, Train Loss1: 0.6815, Train Loss2: 0.2929,                Train Loss: 0.9744 Acc: 90.7500
+Test set: 60 Test Loss: 2.3588 Acc: 43.4833
+
+Epoch: 19, LR: [0.1]
+Train set: 47, Train Loss1: 0.6832, Train Loss2: 0.2942,                Train Loss: 0.9774 Acc: 90.9500
+Test set: 60 Test Loss: 2.6449 Acc: 40.9333
+
+Epoch: 20, LR: [0.1]
+Train set: 47, Train Loss1: 0.6828, Train Loss2: 0.2793,                Train Loss: 0.9620 Acc: 91.2667
+Test set: 60 Test Loss: 2.3346 Acc: 44.6833
+
+Epoch: 21, LR: [0.1]
+Train set: 47, Train Loss1: 0.6741, Train Loss2: 0.2866,                Train Loss: 0.9607 Acc: 90.9333
+Test set: 60 Test Loss: 2.0798 Acc: 48.2500
+
+Epoch: 22, LR: [0.1]
+Train set: 47, Train Loss1: 0.6762, Train Loss2: 0.2628,                Train Loss: 0.9390 Acc: 91.7667
+Test set: 60 Test Loss: 2.4741 Acc: 42.5833
+
+Epoch: 23, LR: [0.1]
+Train set: 47, Train Loss1: 0.6849, Train Loss2: 0.2782,                Train Loss: 0.9631 Acc: 90.9500
+Test set: 60 Test Loss: 2.4116 Acc: 44.1167
+
+Epoch: 24, LR: [0.1]
+Train set: 47, Train Loss1: 0.6776, Train Loss2: 0.2573,                Train Loss: 0.9349 Acc: 91.9167
+Test set: 60 Test Loss: 2.0557 Acc: 49.2500
+
+Epoch: 25, LR: [0.1]
+Train set: 47, Train Loss1: 0.6600, Train Loss2: 0.2390,                Train Loss: 0.8990 Acc: 92.2167
+Test set: 60 Test Loss: 2.0575 Acc: 49.8833
+
+Epoch: 26, LR: [0.1]
+Train set: 47, Train Loss1: 0.6548, Train Loss2: 0.2084,                Train Loss: 0.8632 Acc: 93.3500
+Test set: 60 Test Loss: 2.6218 Acc: 40.9000
+
+Epoch: 27, LR: [0.1]
+Train set: 47, Train Loss1: 0.6457, Train Loss2: 0.1934,                Train Loss: 0.8392 Acc: 94.2000
+Test set: 60 Test Loss: 2.4315 Acc: 44.6833
+
+Epoch: 28, LR: [0.1]
+Train set: 47, Train Loss1: 0.6401, Train Loss2: 0.1963,                Train Loss: 0.8364 Acc: 94.1833
+Test set: 60 Test Loss: 2.3424 Acc: 45.6667
+
+Epoch: 29, LR: [0.1]
+Train set: 47, Train Loss1: 0.6706, Train Loss2: 0.2428,                Train Loss: 0.9134 Acc: 91.9000
+Test set: 60 Test Loss: 2.2724 Acc: 47.0333
+
+Epoch: 30, LR: [0.1]
+Train set: 47, Train Loss1: 0.6656, Train Loss2: 0.2288,                Train Loss: 0.8945 Acc: 93.0667
+Test set: 60 Test Loss: 2.3389 Acc: 44.8000
+
+Epoch: 31, LR: [0.1]
+Train set: 47, Train Loss1: 0.6597, Train Loss2: 0.2243,                Train Loss: 0.8840 Acc: 93.1500
+Test set: 60 Test Loss: 2.3739 Acc: 44.7333
+
+Epoch: 32, LR: [0.1]
+Train set: 47, Train Loss1: 0.6673, Train Loss2: 0.2415,                Train Loss: 0.9088 Acc: 92.0667
+Test set: 60 Test Loss: 2.1542 Acc: 48.7833
+
+Epoch: 33, LR: [0.1]
+Train set: 47, Train Loss1: 0.6530, Train Loss2: 0.1996,                Train Loss: 0.8526 Acc: 93.9167
+Test set: 60 Test Loss: 2.2384 Acc: 46.1167
+
+Epoch: 34, LR: [0.1]
+Train set: 47, Train Loss1: 0.6448, Train Loss2: 0.1819,                Train Loss: 0.8268 Acc: 94.2333
+Test set: 60 Test Loss: 2.2556 Acc: 47.2000
+
+Epoch: 35, LR: [0.1]
+Train set: 47, Train Loss1: 0.6422, Train Loss2: 0.1852,                Train Loss: 0.8274 Acc: 94.2667
+Test set: 60 Test Loss: 2.2840 Acc: 47.4167
+
+Epoch: 36, LR: [0.1]
+Train set: 47, Train Loss1: 0.6503, Train Loss2: 0.1951,                Train Loss: 0.8454 Acc: 94.1667
+Test set: 60 Test Loss: 2.1534 Acc: 49.1667
+
+Epoch: 37, LR: [0.1]
+Train set: 47, Train Loss1: 0.6480, Train Loss2: 0.2012,                Train Loss: 0.8492 Acc: 94.0000
+Test set: 60 Test Loss: 2.2521 Acc: 46.7500
+
+Epoch: 38, LR: [0.1]
+Train set: 47, Train Loss1: 0.6335, Train Loss2: 0.1778,                Train Loss: 0.8113 Acc: 94.9000
+Test set: 60 Test Loss: 2.4730 Acc: 43.6000
+
+Epoch: 39, LR: [0.1]
+Train set: 47, Train Loss1: 0.6476, Train Loss2: 0.2079,                Train Loss: 0.8555 Acc: 93.6333
+Test set: 60 Test Loss: 2.3653 Acc: 45.6667
+
+Epoch: 40, LR: [0.1]
+Train set: 47, Train Loss1: 0.6560, Train Loss2: 0.1980,                Train Loss: 0.8540 Acc: 93.8833
+Test set: 60 Test Loss: 2.5151 Acc: 44.1333
+
+Epoch: 41, LR: [0.1]
+Train set: 47, Train Loss1: 0.6576, Train Loss2: 0.1990,                Train Loss: 0.8565 Acc: 93.6833
+Test set: 60 Test Loss: 2.1262 Acc: 49.1167
+
+Epoch: 42, LR: [0.1]
+Train set: 47, Train Loss1: 0.6525, Train Loss2: 0.2065,                Train Loss: 0.8590 Acc: 93.6333
+Test set: 60 Test Loss: 2.6048 Acc: 41.3333
+
+Epoch: 43, LR: [0.1]
+Train set: 47, Train Loss1: 0.6463, Train Loss2: 0.1940,                Train Loss: 0.8403 Acc: 93.6667
+Test set: 60 Test Loss: 2.2292 Acc: 47.5667
+
+Epoch: 44, LR: [0.1]
+Train set: 47, Train Loss1: 0.6385, Train Loss2: 0.1824,                Train Loss: 0.8209 Acc: 94.5000
+Test set: 60 Test Loss: 2.1922 Acc: 47.9167
+
+Epoch: 45, LR: [0.1]
+Train set: 47, Train Loss1: 0.6426, Train Loss2: 0.1769,                Train Loss: 0.8195 Acc: 94.4500
+Test set: 60 Test Loss: 2.5698 Acc: 42.4167
+
+Epoch: 46, LR: [0.1]
+Train set: 47, Train Loss1: 0.6437, Train Loss2: 0.1765,                Train Loss: 0.8202 Acc: 94.5833
+Test set: 60 Test Loss: 2.4668 Acc: 44.0333
+
+Epoch: 47, LR: [0.1]
+Train set: 47, Train Loss1: 0.6641, Train Loss2: 0.2232,                Train Loss: 0.8873 Acc: 92.7833
+Test set: 60 Test Loss: 2.9672 Acc: 38.5167
+
+Epoch: 48, LR: [0.1]
+Train set: 47, Train Loss1: 0.6749, Train Loss2: 0.2265,                Train Loss: 0.9014 Acc: 92.9667
+Test set: 60 Test Loss: 2.3766 Acc: 44.7167
+
+Epoch: 49, LR: [0.1]
+Train set: 47, Train Loss1: 0.6545, Train Loss2: 0.1940,                Train Loss: 0.8485 Acc: 93.8000
+Test set: 60 Test Loss: 2.3152 Acc: 45.2333
+
+Epoch: 50, LR: [0.1]
+Train set: 47, Train Loss1: 0.6410, Train Loss2: 0.1699,                Train Loss: 0.8109 Acc: 94.6333
+Test set: 60 Test Loss: 2.4628 Acc: 44.3833
+
+Epoch: 51, LR: [0.1]
+Train set: 47, Train Loss1: 0.6391, Train Loss2: 0.1590,                Train Loss: 0.7981 Acc: 95.2833
+Test set: 60 Test Loss: 2.4332 Acc: 45.1667
+
+Epoch: 52, LR: [0.1]
+Train set: 47, Train Loss1: 0.6216, Train Loss2: 0.1516,                Train Loss: 0.7733 Acc: 95.6667
+Test set: 60 Test Loss: 2.6106 Acc: 42.7833
+
+Epoch: 53, LR: [0.1]
+Train set: 47, Train Loss1: 0.6278, Train Loss2: 0.1671,                Train Loss: 0.7949 Acc: 94.7500
+Test set: 60 Test Loss: 2.2157 Acc: 48.0500
+
+Epoch: 54, LR: [0.1]
+Train set: 47, Train Loss1: 0.6229, Train Loss2: 0.1530,                Train Loss: 0.7759 Acc: 95.7500
+Test set: 60 Test Loss: 2.2474 Acc: 47.5167
+
+Epoch: 55, LR: [0.1]
+Train set: 47, Train Loss1: 0.6184, Train Loss2: 0.1464,                Train Loss: 0.7648 Acc: 95.7833
+Test set: 60 Test Loss: 2.4345 Acc: 44.1500
+
+Epoch: 56, LR: [0.1]
+Train set: 47, Train Loss1: 0.6305, Train Loss2: 0.1627,                Train Loss: 0.7932 Acc: 95.2000
+Test set: 60 Test Loss: 2.4625 Acc: 43.6500
+
+Epoch: 57, LR: [0.1]
+Train set: 47, Train Loss1: 0.6524, Train Loss2: 0.1846,                Train Loss: 0.8370 Acc: 94.3000
+Test set: 60 Test Loss: 2.4253 Acc: 44.8333
+
+Epoch: 58, LR: [0.1]
+Train set: 47, Train Loss1: 0.6399, Train Loss2: 0.1659,                Train Loss: 0.8058 Acc: 95.0500
+Test set: 60 Test Loss: 2.5797 Acc: 43.4500
+
+Epoch: 59, LR: [0.1]
+Train set: 47, Train Loss1: 0.6480, Train Loss2: 0.1739,                Train Loss: 0.8219 Acc: 94.8000
+Test set: 60 Test Loss: 2.4317 Acc: 44.4167
+
+Epoch: 60, LR: [0.1]
+Train set: 47, Train Loss1: 0.6642, Train Loss2: 0.1988,                Train Loss: 0.8630 Acc: 93.6500
+Test set: 60 Test Loss: 2.3920 Acc: 45.3000
+
+Epoch: 61, LR: [0.1]
+Train set: 47, Train Loss1: 0.6609, Train Loss2: 0.1943,                Train Loss: 0.8552 Acc: 94.1833
+Test set: 60 Test Loss: 2.5949 Acc: 42.2167
+
+Epoch: 62, LR: [0.1]
+Train set: 47, Train Loss1: 0.6427, Train Loss2: 0.1743,                Train Loss: 0.8171 Acc: 94.7000
+Test set: 60 Test Loss: 2.4308 Acc: 44.2167
+
+Epoch: 63, LR: [0.1]
+Train set: 47, Train Loss1: 0.6528, Train Loss2: 0.1957,                Train Loss: 0.8485 Acc: 93.9167
+Test set: 60 Test Loss: 2.6263 Acc: 42.5500
+
+Epoch: 64, LR: [0.1]
+Train set: 47, Train Loss1: 0.6461, Train Loss2: 0.1763,                Train Loss: 0.8224 Acc: 94.6667
+Test set: 60 Test Loss: 2.4890 Acc: 43.4167
+
+Epoch: 65, LR: [0.1]
+Train set: 47, Train Loss1: 0.6440, Train Loss2: 0.1690,                Train Loss: 0.8130 Acc: 94.6500
+Test set: 60 Test Loss: 2.3190 Acc: 46.9500
+
+Epoch: 66, LR: [0.1]
+Train set: 47, Train Loss1: 0.6324, Train Loss2: 0.1602,                Train Loss: 0.7925 Acc: 95.2167
+Test set: 60 Test Loss: 2.4391 Acc: 44.4833
+
+Epoch: 67, LR: [0.1]
+Train set: 47, Train Loss1: 0.6414, Train Loss2: 0.1767,                Train Loss: 0.8181 Acc: 94.7000
+Test set: 60 Test Loss: 2.4451 Acc: 45.1000
+
+Epoch: 68, LR: [0.1]
+Train set: 47, Train Loss1: 0.6346, Train Loss2: 0.1629,                Train Loss: 0.7975 Acc: 95.1833
+Test set: 60 Test Loss: 2.7083 Acc: 42.5833
+
+Epoch: 69, LR: [0.1]
+Train set: 47, Train Loss1: 0.6416, Train Loss2: 0.1714,                Train Loss: 0.8129 Acc: 94.8000
+Test set: 60 Test Loss: 2.5139 Acc: 43.8167
+
+Epoch: 70, LR: [0.1]
+Train set: 47, Train Loss1: 0.6777, Train Loss2: 0.2377,                Train Loss: 0.9154 Acc: 92.6500
+Test set: 60 Test Loss: 2.5192 Acc: 41.9333
+
+Epoch: 71, LR: [0.1]
+Train set: 47, Train Loss1: 0.6622, Train Loss2: 0.1899,                Train Loss: 0.8521 Acc: 94.3000
+Test set: 60 Test Loss: 2.7861 Acc: 41.1667
+
+Epoch: 72, LR: [0.1]
+Train set: 47, Train Loss1: 0.6278, Train Loss2: 0.1329,                Train Loss: 0.7607 Acc: 96.2000
+Test set: 60 Test Loss: 2.1567 Acc: 48.2667
+
+Epoch: 73, LR: [0.1]
+Train set: 47, Train Loss1: 0.6098, Train Loss2: 0.1283,                Train Loss: 0.7381 Acc: 96.2000
+Test set: 60 Test Loss: 2.3062 Acc: 45.6833
+
+Epoch: 74, LR: [0.1]
+Train set: 47, Train Loss1: 0.5999, Train Loss2: 0.1121,                Train Loss: 0.7120 Acc: 96.9500
+Test set: 60 Test Loss: 1.9523 Acc: 53.1167
+
+Epoch: 75, LR: [0.1]
+Train set: 47, Train Loss1: 0.5933, Train Loss2: 0.1091,                Train Loss: 0.7024 Acc: 97.2167
+Test set: 60 Test Loss: 2.0372 Acc: 51.1500
+
+Epoch: 76, LR: [0.1]
+Train set: 47, Train Loss1: 0.5971, Train Loss2: 0.1186,                Train Loss: 0.7157 Acc: 96.6000
+Test set: 60 Test Loss: 2.2319 Acc: 48.2833
+
+Epoch: 77, LR: [0.1]
+Train set: 47, Train Loss1: 0.5996, Train Loss2: 0.1191,                Train Loss: 0.7186 Acc: 96.8500
+Test set: 60 Test Loss: 2.2969 Acc: 46.3000
+
+Epoch: 78, LR: [0.1]
+Train set: 47, Train Loss1: 0.6201, Train Loss2: 0.1588,                Train Loss: 0.7789 Acc: 95.2833
+Test set: 60 Test Loss: 2.4016 Acc: 46.2167
+
+Epoch: 79, LR: [0.1]
+Train set: 47, Train Loss1: 0.6672, Train Loss2: 0.2135,                Train Loss: 0.8807 Acc: 93.3333
+Test set: 60 Test Loss: 2.2682 Acc: 47.2167
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.6045, Train Loss2: 0.1138,                Train Loss: 0.7183 Acc: 96.9833
+Test set: 60 Test Loss: 1.8552 Acc: 53.8500
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.5451, Train Loss2: 0.0537,                Train Loss: 0.5987 Acc: 99.1167
+Test set: 60 Test Loss: 1.7245 Acc: 56.2167
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.5227, Train Loss2: 0.0487,                Train Loss: 0.5714 Acc: 99.1667
+Test set: 60 Test Loss: 1.6893 Acc: 57.2667
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.5085, Train Loss2: 0.0395,                Train Loss: 0.5481 Acc: 99.5833
+Test set: 60 Test Loss: 1.6370 Acc: 58.5333
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.5020, Train Loss2: 0.0367,                Train Loss: 0.5387 Acc: 99.7667
+Test set: 60 Test Loss: 1.6404 Acc: 58.5500
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4973, Train Loss2: 0.0358,                Train Loss: 0.5331 Acc: 99.7000
+Test set: 60 Test Loss: 1.6201 Acc: 59.0167
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4840, Train Loss2: 0.0341,                Train Loss: 0.5181 Acc: 99.7667
+Test set: 60 Test Loss: 1.6188 Acc: 58.9667
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4835, Train Loss2: 0.0343,                Train Loss: 0.5177 Acc: 99.7667
+Test set: 60 Test Loss: 1.6020 Acc: 59.6000
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4764, Train Loss2: 0.0330,                Train Loss: 0.5094 Acc: 99.7167
+Test set: 60 Test Loss: 1.5850 Acc: 59.7833
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4704, Train Loss2: 0.0327,                Train Loss: 0.5030 Acc: 99.8500
+Test set: 60 Test Loss: 1.5780 Acc: 59.8000
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4711, Train Loss2: 0.0326,                Train Loss: 0.5037 Acc: 99.8667
+Test set: 60 Test Loss: 1.5968 Acc: 59.3000
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4676, Train Loss2: 0.0337,                Train Loss: 0.5012 Acc: 99.7833
+Test set: 60 Test Loss: 1.5763 Acc: 59.9000
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4612, Train Loss2: 0.0320,                Train Loss: 0.4932 Acc: 99.8167
+Test set: 60 Test Loss: 1.5791 Acc: 59.9500
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4602, Train Loss2: 0.0311,                Train Loss: 0.4913 Acc: 99.8500
+Test set: 60 Test Loss: 1.5641 Acc: 60.2333
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4517, Train Loss2: 0.0294,                Train Loss: 0.4812 Acc: 99.9000
+Test set: 60 Test Loss: 1.5733 Acc: 60.1833
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4529, Train Loss2: 0.0314,                Train Loss: 0.4843 Acc: 99.8167
+Test set: 60 Test Loss: 1.5515 Acc: 60.8833
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4478, Train Loss2: 0.0301,                Train Loss: 0.4780 Acc: 99.9167
+Test set: 60 Test Loss: 1.5407 Acc: 60.9333
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4482, Train Loss2: 0.0302,                Train Loss: 0.4784 Acc: 99.9500
+Test set: 60 Test Loss: 1.5509 Acc: 60.6833
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4438, Train Loss2: 0.0311,                Train Loss: 0.4749 Acc: 99.8667
+Test set: 60 Test Loss: 1.5610 Acc: 60.1667
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4438, Train Loss2: 0.0299,                Train Loss: 0.4736 Acc: 99.8667
+Test set: 60 Test Loss: 1.5483 Acc: 60.7167
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4397, Train Loss2: 0.0306,                Train Loss: 0.4703 Acc: 99.8833
+Test set: 60 Test Loss: 1.5455 Acc: 60.8667
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4384, Train Loss2: 0.0290,                Train Loss: 0.4675 Acc: 99.9667
+Test set: 60 Test Loss: 1.5377 Acc: 60.8000
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4381, Train Loss2: 0.0299,                Train Loss: 0.4680 Acc: 99.9500
+Test set: 60 Test Loss: 1.5480 Acc: 60.6667
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4361, Train Loss2: 0.0297,                Train Loss: 0.4658 Acc: 99.8667
+Test set: 60 Test Loss: 1.5235 Acc: 61.0833
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4331, Train Loss2: 0.0284,                Train Loss: 0.4615 Acc: 99.9333
+Test set: 60 Test Loss: 1.5226 Acc: 61.4333
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4295, Train Loss2: 0.0295,                Train Loss: 0.4590 Acc: 99.8667
+Test set: 60 Test Loss: 1.5231 Acc: 60.9333
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4305, Train Loss2: 0.0293,                Train Loss: 0.4598 Acc: 99.8333
+Test set: 60 Test Loss: 1.5107 Acc: 61.4500
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4306, Train Loss2: 0.0301,                Train Loss: 0.4607 Acc: 99.9167
+Test set: 60 Test Loss: 1.5331 Acc: 61.1667
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4250, Train Loss2: 0.0300,                Train Loss: 0.4550 Acc: 99.8500
+Test set: 60 Test Loss: 1.5235 Acc: 61.3000
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4282, Train Loss2: 0.0302,                Train Loss: 0.4584 Acc: 99.8333
+Test set: 60 Test Loss: 1.5389 Acc: 60.5333
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4237, Train Loss2: 0.0291,                Train Loss: 0.4527 Acc: 99.8667
+Test set: 60 Test Loss: 1.5232 Acc: 61.2500
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4211, Train Loss2: 0.0290,                Train Loss: 0.4501 Acc: 99.9500
+Test set: 60 Test Loss: 1.5081 Acc: 61.1667
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4217, Train Loss2: 0.0309,                Train Loss: 0.4526 Acc: 99.8333
+Test set: 60 Test Loss: 1.5174 Acc: 61.0333
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4167, Train Loss2: 0.0287,                Train Loss: 0.4454 Acc: 99.9333
+Test set: 60 Test Loss: 1.5076 Acc: 61.5000
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4151, Train Loss2: 0.0279,                Train Loss: 0.4430 Acc: 99.9667
+Test set: 60 Test Loss: 1.5006 Acc: 61.6167
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4174, Train Loss2: 0.0299,                Train Loss: 0.4473 Acc: 99.9667
+Test set: 60 Test Loss: 1.5117 Acc: 61.3500
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4151, Train Loss2: 0.0286,                Train Loss: 0.4437 Acc: 99.9333
+Test set: 60 Test Loss: 1.4993 Acc: 61.5167
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4144, Train Loss2: 0.0285,                Train Loss: 0.4429 Acc: 99.9500
+Test set: 60 Test Loss: 1.5035 Acc: 61.3667
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4108, Train Loss2: 0.0284,                Train Loss: 0.4392 Acc: 99.9500
+Test set: 60 Test Loss: 1.5025 Acc: 61.8167
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 47, Train Loss1: 0.4080, Train Loss2: 0.0285,                Train Loss: 0.4366 Acc: 99.9500
+Test set: 60 Test Loss: 1.4987 Acc: 61.6667
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4068, Train Loss2: 0.0291,                Train Loss: 0.4359 Acc: 99.8500
+Test set: 60 Test Loss: 1.4947 Acc: 61.6000
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4066, Train Loss2: 0.0293,                Train Loss: 0.4359 Acc: 99.9333
+Test set: 60 Test Loss: 1.4905 Acc: 61.7500
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4071, Train Loss2: 0.0281,                Train Loss: 0.4352 Acc: 99.9167
+Test set: 60 Test Loss: 1.4878 Acc: 61.7167
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4045, Train Loss2: 0.0274,                Train Loss: 0.4319 Acc: 99.9833
+Test set: 60 Test Loss: 1.4898 Acc: 61.9333
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4043, Train Loss2: 0.0285,                Train Loss: 0.4328 Acc: 99.9500
+Test set: 60 Test Loss: 1.5009 Acc: 61.6833
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4062, Train Loss2: 0.0290,                Train Loss: 0.4352 Acc: 99.9333
+Test set: 60 Test Loss: 1.4931 Acc: 61.8333
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4066, Train Loss2: 0.0291,                Train Loss: 0.4357 Acc: 99.9667
+Test set: 60 Test Loss: 1.4947 Acc: 61.9167
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4083, Train Loss2: 0.0287,                Train Loss: 0.4370 Acc: 99.8833
+Test set: 60 Test Loss: 1.4880 Acc: 62.1500
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4061, Train Loss2: 0.0279,                Train Loss: 0.4340 Acc: 99.9500
+Test set: 60 Test Loss: 1.4925 Acc: 61.9000
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4031, Train Loss2: 0.0285,                Train Loss: 0.4315 Acc: 99.9667
+Test set: 60 Test Loss: 1.4909 Acc: 61.8667
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4034, Train Loss2: 0.0297,                Train Loss: 0.4331 Acc: 99.8833
+Test set: 60 Test Loss: 1.4892 Acc: 61.8500
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4034, Train Loss2: 0.0284,                Train Loss: 0.4318 Acc: 99.9000
+Test set: 60 Test Loss: 1.4941 Acc: 61.7833
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4028, Train Loss2: 0.0292,                Train Loss: 0.4320 Acc: 99.9500
+Test set: 60 Test Loss: 1.4967 Acc: 61.6833
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4038, Train Loss2: 0.0287,                Train Loss: 0.4325 Acc: 99.9333
+Test set: 60 Test Loss: 1.4861 Acc: 61.8000
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4027, Train Loss2: 0.0288,                Train Loss: 0.4316 Acc: 99.9333
+Test set: 60 Test Loss: 1.4928 Acc: 61.7000
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4024, Train Loss2: 0.0279,                Train Loss: 0.4303 Acc: 99.9333
+Test set: 60 Test Loss: 1.4928 Acc: 61.7167
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4013, Train Loss2: 0.0279,                Train Loss: 0.4292 Acc: 99.9667
+Test set: 60 Test Loss: 1.4892 Acc: 61.9500
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4024, Train Loss2: 0.0274,                Train Loss: 0.4298 Acc: 99.9500
+Test set: 60 Test Loss: 1.4878 Acc: 61.9167
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4042, Train Loss2: 0.0290,                Train Loss: 0.4332 Acc: 99.9167
+Test set: 60 Test Loss: 1.4856 Acc: 61.9667
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4017, Train Loss2: 0.0282,                Train Loss: 0.4299 Acc: 99.9667
+Test set: 60 Test Loss: 1.4974 Acc: 61.5667
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4036, Train Loss2: 0.0280,                Train Loss: 0.4315 Acc: 99.9667
+Test set: 60 Test Loss: 1.4856 Acc: 61.8333
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4013, Train Loss2: 0.0286,                Train Loss: 0.4299 Acc: 99.9333
+Test set: 60 Test Loss: 1.4888 Acc: 61.9167
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4026, Train Loss2: 0.0291,                Train Loss: 0.4316 Acc: 99.9167
+Test set: 60 Test Loss: 1.4843 Acc: 61.9667
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4037, Train Loss2: 0.0271,                Train Loss: 0.4308 Acc: 99.9000
+Test set: 60 Test Loss: 1.4891 Acc: 61.9000
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4032, Train Loss2: 0.0285,                Train Loss: 0.4317 Acc: 99.9167
+Test set: 60 Test Loss: 1.4877 Acc: 61.7833
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4042, Train Loss2: 0.0286,                Train Loss: 0.4328 Acc: 99.9667
+Test set: 60 Test Loss: 1.4821 Acc: 62.0000
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4005, Train Loss2: 0.0292,                Train Loss: 0.4296 Acc: 99.9500
+Test set: 60 Test Loss: 1.4882 Acc: 61.7833
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3991, Train Loss2: 0.0271,                Train Loss: 0.4261 Acc: 99.9333
+Test set: 60 Test Loss: 1.4812 Acc: 61.8667
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3994, Train Loss2: 0.0297,                Train Loss: 0.4290 Acc: 99.8833
+Test set: 60 Test Loss: 1.4833 Acc: 62.0333
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4008, Train Loss2: 0.0289,                Train Loss: 0.4297 Acc: 99.9333
+Test set: 60 Test Loss: 1.4815 Acc: 62.0000
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4006, Train Loss2: 0.0286,                Train Loss: 0.4292 Acc: 99.9667
+Test set: 60 Test Loss: 1.4905 Acc: 61.8500
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3995, Train Loss2: 0.0279,                Train Loss: 0.4273 Acc: 99.9167
+Test set: 60 Test Loss: 1.4773 Acc: 62.2833
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3992, Train Loss2: 0.0278,                Train Loss: 0.4270 Acc: 99.9500
+Test set: 60 Test Loss: 1.4906 Acc: 61.8833
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4010, Train Loss2: 0.0290,                Train Loss: 0.4300 Acc: 99.9167
+Test set: 60 Test Loss: 1.4902 Acc: 62.0500
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3983, Train Loss2: 0.0275,                Train Loss: 0.4258 Acc: 99.9500
+Test set: 60 Test Loss: 1.4859 Acc: 61.9500
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3985, Train Loss2: 0.0270,                Train Loss: 0.4256 Acc: 99.9500
+Test set: 60 Test Loss: 1.4822 Acc: 61.9667
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4006, Train Loss2: 0.0285,                Train Loss: 0.4291 Acc: 99.9500
+Test set: 60 Test Loss: 1.4798 Acc: 62.0333
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3981, Train Loss2: 0.0294,                Train Loss: 0.4275 Acc: 99.9333
+Test set: 60 Test Loss: 1.4867 Acc: 62.1167
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.3995, Train Loss2: 0.0275,                Train Loss: 0.4270 Acc: 99.9333
+Test set: 60 Test Loss: 1.4939 Acc: 61.8667
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 47, Train Loss1: 0.4010, Train Loss2: 0.0288,                Train Loss: 0.4298 Acc: 99.9333
+Test set: 60 Test Loss: 1.4833 Acc: 62.0333
+Removing register_forward_hook
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		54.78 %
-  top 1 accuracy iCaRL          :		63.34 %
-  top 1 accuracy NCM            :		66.02 %
+  top 1 accuracy CNN            :		57.04 %
+  top 1 accuracy iCaRL          :		63.44 %
+  top 1 accuracy NCM            :		65.52 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		59.98 %
-  top 1 accuracy iCaRL          :		65.27 %
-  top 1 accuracy NCM            :		66.72 %
+  top 1 accuracy CNN            :		62.03 %
+  top 1 accuracy iCaRL          :		65.57 %
+  top 1 accuracy NCM            :		66.32 %
 Computing confusion matrix...
 in_features: 64 out_features1: 50 out_features2: 10
 Batch of classes number 7 arrives ...
@@ -49,19 +1326,658 @@ Imprint weights
 Max and Min of train labels: 0, 69
 Max and Min of valid labels: 0, 69
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_6_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 49, Train Loss1: 0.5193, Train Loss2: 0.9671,                Train Loss: 1.4864 Acc: 70.7258
+Test set: 70 Test Loss: 3.4829 Acc: 29.9571
+
+Epoch: 1, LR: [0.1]
+Train set: 49, Train Loss1: 0.5424, Train Loss2: 0.7597,                Train Loss: 1.3021 Acc: 77.7258
+Test set: 70 Test Loss: 3.0352 Acc: 33.3000
+
+Epoch: 2, LR: [0.1]
+Train set: 49, Train Loss1: 0.4994, Train Loss2: 0.6084,                Train Loss: 1.1078 Acc: 81.5161
+Test set: 70 Test Loss: 2.6184 Acc: 39.1714
+
+Epoch: 3, LR: [0.1]
+Train set: 49, Train Loss1: 0.4889, Train Loss2: 0.5479,                Train Loss: 1.0368 Acc: 83.1774
+Test set: 70 Test Loss: 2.3239 Acc: 43.2429
+
+Epoch: 4, LR: [0.1]
+Train set: 49, Train Loss1: 0.4573, Train Loss2: 0.4595,                Train Loss: 0.9168 Acc: 86.2258
+Test set: 70 Test Loss: 2.5242 Acc: 41.2429
+
+Epoch: 5, LR: [0.1]
+Train set: 49, Train Loss1: 0.4357, Train Loss2: 0.4101,                Train Loss: 0.8458 Acc: 87.6290
+Test set: 70 Test Loss: 2.9255 Acc: 35.0429
+
+Epoch: 6, LR: [0.1]
+Train set: 49, Train Loss1: 0.4537, Train Loss2: 0.4305,                Train Loss: 0.8841 Acc: 86.9032
+Test set: 70 Test Loss: 2.8207 Acc: 38.2143
+
+Epoch: 7, LR: [0.1]
+Train set: 49, Train Loss1: 0.4366, Train Loss2: 0.3577,                Train Loss: 0.7943 Acc: 89.5968
+Test set: 70 Test Loss: 2.7364 Acc: 37.5571
+
+Epoch: 8, LR: [0.1]
+Train set: 49, Train Loss1: 0.4243, Train Loss2: 0.3289,                Train Loss: 0.7532 Acc: 89.6452
+Test set: 70 Test Loss: 2.4652 Acc: 42.5714
+
+Epoch: 9, LR: [0.1]
+Train set: 49, Train Loss1: 0.4248, Train Loss2: 0.3171,                Train Loss: 0.7419 Acc: 90.1290
+Test set: 70 Test Loss: 2.7335 Acc: 39.1000
+
+Epoch: 10, LR: [0.1]
+Train set: 49, Train Loss1: 0.4089, Train Loss2: 0.2766,                Train Loss: 0.6855 Acc: 91.6290
+Test set: 70 Test Loss: 2.3295 Acc: 45.3571
+
+Epoch: 11, LR: [0.1]
+Train set: 49, Train Loss1: 0.3974, Train Loss2: 0.2519,                Train Loss: 0.6493 Acc: 92.4677
+Test set: 70 Test Loss: 2.0815 Acc: 49.2286
+
+Epoch: 12, LR: [0.1]
+Train set: 49, Train Loss1: 0.4123, Train Loss2: 0.2714,                Train Loss: 0.6837 Acc: 91.9677
+Test set: 70 Test Loss: 2.8530 Acc: 38.1714
+
+Epoch: 13, LR: [0.1]
+Train set: 49, Train Loss1: 0.4329, Train Loss2: 0.2985,                Train Loss: 0.7314 Acc: 90.9839
+Test set: 70 Test Loss: 3.0385 Acc: 37.1857
+
+Epoch: 14, LR: [0.1]
+Train set: 49, Train Loss1: 0.4314, Train Loss2: 0.2657,                Train Loss: 0.6971 Acc: 91.7258
+Test set: 70 Test Loss: 2.3909 Acc: 45.4429
+
+Epoch: 15, LR: [0.1]
+Train set: 49, Train Loss1: 0.4223, Train Loss2: 0.2473,                Train Loss: 0.6696 Acc: 92.8226
+Test set: 70 Test Loss: 2.5273 Acc: 43.5857
+
+Epoch: 16, LR: [0.1]
+Train set: 49, Train Loss1: 0.4298, Train Loss2: 0.2682,                Train Loss: 0.6979 Acc: 91.8226
+Test set: 70 Test Loss: 2.7736 Acc: 40.4000
+
+Epoch: 17, LR: [0.1]
+Train set: 49, Train Loss1: 0.4263, Train Loss2: 0.2441,                Train Loss: 0.6704 Acc: 92.4516
+Test set: 70 Test Loss: 2.6173 Acc: 42.7429
+
+Epoch: 18, LR: [0.1]
+Train set: 49, Train Loss1: 0.4107, Train Loss2: 0.2326,                Train Loss: 0.6434 Acc: 93.1935
+Test set: 70 Test Loss: 2.4246 Acc: 44.2429
+
+Epoch: 19, LR: [0.1]
+Train set: 49, Train Loss1: 0.4033, Train Loss2: 0.2056,                Train Loss: 0.6089 Acc: 94.2419
+Test set: 70 Test Loss: 2.6495 Acc: 41.5286
+
+Epoch: 20, LR: [0.1]
+Train set: 49, Train Loss1: 0.4034, Train Loss2: 0.1970,                Train Loss: 0.6004 Acc: 94.2258
+Test set: 70 Test Loss: 2.3584 Acc: 44.6429
+
+Epoch: 21, LR: [0.1]
+Train set: 49, Train Loss1: 0.3912, Train Loss2: 0.1891,                Train Loss: 0.5803 Acc: 94.4355
+Test set: 70 Test Loss: 2.3824 Acc: 46.4286
+
+Epoch: 22, LR: [0.1]
+Train set: 49, Train Loss1: 0.3887, Train Loss2: 0.1862,                Train Loss: 0.5749 Acc: 94.5806
+Test set: 70 Test Loss: 2.2941 Acc: 47.4714
+
+Epoch: 23, LR: [0.1]
+Train set: 49, Train Loss1: 0.3807, Train Loss2: 0.1687,                Train Loss: 0.5494 Acc: 95.1290
+Test set: 70 Test Loss: 2.6726 Acc: 42.7857
+
+Epoch: 24, LR: [0.1]
+Train set: 49, Train Loss1: 0.3967, Train Loss2: 0.1883,                Train Loss: 0.5850 Acc: 94.4677
+Test set: 70 Test Loss: 2.4328 Acc: 45.8571
+
+Epoch: 25, LR: [0.1]
+Train set: 49, Train Loss1: 0.4079, Train Loss2: 0.1932,                Train Loss: 0.6011 Acc: 94.4516
+Test set: 70 Test Loss: 2.3271 Acc: 46.1714
+
+Epoch: 26, LR: [0.1]
+Train set: 49, Train Loss1: 0.3919, Train Loss2: 0.1777,                Train Loss: 0.5697 Acc: 94.9032
+Test set: 70 Test Loss: 2.6088 Acc: 42.4000
+
+Epoch: 27, LR: [0.1]
+Train set: 49, Train Loss1: 0.4186, Train Loss2: 0.1983,                Train Loss: 0.6169 Acc: 93.7903
+Test set: 70 Test Loss: 2.3215 Acc: 47.3000
+
+Epoch: 28, LR: [0.1]
+Train set: 49, Train Loss1: 0.4190, Train Loss2: 0.2068,                Train Loss: 0.6258 Acc: 93.6774
+Test set: 70 Test Loss: 2.2947 Acc: 46.8714
+
+Epoch: 29, LR: [0.1]
+Train set: 49, Train Loss1: 0.4179, Train Loss2: 0.2131,                Train Loss: 0.6310 Acc: 93.2097
+Test set: 70 Test Loss: 2.8672 Acc: 40.0857
+
+Epoch: 30, LR: [0.1]
+Train set: 49, Train Loss1: 0.4276, Train Loss2: 0.1940,                Train Loss: 0.6216 Acc: 94.3065
+Test set: 70 Test Loss: 2.6896 Acc: 42.2571
+
+Epoch: 31, LR: [0.1]
+Train set: 49, Train Loss1: 0.4158, Train Loss2: 0.2074,                Train Loss: 0.6232 Acc: 93.7742
+Test set: 70 Test Loss: 2.4027 Acc: 45.2429
+
+Epoch: 32, LR: [0.1]
+Train set: 49, Train Loss1: 0.4227, Train Loss2: 0.1864,                Train Loss: 0.6090 Acc: 94.6774
+Test set: 70 Test Loss: 2.4668 Acc: 44.8857
+
+Epoch: 33, LR: [0.1]
+Train set: 49, Train Loss1: 0.4063, Train Loss2: 0.1687,                Train Loss: 0.5750 Acc: 95.2742
+Test set: 70 Test Loss: 2.9506 Acc: 38.1000
+
+Epoch: 34, LR: [0.1]
+Train set: 49, Train Loss1: 0.4106, Train Loss2: 0.1999,                Train Loss: 0.6105 Acc: 94.2742
+Test set: 70 Test Loss: 2.5191 Acc: 43.1286
+
+Epoch: 35, LR: [0.1]
+Train set: 49, Train Loss1: 0.4111, Train Loss2: 0.1891,                Train Loss: 0.6002 Acc: 94.4194
+Test set: 70 Test Loss: 2.4447 Acc: 46.2714
+
+Epoch: 36, LR: [0.1]
+Train set: 49, Train Loss1: 0.4160, Train Loss2: 0.1809,                Train Loss: 0.5969 Acc: 94.8387
+Test set: 70 Test Loss: 2.9061 Acc: 38.5857
+
+Epoch: 37, LR: [0.1]
+Train set: 49, Train Loss1: 0.4016, Train Loss2: 0.1637,                Train Loss: 0.5653 Acc: 95.4516
+Test set: 70 Test Loss: 2.3315 Acc: 46.8143
+
+Epoch: 38, LR: [0.1]
+Train set: 49, Train Loss1: 0.3792, Train Loss2: 0.1370,                Train Loss: 0.5163 Acc: 96.4194
+Test set: 70 Test Loss: 2.8100 Acc: 40.5429
+
+Epoch: 39, LR: [0.1]
+Train set: 49, Train Loss1: 0.3940, Train Loss2: 0.1671,                Train Loss: 0.5611 Acc: 95.1935
+Test set: 70 Test Loss: 2.5370 Acc: 43.8571
+
+Epoch: 40, LR: [0.1]
+Train set: 49, Train Loss1: 0.4065, Train Loss2: 0.1677,                Train Loss: 0.5741 Acc: 94.9355
+Test set: 70 Test Loss: 2.4509 Acc: 46.3857
+
+Epoch: 41, LR: [0.1]
+Train set: 49, Train Loss1: 0.3982, Train Loss2: 0.1635,                Train Loss: 0.5616 Acc: 95.5000
+Test set: 70 Test Loss: 2.5798 Acc: 42.8429
+
+Epoch: 42, LR: [0.1]
+Train set: 49, Train Loss1: 0.3967, Train Loss2: 0.1697,                Train Loss: 0.5664 Acc: 95.0323
+Test set: 70 Test Loss: 2.4621 Acc: 45.9714
+
+Epoch: 43, LR: [0.1]
+Train set: 49, Train Loss1: 0.3919, Train Loss2: 0.1405,                Train Loss: 0.5324 Acc: 96.0161
+Test set: 70 Test Loss: 2.5501 Acc: 43.5857
+
+Epoch: 44, LR: [0.1]
+Train set: 49, Train Loss1: 0.3824, Train Loss2: 0.1460,                Train Loss: 0.5284 Acc: 95.8710
+Test set: 70 Test Loss: 2.7946 Acc: 40.6286
+
+Epoch: 45, LR: [0.1]
+Train set: 49, Train Loss1: 0.3828, Train Loss2: 0.1400,                Train Loss: 0.5228 Acc: 96.0000
+Test set: 70 Test Loss: 2.4391 Acc: 46.8000
+
+Epoch: 46, LR: [0.1]
+Train set: 49, Train Loss1: 0.4177, Train Loss2: 0.2087,                Train Loss: 0.6264 Acc: 93.6452
+Test set: 70 Test Loss: 2.9146 Acc: 39.1429
+
+Epoch: 47, LR: [0.1]
+Train set: 49, Train Loss1: 0.4442, Train Loss2: 0.2181,                Train Loss: 0.6624 Acc: 93.5968
+Test set: 70 Test Loss: 2.7431 Acc: 43.0286
+
+Epoch: 48, LR: [0.1]
+Train set: 49, Train Loss1: 0.4377, Train Loss2: 0.1937,                Train Loss: 0.6314 Acc: 94.1774
+Test set: 70 Test Loss: 2.5015 Acc: 44.3143
+
+Epoch: 49, LR: [0.1]
+Train set: 49, Train Loss1: 0.4271, Train Loss2: 0.1743,                Train Loss: 0.6014 Acc: 95.1613
+Test set: 70 Test Loss: 2.9190 Acc: 38.5286
+
+Epoch: 50, LR: [0.1]
+Train set: 49, Train Loss1: 0.4287, Train Loss2: 0.1898,                Train Loss: 0.6186 Acc: 94.5806
+Test set: 70 Test Loss: 2.7962 Acc: 41.1286
+
+Epoch: 51, LR: [0.1]
+Train set: 49, Train Loss1: 0.4253, Train Loss2: 0.1916,                Train Loss: 0.6169 Acc: 94.4677
+Test set: 70 Test Loss: 2.8183 Acc: 40.2143
+
+Epoch: 52, LR: [0.1]
+Train set: 49, Train Loss1: 0.4417, Train Loss2: 0.1927,                Train Loss: 0.6344 Acc: 94.3871
+Test set: 70 Test Loss: 2.5801 Acc: 44.6143
+
+Epoch: 53, LR: [0.1]
+Train set: 49, Train Loss1: 0.4286, Train Loss2: 0.1844,                Train Loss: 0.6130 Acc: 94.4677
+Test set: 70 Test Loss: 2.5807 Acc: 43.8857
+
+Epoch: 54, LR: [0.1]
+Train set: 49, Train Loss1: 0.4119, Train Loss2: 0.1535,                Train Loss: 0.5654 Acc: 95.9839
+Test set: 70 Test Loss: 2.4850 Acc: 46.5143
+
+Epoch: 55, LR: [0.1]
+Train set: 49, Train Loss1: 0.4028, Train Loss2: 0.1558,                Train Loss: 0.5587 Acc: 95.6290
+Test set: 70 Test Loss: 2.2537 Acc: 48.7857
+
+Epoch: 56, LR: [0.1]
+Train set: 49, Train Loss1: 0.3815, Train Loss2: 0.1248,                Train Loss: 0.5064 Acc: 97.0645
+Test set: 70 Test Loss: 2.1907 Acc: 50.0286
+
+Epoch: 57, LR: [0.1]
+Train set: 49, Train Loss1: 0.3725, Train Loss2: 0.1305,                Train Loss: 0.5030 Acc: 96.1774
+Test set: 70 Test Loss: 2.5945 Acc: 42.8714
+
+Epoch: 58, LR: [0.1]
+Train set: 49, Train Loss1: 0.3621, Train Loss2: 0.1041,                Train Loss: 0.4662 Acc: 97.7258
+Test set: 70 Test Loss: 2.3062 Acc: 47.8286
+
+Epoch: 59, LR: [0.1]
+Train set: 49, Train Loss1: 0.3530, Train Loss2: 0.1134,                Train Loss: 0.4664 Acc: 97.3226
+Test set: 70 Test Loss: 2.2341 Acc: 47.7143
+
+Epoch: 60, LR: [0.1]
+Train set: 49, Train Loss1: 0.3817, Train Loss2: 0.1293,                Train Loss: 0.5111 Acc: 96.4677
+Test set: 70 Test Loss: 2.3942 Acc: 45.7143
+
+Epoch: 61, LR: [0.1]
+Train set: 49, Train Loss1: 0.3672, Train Loss2: 0.1204,                Train Loss: 0.4876 Acc: 96.9032
+Test set: 70 Test Loss: 2.6441 Acc: 43.9143
+
+Epoch: 62, LR: [0.1]
+Train set: 49, Train Loss1: 0.3956, Train Loss2: 0.1454,                Train Loss: 0.5411 Acc: 95.8065
+Test set: 70 Test Loss: 2.7875 Acc: 41.8571
+
+Epoch: 63, LR: [0.1]
+Train set: 49, Train Loss1: 0.4079, Train Loss2: 0.1529,                Train Loss: 0.5608 Acc: 95.7419
+Test set: 70 Test Loss: 2.4409 Acc: 44.1143
+
+Epoch: 64, LR: [0.1]
+Train set: 49, Train Loss1: 0.4250, Train Loss2: 0.1681,                Train Loss: 0.5931 Acc: 95.3548
+Test set: 70 Test Loss: 2.9411 Acc: 39.7000
+
+Epoch: 65, LR: [0.1]
+Train set: 49, Train Loss1: 0.4360, Train Loss2: 0.2019,                Train Loss: 0.6379 Acc: 94.0000
+Test set: 70 Test Loss: 2.4002 Acc: 46.3000
+
+Epoch: 66, LR: [0.1]
+Train set: 49, Train Loss1: 0.4633, Train Loss2: 0.2406,                Train Loss: 0.7039 Acc: 92.7258
+Test set: 70 Test Loss: 2.9565 Acc: 38.4857
+
+Epoch: 67, LR: [0.1]
+Train set: 49, Train Loss1: 0.4516, Train Loss2: 0.2231,                Train Loss: 0.6747 Acc: 93.5645
+Test set: 70 Test Loss: 2.9186 Acc: 40.2429
+
+Epoch: 68, LR: [0.1]
+Train set: 49, Train Loss1: 0.4442, Train Loss2: 0.2120,                Train Loss: 0.6563 Acc: 93.8871
+Test set: 70 Test Loss: 2.4801 Acc: 45.2571
+
+Epoch: 69, LR: [0.1]
+Train set: 49, Train Loss1: 0.4219, Train Loss2: 0.1736,                Train Loss: 0.5955 Acc: 95.1613
+Test set: 70 Test Loss: 2.4709 Acc: 45.7429
+
+Epoch: 70, LR: [0.1]
+Train set: 49, Train Loss1: 0.3962, Train Loss2: 0.1437,                Train Loss: 0.5399 Acc: 96.0323
+Test set: 70 Test Loss: 2.3248 Acc: 46.5857
+
+Epoch: 71, LR: [0.1]
+Train set: 49, Train Loss1: 0.4102, Train Loss2: 0.1455,                Train Loss: 0.5557 Acc: 95.8548
+Test set: 70 Test Loss: 2.4629 Acc: 45.3571
+
+Epoch: 72, LR: [0.1]
+Train set: 49, Train Loss1: 0.3897, Train Loss2: 0.1227,                Train Loss: 0.5124 Acc: 96.7258
+Test set: 70 Test Loss: 2.5829 Acc: 43.8429
+
+Epoch: 73, LR: [0.1]
+Train set: 49, Train Loss1: 0.3864, Train Loss2: 0.1315,                Train Loss: 0.5179 Acc: 96.3871
+Test set: 70 Test Loss: 2.6483 Acc: 42.6286
+
+Epoch: 74, LR: [0.1]
+Train set: 49, Train Loss1: 0.3705, Train Loss2: 0.1077,                Train Loss: 0.4782 Acc: 97.3548
+Test set: 70 Test Loss: 2.3891 Acc: 46.6143
+
+Epoch: 75, LR: [0.1]
+Train set: 49, Train Loss1: 0.3758, Train Loss2: 0.1205,                Train Loss: 0.4963 Acc: 96.8548
+Test set: 70 Test Loss: 2.2819 Acc: 47.2571
+
+Epoch: 76, LR: [0.1]
+Train set: 49, Train Loss1: 0.3821, Train Loss2: 0.1206,                Train Loss: 0.5027 Acc: 96.5968
+Test set: 70 Test Loss: 2.4377 Acc: 45.9714
+
+Epoch: 77, LR: [0.1]
+Train set: 49, Train Loss1: 0.3565, Train Loss2: 0.0987,                Train Loss: 0.4552 Acc: 97.7258
+Test set: 70 Test Loss: 2.3382 Acc: 46.6714
+
+Epoch: 78, LR: [0.1]
+Train set: 49, Train Loss1: 0.3504, Train Loss2: 0.0961,                Train Loss: 0.4465 Acc: 97.6935
+Test set: 70 Test Loss: 2.6190 Acc: 45.1286
+
+Epoch: 79, LR: [0.1]
+Train set: 49, Train Loss1: 0.3522, Train Loss2: 0.0958,                Train Loss: 0.4480 Acc: 97.9355
+Test set: 70 Test Loss: 2.3506 Acc: 46.8714
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.3054, Train Loss2: 0.0525,                Train Loss: 0.3579 Acc: 99.2258
+Test set: 70 Test Loss: 1.9281 Acc: 54.1429
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2678, Train Loss2: 0.0348,                Train Loss: 0.3026 Acc: 99.6452
+Test set: 70 Test Loss: 1.8902 Acc: 54.4000
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2588, Train Loss2: 0.0298,                Train Loss: 0.2887 Acc: 99.9194
+Test set: 70 Test Loss: 1.8574 Acc: 55.1714
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2498, Train Loss2: 0.0316,                Train Loss: 0.2814 Acc: 99.8387
+Test set: 70 Test Loss: 1.8539 Acc: 55.3857
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2453, Train Loss2: 0.0303,                Train Loss: 0.2756 Acc: 99.8548
+Test set: 70 Test Loss: 1.8444 Acc: 55.5286
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2414, Train Loss2: 0.0306,                Train Loss: 0.2720 Acc: 99.9194
+Test set: 70 Test Loss: 1.8132 Acc: 55.9429
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2352, Train Loss2: 0.0283,                Train Loss: 0.2636 Acc: 99.9677
+Test set: 70 Test Loss: 1.8167 Acc: 55.7857
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2328, Train Loss2: 0.0296,                Train Loss: 0.2624 Acc: 99.8871
+Test set: 70 Test Loss: 1.8224 Acc: 55.8714
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2310, Train Loss2: 0.0303,                Train Loss: 0.2614 Acc: 99.9032
+Test set: 70 Test Loss: 1.8322 Acc: 55.6000
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2278, Train Loss2: 0.0289,                Train Loss: 0.2566 Acc: 99.9355
+Test set: 70 Test Loss: 1.7960 Acc: 56.2429
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2254, Train Loss2: 0.0284,                Train Loss: 0.2538 Acc: 99.9677
+Test set: 70 Test Loss: 1.7937 Acc: 56.5429
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2255, Train Loss2: 0.0312,                Train Loss: 0.2567 Acc: 99.8710
+Test set: 70 Test Loss: 1.7963 Acc: 56.1571
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2225, Train Loss2: 0.0285,                Train Loss: 0.2510 Acc: 99.9516
+Test set: 70 Test Loss: 1.7961 Acc: 56.1714
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2211, Train Loss2: 0.0291,                Train Loss: 0.2502 Acc: 99.9194
+Test set: 70 Test Loss: 1.7923 Acc: 56.5143
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2187, Train Loss2: 0.0290,                Train Loss: 0.2477 Acc: 99.9194
+Test set: 70 Test Loss: 1.7799 Acc: 56.7714
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2176, Train Loss2: 0.0291,                Train Loss: 0.2467 Acc: 99.8871
+Test set: 70 Test Loss: 1.7829 Acc: 56.6571
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2167, Train Loss2: 0.0281,                Train Loss: 0.2448 Acc: 99.9677
+Test set: 70 Test Loss: 1.7957 Acc: 56.3857
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2125, Train Loss2: 0.0282,                Train Loss: 0.2407 Acc: 99.9677
+Test set: 70 Test Loss: 1.7857 Acc: 56.3286
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2124, Train Loss2: 0.0292,                Train Loss: 0.2416 Acc: 99.9355
+Test set: 70 Test Loss: 1.7913 Acc: 56.3143
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2113, Train Loss2: 0.0278,                Train Loss: 0.2391 Acc: 99.9516
+Test set: 70 Test Loss: 1.7818 Acc: 56.4143
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2084, Train Loss2: 0.0284,                Train Loss: 0.2368 Acc: 99.9516
+Test set: 70 Test Loss: 1.7909 Acc: 56.3714
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2086, Train Loss2: 0.0287,                Train Loss: 0.2373 Acc: 99.9516
+Test set: 70 Test Loss: 1.7725 Acc: 56.7000
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2047, Train Loss2: 0.0279,                Train Loss: 0.2325 Acc: 100.0000
+Test set: 70 Test Loss: 1.7891 Acc: 56.3143
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2076, Train Loss2: 0.0289,                Train Loss: 0.2366 Acc: 99.9677
+Test set: 70 Test Loss: 1.7592 Acc: 57.0143
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2046, Train Loss2: 0.0291,                Train Loss: 0.2337 Acc: 99.9516
+Test set: 70 Test Loss: 1.7733 Acc: 56.7429
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2062, Train Loss2: 0.0291,                Train Loss: 0.2353 Acc: 99.9677
+Test set: 70 Test Loss: 1.7919 Acc: 56.2429
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2027, Train Loss2: 0.0287,                Train Loss: 0.2314 Acc: 99.9516
+Test set: 70 Test Loss: 1.7715 Acc: 56.4857
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2028, Train Loss2: 0.0299,                Train Loss: 0.2327 Acc: 99.9032
+Test set: 70 Test Loss: 1.7838 Acc: 56.6714
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2039, Train Loss2: 0.0296,                Train Loss: 0.2335 Acc: 99.9677
+Test set: 70 Test Loss: 1.7549 Acc: 56.7714
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2018, Train Loss2: 0.0302,                Train Loss: 0.2320 Acc: 99.9355
+Test set: 70 Test Loss: 1.7682 Acc: 57.1714
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.2000, Train Loss2: 0.0290,                Train Loss: 0.2289 Acc: 99.9839
+Test set: 70 Test Loss: 1.7765 Acc: 56.5286
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1990, Train Loss2: 0.0284,                Train Loss: 0.2275 Acc: 99.9839
+Test set: 70 Test Loss: 1.7649 Acc: 56.8286
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1971, Train Loss2: 0.0284,                Train Loss: 0.2255 Acc: 99.9516
+Test set: 70 Test Loss: 1.7678 Acc: 56.6857
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1985, Train Loss2: 0.0293,                Train Loss: 0.2277 Acc: 99.9194
+Test set: 70 Test Loss: 1.7475 Acc: 57.0857
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1981, Train Loss2: 0.0305,                Train Loss: 0.2286 Acc: 99.9516
+Test set: 70 Test Loss: 1.7447 Acc: 57.1571
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1964, Train Loss2: 0.0283,                Train Loss: 0.2247 Acc: 99.9839
+Test set: 70 Test Loss: 1.7562 Acc: 56.9571
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1943, Train Loss2: 0.0287,                Train Loss: 0.2230 Acc: 99.9355
+Test set: 70 Test Loss: 1.7702 Acc: 56.7286
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1947, Train Loss2: 0.0302,                Train Loss: 0.2249 Acc: 99.9194
+Test set: 70 Test Loss: 1.7712 Acc: 56.6000
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1939, Train Loss2: 0.0297,                Train Loss: 0.2236 Acc: 99.9355
+Test set: 70 Test Loss: 1.7833 Acc: 56.4714
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 49, Train Loss1: 0.1933, Train Loss2: 0.0292,                Train Loss: 0.2225 Acc: 99.9032
+Test set: 70 Test Loss: 1.7738 Acc: 56.5143
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1920, Train Loss2: 0.0279,                Train Loss: 0.2199 Acc: 99.9677
+Test set: 70 Test Loss: 1.7783 Acc: 56.4286
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1930, Train Loss2: 0.0279,                Train Loss: 0.2209 Acc: 99.9677
+Test set: 70 Test Loss: 1.7513 Acc: 56.9143
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1927, Train Loss2: 0.0284,                Train Loss: 0.2211 Acc: 99.9516
+Test set: 70 Test Loss: 1.7510 Acc: 56.8714
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1920, Train Loss2: 0.0274,                Train Loss: 0.2194 Acc: 99.9839
+Test set: 70 Test Loss: 1.7506 Acc: 57.1429
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1917, Train Loss2: 0.0293,                Train Loss: 0.2210 Acc: 99.9516
+Test set: 70 Test Loss: 1.7567 Acc: 57.0000
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1904, Train Loss2: 0.0275,                Train Loss: 0.2179 Acc: 100.0000
+Test set: 70 Test Loss: 1.7466 Acc: 57.0000
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1895, Train Loss2: 0.0279,                Train Loss: 0.2174 Acc: 99.9839
+Test set: 70 Test Loss: 1.7409 Acc: 57.3857
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1901, Train Loss2: 0.0279,                Train Loss: 0.2179 Acc: 99.9839
+Test set: 70 Test Loss: 1.7491 Acc: 57.0857
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1888, Train Loss2: 0.0270,                Train Loss: 0.2158 Acc: 99.9839
+Test set: 70 Test Loss: 1.7470 Acc: 56.9429
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1907, Train Loss2: 0.0284,                Train Loss: 0.2191 Acc: 99.9516
+Test set: 70 Test Loss: 1.7671 Acc: 56.6714
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1906, Train Loss2: 0.0282,                Train Loss: 0.2187 Acc: 99.9677
+Test set: 70 Test Loss: 1.7516 Acc: 56.8429
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1890, Train Loss2: 0.0278,                Train Loss: 0.2168 Acc: 99.9516
+Test set: 70 Test Loss: 1.7428 Acc: 57.1286
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1884, Train Loss2: 0.0270,                Train Loss: 0.2154 Acc: 100.0000
+Test set: 70 Test Loss: 1.7508 Acc: 56.9571
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1896, Train Loss2: 0.0285,                Train Loss: 0.2181 Acc: 99.9355
+Test set: 70 Test Loss: 1.7561 Acc: 56.8429
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1882, Train Loss2: 0.0278,                Train Loss: 0.2160 Acc: 99.9839
+Test set: 70 Test Loss: 1.7542 Acc: 56.9143
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1905, Train Loss2: 0.0285,                Train Loss: 0.2190 Acc: 99.9677
+Test set: 70 Test Loss: 1.7417 Acc: 57.0571
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1906, Train Loss2: 0.0291,                Train Loss: 0.2197 Acc: 99.9677
+Test set: 70 Test Loss: 1.7714 Acc: 56.6286
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1866, Train Loss2: 0.0278,                Train Loss: 0.2144 Acc: 100.0000
+Test set: 70 Test Loss: 1.7467 Acc: 57.0857
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1895, Train Loss2: 0.0290,                Train Loss: 0.2185 Acc: 99.9839
+Test set: 70 Test Loss: 1.7419 Acc: 57.0429
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1888, Train Loss2: 0.0267,                Train Loss: 0.2155 Acc: 99.9677
+Test set: 70 Test Loss: 1.7504 Acc: 56.8714
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1887, Train Loss2: 0.0274,                Train Loss: 0.2161 Acc: 99.9677
+Test set: 70 Test Loss: 1.7449 Acc: 56.9143
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1890, Train Loss2: 0.0272,                Train Loss: 0.2162 Acc: 99.9839
+Test set: 70 Test Loss: 1.7493 Acc: 57.0857
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1880, Train Loss2: 0.0284,                Train Loss: 0.2163 Acc: 99.9516
+Test set: 70 Test Loss: 1.7440 Acc: 57.2000
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1893, Train Loss2: 0.0279,                Train Loss: 0.2171 Acc: 100.0000
+Test set: 70 Test Loss: 1.7478 Acc: 57.0286
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1885, Train Loss2: 0.0284,                Train Loss: 0.2169 Acc: 99.9355
+Test set: 70 Test Loss: 1.7452 Acc: 56.9429
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1886, Train Loss2: 0.0280,                Train Loss: 0.2166 Acc: 99.9677
+Test set: 70 Test Loss: 1.7470 Acc: 56.8857
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1886, Train Loss2: 0.0284,                Train Loss: 0.2171 Acc: 99.9516
+Test set: 70 Test Loss: 1.7373 Acc: 57.3143
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1881, Train Loss2: 0.0279,                Train Loss: 0.2159 Acc: 99.9839
+Test set: 70 Test Loss: 1.7419 Acc: 56.9857
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1884, Train Loss2: 0.0279,                Train Loss: 0.2163 Acc: 99.9355
+Test set: 70 Test Loss: 1.7339 Acc: 57.2286
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1884, Train Loss2: 0.0274,                Train Loss: 0.2157 Acc: 99.9839
+Test set: 70 Test Loss: 1.7423 Acc: 57.2000
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1871, Train Loss2: 0.0283,                Train Loss: 0.2153 Acc: 99.9839
+Test set: 70 Test Loss: 1.7423 Acc: 57.0857
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1864, Train Loss2: 0.0276,                Train Loss: 0.2140 Acc: 99.9677
+Test set: 70 Test Loss: 1.7387 Acc: 57.2857
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1882, Train Loss2: 0.0287,                Train Loss: 0.2170 Acc: 99.9839
+Test set: 70 Test Loss: 1.7390 Acc: 57.0714
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1890, Train Loss2: 0.0286,                Train Loss: 0.2176 Acc: 99.9516
+Test set: 70 Test Loss: 1.7336 Acc: 57.2429
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1872, Train Loss2: 0.0266,                Train Loss: 0.2138 Acc: 100.0000
+Test set: 70 Test Loss: 1.7421 Acc: 57.2286
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1877, Train Loss2: 0.0284,                Train Loss: 0.2161 Acc: 99.9677
+Test set: 70 Test Loss: 1.7493 Acc: 57.3857
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1879, Train Loss2: 0.0285,                Train Loss: 0.2164 Acc: 99.9516
+Test set: 70 Test Loss: 1.7555 Acc: 56.7571
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1876, Train Loss2: 0.0294,                Train Loss: 0.2170 Acc: 99.9355
+Test set: 70 Test Loss: 1.7510 Acc: 57.0000
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1879, Train Loss2: 0.0290,                Train Loss: 0.2170 Acc: 99.9194
+Test set: 70 Test Loss: 1.7344 Acc: 57.2429
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 49, Train Loss1: 0.1862, Train Loss2: 0.0291,                Train Loss: 0.2153 Acc: 99.9677
+Test set: 70 Test Loss: 1.7411 Acc: 57.0857
+Removing register_forward_hook
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		49.86 %
-  top 1 accuracy iCaRL          :		59.86 %
-  top 1 accuracy NCM            :		62.54 %
+  top 1 accuracy CNN            :		51.04 %
+  top 1 accuracy iCaRL          :		60.64 %
+  top 1 accuracy NCM            :		63.00 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		56.27 %
-  top 1 accuracy iCaRL          :		61.76 %
-  top 1 accuracy NCM            :		63.09 %
+  top 1 accuracy CNN            :		57.09 %
+  top 1 accuracy iCaRL          :		62.20 %
+  top 1 accuracy NCM            :		63.41 %
 Computing confusion matrix...
 in_features: 64 out_features1: 60 out_features2: 10
 Batch of classes number 8 arrives ...
@@ -69,19 +1985,658 @@ Imprint weights
 Max and Min of train labels: 0, 79
 Max and Min of valid labels: 0, 79
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_7_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 50, Train Loss1: 0.4824, Train Loss2: 0.9806,                Train Loss: 1.4630 Acc: 68.3594
+Test set: 80 Test Loss: 4.4263 Acc: 18.3000
+
+Epoch: 1, LR: [0.1]
+Train set: 50, Train Loss1: 0.5930, Train Loss2: 0.9140,                Train Loss: 1.5069 Acc: 72.0938
+Test set: 80 Test Loss: 2.8848 Acc: 32.4250
+
+Epoch: 2, LR: [0.1]
+Train set: 50, Train Loss1: 0.5076, Train Loss2: 0.7264,                Train Loss: 1.2339 Acc: 76.8125
+Test set: 80 Test Loss: 2.7362 Acc: 36.2750
+
+Epoch: 3, LR: [0.1]
+Train set: 50, Train Loss1: 0.4596, Train Loss2: 0.6412,                Train Loss: 1.1008 Acc: 79.0781
+Test set: 80 Test Loss: 2.7767 Acc: 37.8250
+
+Epoch: 4, LR: [0.1]
+Train set: 50, Train Loss1: 0.4379, Train Loss2: 0.5526,                Train Loss: 0.9905 Acc: 82.6250
+Test set: 80 Test Loss: 3.2613 Acc: 32.1250
+
+Epoch: 5, LR: [0.1]
+Train set: 50, Train Loss1: 0.4346, Train Loss2: 0.5320,                Train Loss: 0.9666 Acc: 82.8438
+Test set: 80 Test Loss: 3.4543 Acc: 28.1125
+
+Epoch: 6, LR: [0.1]
+Train set: 50, Train Loss1: 0.4358, Train Loss2: 0.5060,                Train Loss: 0.9418 Acc: 83.4375
+Test set: 80 Test Loss: 3.1666 Acc: 34.3875
+
+Epoch: 7, LR: [0.1]
+Train set: 50, Train Loss1: 0.4210, Train Loss2: 0.4653,                Train Loss: 0.8864 Acc: 85.0938
+Test set: 80 Test Loss: 3.0210 Acc: 35.6750
+
+Epoch: 8, LR: [0.1]
+Train set: 50, Train Loss1: 0.4045, Train Loss2: 0.4133,                Train Loss: 0.8178 Acc: 86.6719
+Test set: 80 Test Loss: 2.9263 Acc: 37.4000
+
+Epoch: 9, LR: [0.1]
+Train set: 50, Train Loss1: 0.3906, Train Loss2: 0.3858,                Train Loss: 0.7764 Acc: 87.7188
+Test set: 80 Test Loss: 2.9519 Acc: 37.0500
+
+Epoch: 10, LR: [0.1]
+Train set: 50, Train Loss1: 0.3926, Train Loss2: 0.3664,                Train Loss: 0.7590 Acc: 88.5938
+Test set: 80 Test Loss: 2.9057 Acc: 37.0625
+
+Epoch: 11, LR: [0.1]
+Train set: 50, Train Loss1: 0.3926, Train Loss2: 0.3570,                Train Loss: 0.7495 Acc: 88.4688
+Test set: 80 Test Loss: 3.0862 Acc: 35.9375
+
+Epoch: 12, LR: [0.1]
+Train set: 50, Train Loss1: 0.3949, Train Loss2: 0.3444,                Train Loss: 0.7393 Acc: 89.0469
+Test set: 80 Test Loss: 2.7307 Acc: 39.7000
+
+Epoch: 13, LR: [0.1]
+Train set: 50, Train Loss1: 0.3844, Train Loss2: 0.3447,                Train Loss: 0.7291 Acc: 89.0625
+Test set: 80 Test Loss: 3.1236 Acc: 35.7500
+
+Epoch: 14, LR: [0.1]
+Train set: 50, Train Loss1: 0.4059, Train Loss2: 0.3340,                Train Loss: 0.7399 Acc: 89.4531
+Test set: 80 Test Loss: 3.0835 Acc: 35.8000
+
+Epoch: 15, LR: [0.1]
+Train set: 50, Train Loss1: 0.4014, Train Loss2: 0.3335,                Train Loss: 0.7349 Acc: 89.0625
+Test set: 80 Test Loss: 2.8337 Acc: 38.4250
+
+Epoch: 16, LR: [0.1]
+Train set: 50, Train Loss1: 0.4113, Train Loss2: 0.3397,                Train Loss: 0.7510 Acc: 89.4219
+Test set: 80 Test Loss: 2.8986 Acc: 38.6500
+
+Epoch: 17, LR: [0.1]
+Train set: 50, Train Loss1: 0.4217, Train Loss2: 0.3547,                Train Loss: 0.7765 Acc: 88.7188
+Test set: 80 Test Loss: 3.1109 Acc: 35.8625
+
+Epoch: 18, LR: [0.1]
+Train set: 50, Train Loss1: 0.4141, Train Loss2: 0.3145,                Train Loss: 0.7286 Acc: 90.1875
+Test set: 80 Test Loss: 2.8354 Acc: 39.7250
+
+Epoch: 19, LR: [0.1]
+Train set: 50, Train Loss1: 0.3878, Train Loss2: 0.2949,                Train Loss: 0.6827 Acc: 90.7812
+Test set: 80 Test Loss: 3.0304 Acc: 36.7375
+
+Epoch: 20, LR: [0.1]
+Train set: 50, Train Loss1: 0.4005, Train Loss2: 0.2996,                Train Loss: 0.7002 Acc: 90.7500
+Test set: 80 Test Loss: 3.1895 Acc: 34.0000
+
+Epoch: 21, LR: [0.1]
+Train set: 50, Train Loss1: 0.4163, Train Loss2: 0.3224,                Train Loss: 0.7387 Acc: 89.7656
+Test set: 80 Test Loss: 2.6267 Acc: 42.2250
+
+Epoch: 22, LR: [0.1]
+Train set: 50, Train Loss1: 0.3922, Train Loss2: 0.2762,                Train Loss: 0.6684 Acc: 91.4844
+Test set: 80 Test Loss: 3.1047 Acc: 36.3875
+
+Epoch: 23, LR: [0.1]
+Train set: 50, Train Loss1: 0.4107, Train Loss2: 0.3024,                Train Loss: 0.7131 Acc: 90.3281
+Test set: 80 Test Loss: 2.6833 Acc: 40.9375
+
+Epoch: 24, LR: [0.1]
+Train set: 50, Train Loss1: 0.4093, Train Loss2: 0.2818,                Train Loss: 0.6910 Acc: 91.2031
+Test set: 80 Test Loss: 2.9364 Acc: 37.4500
+
+Epoch: 25, LR: [0.1]
+Train set: 50, Train Loss1: 0.3741, Train Loss2: 0.2331,                Train Loss: 0.6072 Acc: 93.0000
+Test set: 80 Test Loss: 3.1379 Acc: 36.9500
+
+Epoch: 26, LR: [0.1]
+Train set: 50, Train Loss1: 0.3684, Train Loss2: 0.2339,                Train Loss: 0.6023 Acc: 92.9531
+Test set: 80 Test Loss: 2.6592 Acc: 42.2375
+
+Epoch: 27, LR: [0.1]
+Train set: 50, Train Loss1: 0.3722, Train Loss2: 0.2337,                Train Loss: 0.6059 Acc: 93.0312
+Test set: 80 Test Loss: 2.6098 Acc: 42.9750
+
+Epoch: 28, LR: [0.1]
+Train set: 50, Train Loss1: 0.3995, Train Loss2: 0.2280,                Train Loss: 0.6275 Acc: 93.0938
+Test set: 80 Test Loss: 2.8462 Acc: 40.5250
+
+Epoch: 29, LR: [0.1]
+Train set: 50, Train Loss1: 0.3814, Train Loss2: 0.2277,                Train Loss: 0.6091 Acc: 93.2500
+Test set: 80 Test Loss: 2.7780 Acc: 40.5375
+
+Epoch: 30, LR: [0.1]
+Train set: 50, Train Loss1: 0.3930, Train Loss2: 0.2396,                Train Loss: 0.6326 Acc: 92.6562
+Test set: 80 Test Loss: 2.9676 Acc: 38.3875
+
+Epoch: 31, LR: [0.1]
+Train set: 50, Train Loss1: 0.3935, Train Loss2: 0.2449,                Train Loss: 0.6384 Acc: 92.3438
+Test set: 80 Test Loss: 3.1487 Acc: 36.8125
+
+Epoch: 32, LR: [0.1]
+Train set: 50, Train Loss1: 0.3942, Train Loss2: 0.2433,                Train Loss: 0.6375 Acc: 92.7500
+Test set: 80 Test Loss: 2.8460 Acc: 39.0750
+
+Epoch: 33, LR: [0.1]
+Train set: 50, Train Loss1: 0.3913, Train Loss2: 0.2484,                Train Loss: 0.6397 Acc: 92.3125
+Test set: 80 Test Loss: 3.1177 Acc: 36.6500
+
+Epoch: 34, LR: [0.1]
+Train set: 50, Train Loss1: 0.4117, Train Loss2: 0.2516,                Train Loss: 0.6633 Acc: 92.1562
+Test set: 80 Test Loss: 2.5519 Acc: 42.8250
+
+Epoch: 35, LR: [0.1]
+Train set: 50, Train Loss1: 0.4019, Train Loss2: 0.2504,                Train Loss: 0.6523 Acc: 92.4062
+Test set: 80 Test Loss: 2.9679 Acc: 38.5000
+
+Epoch: 36, LR: [0.1]
+Train set: 50, Train Loss1: 0.4216, Train Loss2: 0.2575,                Train Loss: 0.6791 Acc: 92.2969
+Test set: 80 Test Loss: 2.7453 Acc: 40.5375
+
+Epoch: 37, LR: [0.1]
+Train set: 50, Train Loss1: 0.4050, Train Loss2: 0.2481,                Train Loss: 0.6531 Acc: 92.5938
+Test set: 80 Test Loss: 2.9312 Acc: 38.5625
+
+Epoch: 38, LR: [0.1]
+Train set: 50, Train Loss1: 0.3842, Train Loss2: 0.2169,                Train Loss: 0.6011 Acc: 93.5469
+Test set: 80 Test Loss: 3.0002 Acc: 37.6750
+
+Epoch: 39, LR: [0.1]
+Train set: 50, Train Loss1: 0.3891, Train Loss2: 0.2468,                Train Loss: 0.6359 Acc: 92.2812
+Test set: 80 Test Loss: 3.5250 Acc: 33.1250
+
+Epoch: 40, LR: [0.1]
+Train set: 50, Train Loss1: 0.3912, Train Loss2: 0.2228,                Train Loss: 0.6140 Acc: 93.4531
+Test set: 80 Test Loss: 2.6030 Acc: 43.1000
+
+Epoch: 41, LR: [0.1]
+Train set: 50, Train Loss1: 0.3907, Train Loss2: 0.2051,                Train Loss: 0.5958 Acc: 94.0156
+Test set: 80 Test Loss: 2.5928 Acc: 42.8000
+
+Epoch: 42, LR: [0.1]
+Train set: 50, Train Loss1: 0.3895, Train Loss2: 0.2123,                Train Loss: 0.6018 Acc: 93.6719
+Test set: 80 Test Loss: 3.0719 Acc: 37.1125
+
+Epoch: 43, LR: [0.1]
+Train set: 50, Train Loss1: 0.3987, Train Loss2: 0.2245,                Train Loss: 0.6232 Acc: 93.3750
+Test set: 80 Test Loss: 2.8510 Acc: 40.3625
+
+Epoch: 44, LR: [0.1]
+Train set: 50, Train Loss1: 0.3773, Train Loss2: 0.2023,                Train Loss: 0.5796 Acc: 93.8438
+Test set: 80 Test Loss: 2.9129 Acc: 39.6750
+
+Epoch: 45, LR: [0.1]
+Train set: 50, Train Loss1: 0.3834, Train Loss2: 0.2101,                Train Loss: 0.5935 Acc: 93.7031
+Test set: 80 Test Loss: 3.1611 Acc: 36.6750
+
+Epoch: 46, LR: [0.1]
+Train set: 50, Train Loss1: 0.3854, Train Loss2: 0.2029,                Train Loss: 0.5883 Acc: 93.8125
+Test set: 80 Test Loss: 2.5607 Acc: 42.8125
+
+Epoch: 47, LR: [0.1]
+Train set: 50, Train Loss1: 0.3744, Train Loss2: 0.1936,                Train Loss: 0.5681 Acc: 94.2656
+Test set: 80 Test Loss: 3.3628 Acc: 34.9500
+
+Epoch: 48, LR: [0.1]
+Train set: 50, Train Loss1: 0.3680, Train Loss2: 0.1830,                Train Loss: 0.5510 Acc: 94.4688
+Test set: 80 Test Loss: 2.9823 Acc: 38.6500
+
+Epoch: 49, LR: [0.1]
+Train set: 50, Train Loss1: 0.3870, Train Loss2: 0.2118,                Train Loss: 0.5988 Acc: 93.6875
+Test set: 80 Test Loss: 3.0717 Acc: 37.1750
+
+Epoch: 50, LR: [0.1]
+Train set: 50, Train Loss1: 0.4124, Train Loss2: 0.2454,                Train Loss: 0.6578 Acc: 92.4688
+Test set: 80 Test Loss: 3.1865 Acc: 36.0125
+
+Epoch: 51, LR: [0.1]
+Train set: 50, Train Loss1: 0.4139, Train Loss2: 0.2404,                Train Loss: 0.6543 Acc: 92.9375
+Test set: 80 Test Loss: 3.3719 Acc: 32.6875
+
+Epoch: 52, LR: [0.1]
+Train set: 50, Train Loss1: 0.4302, Train Loss2: 0.2625,                Train Loss: 0.6928 Acc: 92.0781
+Test set: 80 Test Loss: 2.9422 Acc: 38.7250
+
+Epoch: 53, LR: [0.1]
+Train set: 50, Train Loss1: 0.4228, Train Loss2: 0.2521,                Train Loss: 0.6749 Acc: 92.2500
+Test set: 80 Test Loss: 2.9365 Acc: 38.1375
+
+Epoch: 54, LR: [0.1]
+Train set: 50, Train Loss1: 0.4080, Train Loss2: 0.2396,                Train Loss: 0.6475 Acc: 92.5625
+Test set: 80 Test Loss: 3.1619 Acc: 36.0000
+
+Epoch: 55, LR: [0.1]
+Train set: 50, Train Loss1: 0.4059, Train Loss2: 0.2212,                Train Loss: 0.6271 Acc: 93.1875
+Test set: 80 Test Loss: 3.5086 Acc: 33.6250
+
+Epoch: 56, LR: [0.1]
+Train set: 50, Train Loss1: 0.3839, Train Loss2: 0.1801,                Train Loss: 0.5640 Acc: 94.6875
+Test set: 80 Test Loss: 2.9905 Acc: 39.8000
+
+Epoch: 57, LR: [0.1]
+Train set: 50, Train Loss1: 0.4048, Train Loss2: 0.2179,                Train Loss: 0.6227 Acc: 93.3594
+Test set: 80 Test Loss: 3.1475 Acc: 36.6375
+
+Epoch: 58, LR: [0.1]
+Train set: 50, Train Loss1: 0.3819, Train Loss2: 0.1848,                Train Loss: 0.5667 Acc: 94.6406
+Test set: 80 Test Loss: 3.3188 Acc: 35.2750
+
+Epoch: 59, LR: [0.1]
+Train set: 50, Train Loss1: 0.3918, Train Loss2: 0.2032,                Train Loss: 0.5950 Acc: 94.0625
+Test set: 80 Test Loss: 3.1767 Acc: 35.8500
+
+Epoch: 60, LR: [0.1]
+Train set: 50, Train Loss1: 0.3906, Train Loss2: 0.1917,                Train Loss: 0.5823 Acc: 94.4062
+Test set: 80 Test Loss: 3.2164 Acc: 35.0625
+
+Epoch: 61, LR: [0.1]
+Train set: 50, Train Loss1: 0.3817, Train Loss2: 0.1844,                Train Loss: 0.5661 Acc: 95.1719
+Test set: 80 Test Loss: 3.3297 Acc: 34.0750
+
+Epoch: 62, LR: [0.1]
+Train set: 50, Train Loss1: 0.3920, Train Loss2: 0.1987,                Train Loss: 0.5908 Acc: 94.2656
+Test set: 80 Test Loss: 2.8494 Acc: 39.0000
+
+Epoch: 63, LR: [0.1]
+Train set: 50, Train Loss1: 0.3856, Train Loss2: 0.1937,                Train Loss: 0.5794 Acc: 94.5156
+Test set: 80 Test Loss: 2.8685 Acc: 40.1625
+
+Epoch: 64, LR: [0.1]
+Train set: 50, Train Loss1: 0.3884, Train Loss2: 0.1766,                Train Loss: 0.5651 Acc: 95.0312
+Test set: 80 Test Loss: 3.2763 Acc: 35.2000
+
+Epoch: 65, LR: [0.1]
+Train set: 50, Train Loss1: 0.4292, Train Loss2: 0.2749,                Train Loss: 0.7041 Acc: 91.7188
+Test set: 80 Test Loss: 3.9633 Acc: 27.6375
+
+Epoch: 66, LR: [0.1]
+Train set: 50, Train Loss1: 0.4190, Train Loss2: 0.2402,                Train Loss: 0.6592 Acc: 92.7969
+Test set: 80 Test Loss: 2.8972 Acc: 38.3375
+
+Epoch: 67, LR: [0.1]
+Train set: 50, Train Loss1: 0.4258, Train Loss2: 0.2426,                Train Loss: 0.6683 Acc: 92.9062
+Test set: 80 Test Loss: 3.2720 Acc: 35.7875
+
+Epoch: 68, LR: [0.1]
+Train set: 50, Train Loss1: 0.4275, Train Loss2: 0.2428,                Train Loss: 0.6703 Acc: 92.6562
+Test set: 80 Test Loss: 2.7734 Acc: 39.2625
+
+Epoch: 69, LR: [0.1]
+Train set: 50, Train Loss1: 0.3973, Train Loss2: 0.2017,                Train Loss: 0.5990 Acc: 94.2656
+Test set: 80 Test Loss: 2.5925 Acc: 43.1875
+
+Epoch: 70, LR: [0.1]
+Train set: 50, Train Loss1: 0.3739, Train Loss2: 0.1718,                Train Loss: 0.5457 Acc: 94.8906
+Test set: 80 Test Loss: 3.0536 Acc: 38.1250
+
+Epoch: 71, LR: [0.1]
+Train set: 50, Train Loss1: 0.3619, Train Loss2: 0.1581,                Train Loss: 0.5200 Acc: 95.9219
+Test set: 80 Test Loss: 2.8800 Acc: 39.3875
+
+Epoch: 72, LR: [0.1]
+Train set: 50, Train Loss1: 0.3504, Train Loss2: 0.1439,                Train Loss: 0.4942 Acc: 96.5312
+Test set: 80 Test Loss: 2.4660 Acc: 45.1750
+
+Epoch: 73, LR: [0.1]
+Train set: 50, Train Loss1: 0.3399, Train Loss2: 0.1267,                Train Loss: 0.4667 Acc: 97.0625
+Test set: 80 Test Loss: 3.1851 Acc: 36.8375
+
+Epoch: 74, LR: [0.1]
+Train set: 50, Train Loss1: 0.3376, Train Loss2: 0.1365,                Train Loss: 0.4741 Acc: 96.6094
+Test set: 80 Test Loss: 2.7619 Acc: 41.3000
+
+Epoch: 75, LR: [0.1]
+Train set: 50, Train Loss1: 0.3444, Train Loss2: 0.1316,                Train Loss: 0.4760 Acc: 96.4844
+Test set: 80 Test Loss: 2.9060 Acc: 39.8500
+
+Epoch: 76, LR: [0.1]
+Train set: 50, Train Loss1: 0.3880, Train Loss2: 0.1846,                Train Loss: 0.5726 Acc: 94.5000
+Test set: 80 Test Loss: 3.3368 Acc: 34.3250
+
+Epoch: 77, LR: [0.1]
+Train set: 50, Train Loss1: 0.4377, Train Loss2: 0.2621,                Train Loss: 0.6998 Acc: 91.9531
+Test set: 80 Test Loss: 3.4545 Acc: 33.4125
+
+Epoch: 78, LR: [0.1]
+Train set: 50, Train Loss1: 0.4681, Train Loss2: 0.3210,                Train Loss: 0.7892 Acc: 90.0469
+Test set: 80 Test Loss: 3.2423 Acc: 34.6375
+
+Epoch: 79, LR: [0.1]
+Train set: 50, Train Loss1: 0.4692, Train Loss2: 0.3149,                Train Loss: 0.7840 Acc: 90.2031
+Test set: 80 Test Loss: 3.6662 Acc: 29.8125
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.3690, Train Loss2: 0.1513,                Train Loss: 0.5203 Acc: 96.1406
+Test set: 80 Test Loss: 2.3963 Acc: 45.9375
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.3032, Train Loss2: 0.0834,                Train Loss: 0.3866 Acc: 98.5000
+Test set: 80 Test Loss: 2.3432 Acc: 46.9125
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2891, Train Loss2: 0.0744,                Train Loss: 0.3636 Acc: 98.8281
+Test set: 80 Test Loss: 2.3489 Acc: 47.2250
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2740, Train Loss2: 0.0631,                Train Loss: 0.3371 Acc: 99.4219
+Test set: 80 Test Loss: 2.2702 Acc: 48.0125
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2674, Train Loss2: 0.0609,                Train Loss: 0.3283 Acc: 99.4062
+Test set: 80 Test Loss: 2.2719 Acc: 48.2375
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2623, Train Loss2: 0.0584,                Train Loss: 0.3207 Acc: 99.3594
+Test set: 80 Test Loss: 2.2685 Acc: 48.1875
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2529, Train Loss2: 0.0569,                Train Loss: 0.3097 Acc: 99.4844
+Test set: 80 Test Loss: 2.2585 Acc: 48.3000
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2511, Train Loss2: 0.0527,                Train Loss: 0.3039 Acc: 99.5469
+Test set: 80 Test Loss: 2.2813 Acc: 48.2000
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2490, Train Loss2: 0.0529,                Train Loss: 0.3019 Acc: 99.5000
+Test set: 80 Test Loss: 2.2482 Acc: 48.5625
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2396, Train Loss2: 0.0491,                Train Loss: 0.2887 Acc: 99.6562
+Test set: 80 Test Loss: 2.2752 Acc: 48.2000
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2375, Train Loss2: 0.0493,                Train Loss: 0.2867 Acc: 99.7500
+Test set: 80 Test Loss: 2.2607 Acc: 48.6125
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2372, Train Loss2: 0.0502,                Train Loss: 0.2874 Acc: 99.5625
+Test set: 80 Test Loss: 2.2587 Acc: 48.4250
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2338, Train Loss2: 0.0479,                Train Loss: 0.2818 Acc: 99.6719
+Test set: 80 Test Loss: 2.2396 Acc: 48.7250
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2296, Train Loss2: 0.0460,                Train Loss: 0.2755 Acc: 99.7500
+Test set: 80 Test Loss: 2.2561 Acc: 48.5875
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2291, Train Loss2: 0.0470,                Train Loss: 0.2761 Acc: 99.7188
+Test set: 80 Test Loss: 2.2237 Acc: 48.9875
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2238, Train Loss2: 0.0437,                Train Loss: 0.2675 Acc: 99.8438
+Test set: 80 Test Loss: 2.2280 Acc: 48.9875
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2208, Train Loss2: 0.0448,                Train Loss: 0.2656 Acc: 99.7031
+Test set: 80 Test Loss: 2.2268 Acc: 49.0625
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2219, Train Loss2: 0.0446,                Train Loss: 0.2666 Acc: 99.7812
+Test set: 80 Test Loss: 2.2401 Acc: 48.8375
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2222, Train Loss2: 0.0446,                Train Loss: 0.2668 Acc: 99.8125
+Test set: 80 Test Loss: 2.2362 Acc: 49.0500
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2177, Train Loss2: 0.0441,                Train Loss: 0.2618 Acc: 99.7812
+Test set: 80 Test Loss: 2.2066 Acc: 49.4250
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2175, Train Loss2: 0.0422,                Train Loss: 0.2597 Acc: 99.8594
+Test set: 80 Test Loss: 2.2244 Acc: 49.1500
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2161, Train Loss2: 0.0427,                Train Loss: 0.2588 Acc: 99.7969
+Test set: 80 Test Loss: 2.2261 Acc: 49.0125
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2123, Train Loss2: 0.0414,                Train Loss: 0.2537 Acc: 99.8750
+Test set: 80 Test Loss: 2.2367 Acc: 49.0750
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2126, Train Loss2: 0.0404,                Train Loss: 0.2531 Acc: 99.8125
+Test set: 80 Test Loss: 2.2377 Acc: 49.0250
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2104, Train Loss2: 0.0421,                Train Loss: 0.2525 Acc: 99.8750
+Test set: 80 Test Loss: 2.2143 Acc: 49.4375
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2097, Train Loss2: 0.0413,                Train Loss: 0.2510 Acc: 99.8906
+Test set: 80 Test Loss: 2.2059 Acc: 49.2500
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2068, Train Loss2: 0.0417,                Train Loss: 0.2484 Acc: 99.8438
+Test set: 80 Test Loss: 2.2517 Acc: 48.9125
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2072, Train Loss2: 0.0407,                Train Loss: 0.2480 Acc: 99.9062
+Test set: 80 Test Loss: 2.2072 Acc: 49.4000
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2057, Train Loss2: 0.0429,                Train Loss: 0.2486 Acc: 99.8125
+Test set: 80 Test Loss: 2.2208 Acc: 49.0625
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2036, Train Loss2: 0.0395,                Train Loss: 0.2431 Acc: 99.8438
+Test set: 80 Test Loss: 2.2049 Acc: 49.4000
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2019, Train Loss2: 0.0398,                Train Loss: 0.2417 Acc: 99.9375
+Test set: 80 Test Loss: 2.2260 Acc: 49.0375
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.2014, Train Loss2: 0.0393,                Train Loss: 0.2407 Acc: 99.7969
+Test set: 80 Test Loss: 2.2279 Acc: 49.1375
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1992, Train Loss2: 0.0405,                Train Loss: 0.2397 Acc: 99.8906
+Test set: 80 Test Loss: 2.1958 Acc: 49.7125
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1979, Train Loss2: 0.0404,                Train Loss: 0.2383 Acc: 99.8906
+Test set: 80 Test Loss: 2.2282 Acc: 49.1625
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1984, Train Loss2: 0.0380,                Train Loss: 0.2363 Acc: 99.9375
+Test set: 80 Test Loss: 2.2084 Acc: 49.6875
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1995, Train Loss2: 0.0419,                Train Loss: 0.2414 Acc: 99.8125
+Test set: 80 Test Loss: 2.1859 Acc: 50.0375
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1987, Train Loss2: 0.0397,                Train Loss: 0.2384 Acc: 99.9219
+Test set: 80 Test Loss: 2.2354 Acc: 49.0500
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1972, Train Loss2: 0.0392,                Train Loss: 0.2363 Acc: 99.8906
+Test set: 80 Test Loss: 2.2206 Acc: 49.1875
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1956, Train Loss2: 0.0397,                Train Loss: 0.2354 Acc: 99.8750
+Test set: 80 Test Loss: 2.2033 Acc: 49.5250
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 50, Train Loss1: 0.1954, Train Loss2: 0.0382,                Train Loss: 0.2336 Acc: 99.9375
+Test set: 80 Test Loss: 2.2201 Acc: 48.9125
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1913, Train Loss2: 0.0380,                Train Loss: 0.2293 Acc: 99.8906
+Test set: 80 Test Loss: 2.2357 Acc: 48.8750
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1908, Train Loss2: 0.0372,                Train Loss: 0.2279 Acc: 99.8906
+Test set: 80 Test Loss: 2.2150 Acc: 49.3125
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1927, Train Loss2: 0.0364,                Train Loss: 0.2291 Acc: 99.9219
+Test set: 80 Test Loss: 2.2118 Acc: 49.4875
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1917, Train Loss2: 0.0388,                Train Loss: 0.2305 Acc: 99.8438
+Test set: 80 Test Loss: 2.2205 Acc: 49.2000
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1910, Train Loss2: 0.0364,                Train Loss: 0.2274 Acc: 99.9688
+Test set: 80 Test Loss: 2.1957 Acc: 49.5750
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1901, Train Loss2: 0.0381,                Train Loss: 0.2283 Acc: 99.8906
+Test set: 80 Test Loss: 2.1734 Acc: 50.0125
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1917, Train Loss2: 0.0386,                Train Loss: 0.2303 Acc: 99.8750
+Test set: 80 Test Loss: 2.1984 Acc: 49.7875
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1906, Train Loss2: 0.0374,                Train Loss: 0.2280 Acc: 99.9219
+Test set: 80 Test Loss: 2.2006 Acc: 49.5625
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1902, Train Loss2: 0.0372,                Train Loss: 0.2274 Acc: 99.9219
+Test set: 80 Test Loss: 2.1976 Acc: 49.4875
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1898, Train Loss2: 0.0359,                Train Loss: 0.2258 Acc: 99.9219
+Test set: 80 Test Loss: 2.1813 Acc: 49.7625
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1910, Train Loss2: 0.0379,                Train Loss: 0.2289 Acc: 99.8906
+Test set: 80 Test Loss: 2.1839 Acc: 49.9375
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1911, Train Loss2: 0.0378,                Train Loss: 0.2289 Acc: 99.9062
+Test set: 80 Test Loss: 2.1985 Acc: 49.5250
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1886, Train Loss2: 0.0383,                Train Loss: 0.2270 Acc: 99.8594
+Test set: 80 Test Loss: 2.2032 Acc: 49.4125
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1905, Train Loss2: 0.0379,                Train Loss: 0.2284 Acc: 99.9062
+Test set: 80 Test Loss: 2.2091 Acc: 49.2625
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1878, Train Loss2: 0.0368,                Train Loss: 0.2247 Acc: 99.9375
+Test set: 80 Test Loss: 2.1894 Acc: 49.7125
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1894, Train Loss2: 0.0373,                Train Loss: 0.2267 Acc: 99.9531
+Test set: 80 Test Loss: 2.2060 Acc: 49.5375
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1906, Train Loss2: 0.0371,                Train Loss: 0.2277 Acc: 99.9219
+Test set: 80 Test Loss: 2.1887 Acc: 49.8750
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1905, Train Loss2: 0.0373,                Train Loss: 0.2278 Acc: 99.9219
+Test set: 80 Test Loss: 2.1968 Acc: 49.7375
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1879, Train Loss2: 0.0360,                Train Loss: 0.2240 Acc: 99.9688
+Test set: 80 Test Loss: 2.1951 Acc: 49.6750
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1900, Train Loss2: 0.0374,                Train Loss: 0.2274 Acc: 99.9531
+Test set: 80 Test Loss: 2.2157 Acc: 49.2625
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1873, Train Loss2: 0.0378,                Train Loss: 0.2252 Acc: 99.9688
+Test set: 80 Test Loss: 2.1892 Acc: 49.5750
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1903, Train Loss2: 0.0374,                Train Loss: 0.2277 Acc: 99.9531
+Test set: 80 Test Loss: 2.1984 Acc: 49.4875
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1884, Train Loss2: 0.0363,                Train Loss: 0.2246 Acc: 99.9219
+Test set: 80 Test Loss: 2.1931 Acc: 49.6000
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1905, Train Loss2: 0.0375,                Train Loss: 0.2280 Acc: 99.9062
+Test set: 80 Test Loss: 2.1980 Acc: 49.6500
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1880, Train Loss2: 0.0367,                Train Loss: 0.2247 Acc: 99.9375
+Test set: 80 Test Loss: 2.2063 Acc: 49.4500
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1882, Train Loss2: 0.0371,                Train Loss: 0.2253 Acc: 99.9844
+Test set: 80 Test Loss: 2.2063 Acc: 49.5500
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1885, Train Loss2: 0.0371,                Train Loss: 0.2256 Acc: 99.9844
+Test set: 80 Test Loss: 2.1984 Acc: 49.6250
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1891, Train Loss2: 0.0385,                Train Loss: 0.2277 Acc: 99.9219
+Test set: 80 Test Loss: 2.1948 Acc: 49.5750
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1885, Train Loss2: 0.0370,                Train Loss: 0.2255 Acc: 99.9375
+Test set: 80 Test Loss: 2.1871 Acc: 49.8125
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1900, Train Loss2: 0.0366,                Train Loss: 0.2266 Acc: 99.9375
+Test set: 80 Test Loss: 2.1960 Acc: 49.7250
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1876, Train Loss2: 0.0369,                Train Loss: 0.2245 Acc: 99.9531
+Test set: 80 Test Loss: 2.1892 Acc: 49.6625
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1875, Train Loss2: 0.0370,                Train Loss: 0.2245 Acc: 99.9219
+Test set: 80 Test Loss: 2.2025 Acc: 49.4125
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1876, Train Loss2: 0.0380,                Train Loss: 0.2256 Acc: 99.9062
+Test set: 80 Test Loss: 2.1957 Acc: 49.6125
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1869, Train Loss2: 0.0397,                Train Loss: 0.2266 Acc: 99.8594
+Test set: 80 Test Loss: 2.2024 Acc: 49.4375
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1863, Train Loss2: 0.0362,                Train Loss: 0.2225 Acc: 99.9062
+Test set: 80 Test Loss: 2.1906 Acc: 49.6625
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1893, Train Loss2: 0.0387,                Train Loss: 0.2280 Acc: 99.9062
+Test set: 80 Test Loss: 2.1875 Acc: 49.7250
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1877, Train Loss2: 0.0362,                Train Loss: 0.2240 Acc: 99.9688
+Test set: 80 Test Loss: 2.2011 Acc: 49.6250
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1886, Train Loss2: 0.0379,                Train Loss: 0.2265 Acc: 99.9375
+Test set: 80 Test Loss: 2.2037 Acc: 49.4750
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1867, Train Loss2: 0.0361,                Train Loss: 0.2228 Acc: 99.9531
+Test set: 80 Test Loss: 2.2063 Acc: 49.3750
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 50, Train Loss1: 0.1875, Train Loss2: 0.0384,                Train Loss: 0.2259 Acc: 99.9844
+Test set: 80 Test Loss: 2.2050 Acc: 49.3875
+Removing register_forward_hook
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		44.76 %
-  top 1 accuracy iCaRL          :		56.02 %
-  top 1 accuracy NCM            :		59.44 %
+  top 1 accuracy CNN            :		44.92 %
+  top 1 accuracy iCaRL          :		54.88 %
+  top 1 accuracy NCM            :		58.70 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		49.61 %
-  top 1 accuracy iCaRL          :		55.95 %
-  top 1 accuracy NCM            :		57.29 %
+  top 1 accuracy CNN            :		49.39 %
+  top 1 accuracy iCaRL          :		55.24 %
+  top 1 accuracy NCM            :		57.16 %
 Computing confusion matrix...
 in_features: 64 out_features1: 70 out_features2: 10
 Batch of classes number 9 arrives ...
@@ -89,19 +2644,658 @@ Imprint weights
 Max and Min of train labels: 0, 89
 Max and Min of valid labels: 0, 89
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_8_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 52, Train Loss1: 0.4953, Train Loss2: 0.9892,                Train Loss: 1.4845 Acc: 69.8485
+Test set: 90 Test Loss: 3.1142 Acc: 30.4111
+
+Epoch: 1, LR: [0.1]
+Train set: 52, Train Loss1: 0.6124, Train Loss2: 0.8551,                Train Loss: 1.4675 Acc: 73.8333
+Test set: 90 Test Loss: 3.5053 Acc: 27.6667
+
+Epoch: 2, LR: [0.1]
+Train set: 52, Train Loss1: 0.5239, Train Loss2: 0.6911,                Train Loss: 1.2149 Acc: 79.0000
+Test set: 90 Test Loss: 3.1091 Acc: 31.5889
+
+Epoch: 3, LR: [0.1]
+Train set: 52, Train Loss1: 0.4749, Train Loss2: 0.5802,                Train Loss: 1.0551 Acc: 82.3788
+Test set: 90 Test Loss: 2.9041 Acc: 34.2778
+
+Epoch: 4, LR: [0.1]
+Train set: 52, Train Loss1: 0.4688, Train Loss2: 0.5270,                Train Loss: 0.9958 Acc: 83.9545
+Test set: 90 Test Loss: 3.3274 Acc: 30.7333
+
+Epoch: 5, LR: [0.1]
+Train set: 52, Train Loss1: 0.4539, Train Loss2: 0.4815,                Train Loss: 0.9354 Acc: 84.8030
+Test set: 90 Test Loss: 2.8186 Acc: 36.5778
+
+Epoch: 6, LR: [0.1]
+Train set: 52, Train Loss1: 0.4321, Train Loss2: 0.4322,                Train Loss: 0.8643 Acc: 86.1970
+Test set: 90 Test Loss: 2.7852 Acc: 37.9111
+
+Epoch: 7, LR: [0.1]
+Train set: 52, Train Loss1: 0.4250, Train Loss2: 0.4042,                Train Loss: 0.8292 Acc: 87.4545
+Test set: 90 Test Loss: 2.8913 Acc: 38.2000
+
+Epoch: 8, LR: [0.1]
+Train set: 52, Train Loss1: 0.4240, Train Loss2: 0.3688,                Train Loss: 0.7929 Acc: 88.5758
+Test set: 90 Test Loss: 2.8750 Acc: 38.4667
+
+Epoch: 9, LR: [0.1]
+Train set: 52, Train Loss1: 0.4315, Train Loss2: 0.3765,                Train Loss: 0.8081 Acc: 88.3485
+Test set: 90 Test Loss: 3.4382 Acc: 30.2111
+
+Epoch: 10, LR: [0.1]
+Train set: 52, Train Loss1: 0.4452, Train Loss2: 0.3650,                Train Loss: 0.8102 Acc: 88.8636
+Test set: 90 Test Loss: 3.2778 Acc: 32.9667
+
+Epoch: 11, LR: [0.1]
+Train set: 52, Train Loss1: 0.4297, Train Loss2: 0.3371,                Train Loss: 0.7669 Acc: 89.7576
+Test set: 90 Test Loss: 2.7893 Acc: 40.2222
+
+Epoch: 12, LR: [0.1]
+Train set: 52, Train Loss1: 0.3996, Train Loss2: 0.2853,                Train Loss: 0.6849 Acc: 91.6061
+Test set: 90 Test Loss: 2.8460 Acc: 38.7889
+
+Epoch: 13, LR: [0.1]
+Train set: 52, Train Loss1: 0.4072, Train Loss2: 0.2940,                Train Loss: 0.7012 Acc: 91.0758
+Test set: 90 Test Loss: 2.8001 Acc: 38.8667
+
+Epoch: 14, LR: [0.1]
+Train set: 52, Train Loss1: 0.4121, Train Loss2: 0.2795,                Train Loss: 0.6916 Acc: 91.8333
+Test set: 90 Test Loss: 3.2577 Acc: 34.4556
+
+Epoch: 15, LR: [0.1]
+Train set: 52, Train Loss1: 0.4102, Train Loss2: 0.2615,                Train Loss: 0.6717 Acc: 92.6212
+Test set: 90 Test Loss: 3.3158 Acc: 34.4000
+
+Epoch: 16, LR: [0.1]
+Train set: 52, Train Loss1: 0.4171, Train Loss2: 0.2851,                Train Loss: 0.7022 Acc: 91.7273
+Test set: 90 Test Loss: 3.0330 Acc: 37.3333
+
+Epoch: 17, LR: [0.1]
+Train set: 52, Train Loss1: 0.4602, Train Loss2: 0.3259,                Train Loss: 0.7861 Acc: 90.3182
+Test set: 90 Test Loss: 3.0182 Acc: 36.5111
+
+Epoch: 18, LR: [0.1]
+Train set: 52, Train Loss1: 0.4493, Train Loss2: 0.2991,                Train Loss: 0.7484 Acc: 90.9697
+Test set: 90 Test Loss: 3.1051 Acc: 36.9778
+
+Epoch: 19, LR: [0.1]
+Train set: 52, Train Loss1: 0.4166, Train Loss2: 0.2756,                Train Loss: 0.6922 Acc: 91.8485
+Test set: 90 Test Loss: 2.8005 Acc: 40.5778
+
+Epoch: 20, LR: [0.1]
+Train set: 52, Train Loss1: 0.4063, Train Loss2: 0.2543,                Train Loss: 0.6605 Acc: 92.6667
+Test set: 90 Test Loss: 2.9494 Acc: 39.1222
+
+Epoch: 21, LR: [0.1]
+Train set: 52, Train Loss1: 0.4275, Train Loss2: 0.2572,                Train Loss: 0.6847 Acc: 92.5000
+Test set: 90 Test Loss: 2.9153 Acc: 39.0333
+
+Epoch: 22, LR: [0.1]
+Train set: 52, Train Loss1: 0.4118, Train Loss2: 0.2463,                Train Loss: 0.6581 Acc: 93.0303
+Test set: 90 Test Loss: 3.0968 Acc: 37.0667
+
+Epoch: 23, LR: [0.1]
+Train set: 52, Train Loss1: 0.4197, Train Loss2: 0.2568,                Train Loss: 0.6765 Acc: 92.3182
+Test set: 90 Test Loss: 2.8406 Acc: 38.5778
+
+Epoch: 24, LR: [0.1]
+Train set: 52, Train Loss1: 0.4108, Train Loss2: 0.2388,                Train Loss: 0.6497 Acc: 92.6364
+Test set: 90 Test Loss: 2.8034 Acc: 39.6222
+
+Epoch: 25, LR: [0.1]
+Train set: 52, Train Loss1: 0.4009, Train Loss2: 0.2146,                Train Loss: 0.6155 Acc: 93.8788
+Test set: 90 Test Loss: 2.6146 Acc: 42.6889
+
+Epoch: 26, LR: [0.1]
+Train set: 52, Train Loss1: 0.4124, Train Loss2: 0.2297,                Train Loss: 0.6421 Acc: 93.5152
+Test set: 90 Test Loss: 2.9522 Acc: 38.8444
+
+Epoch: 27, LR: [0.1]
+Train set: 52, Train Loss1: 0.4250, Train Loss2: 0.2541,                Train Loss: 0.6791 Acc: 92.3636
+Test set: 90 Test Loss: 3.1693 Acc: 35.4000
+
+Epoch: 28, LR: [0.1]
+Train set: 52, Train Loss1: 0.4248, Train Loss2: 0.2400,                Train Loss: 0.6648 Acc: 93.1970
+Test set: 90 Test Loss: 2.9213 Acc: 38.5778
+
+Epoch: 29, LR: [0.1]
+Train set: 52, Train Loss1: 0.4082, Train Loss2: 0.2243,                Train Loss: 0.6325 Acc: 93.7879
+Test set: 90 Test Loss: 3.2145 Acc: 36.2000
+
+Epoch: 30, LR: [0.1]
+Train set: 52, Train Loss1: 0.4070, Train Loss2: 0.2344,                Train Loss: 0.6414 Acc: 93.2879
+Test set: 90 Test Loss: 3.0044 Acc: 38.5222
+
+Epoch: 31, LR: [0.1]
+Train set: 52, Train Loss1: 0.4136, Train Loss2: 0.2194,                Train Loss: 0.6330 Acc: 93.7424
+Test set: 90 Test Loss: 3.2129 Acc: 35.9222
+
+Epoch: 32, LR: [0.1]
+Train set: 52, Train Loss1: 0.4121, Train Loss2: 0.2210,                Train Loss: 0.6331 Acc: 94.0152
+Test set: 90 Test Loss: 2.9810 Acc: 38.2000
+
+Epoch: 33, LR: [0.1]
+Train set: 52, Train Loss1: 0.4170, Train Loss2: 0.2191,                Train Loss: 0.6361 Acc: 94.0303
+Test set: 90 Test Loss: 3.1968 Acc: 35.8556
+
+Epoch: 34, LR: [0.1]
+Train set: 52, Train Loss1: 0.4121, Train Loss2: 0.2154,                Train Loss: 0.6275 Acc: 93.5000
+Test set: 90 Test Loss: 3.0401 Acc: 37.8222
+
+Epoch: 35, LR: [0.1]
+Train set: 52, Train Loss1: 0.4289, Train Loss2: 0.2400,                Train Loss: 0.6689 Acc: 93.0606
+Test set: 90 Test Loss: 3.0403 Acc: 37.0778
+
+Epoch: 36, LR: [0.1]
+Train set: 52, Train Loss1: 0.4306, Train Loss2: 0.2310,                Train Loss: 0.6616 Acc: 93.1970
+Test set: 90 Test Loss: 2.9296 Acc: 39.8000
+
+Epoch: 37, LR: [0.1]
+Train set: 52, Train Loss1: 0.4195, Train Loss2: 0.2176,                Train Loss: 0.6371 Acc: 93.9091
+Test set: 90 Test Loss: 2.7841 Acc: 40.8444
+
+Epoch: 38, LR: [0.1]
+Train set: 52, Train Loss1: 0.4286, Train Loss2: 0.2231,                Train Loss: 0.6516 Acc: 93.7424
+Test set: 90 Test Loss: 3.1813 Acc: 36.6889
+
+Epoch: 39, LR: [0.1]
+Train set: 52, Train Loss1: 0.4235, Train Loss2: 0.2187,                Train Loss: 0.6422 Acc: 93.7121
+Test set: 90 Test Loss: 3.2771 Acc: 34.6889
+
+Epoch: 40, LR: [0.1]
+Train set: 52, Train Loss1: 0.4318, Train Loss2: 0.2286,                Train Loss: 0.6604 Acc: 93.2576
+Test set: 90 Test Loss: 2.9571 Acc: 38.5778
+
+Epoch: 41, LR: [0.1]
+Train set: 52, Train Loss1: 0.4423, Train Loss2: 0.2510,                Train Loss: 0.6933 Acc: 92.7121
+Test set: 90 Test Loss: 2.9861 Acc: 37.9444
+
+Epoch: 42, LR: [0.1]
+Train set: 52, Train Loss1: 0.4203, Train Loss2: 0.2032,                Train Loss: 0.6235 Acc: 94.1364
+Test set: 90 Test Loss: 2.9312 Acc: 39.7444
+
+Epoch: 43, LR: [0.1]
+Train set: 52, Train Loss1: 0.4039, Train Loss2: 0.2004,                Train Loss: 0.6044 Acc: 94.3788
+Test set: 90 Test Loss: 3.3394 Acc: 34.7667
+
+Epoch: 44, LR: [0.1]
+Train set: 52, Train Loss1: 0.3996, Train Loss2: 0.1899,                Train Loss: 0.5896 Acc: 94.5606
+Test set: 90 Test Loss: 3.0113 Acc: 38.6778
+
+Epoch: 45, LR: [0.1]
+Train set: 52, Train Loss1: 0.4261, Train Loss2: 0.2126,                Train Loss: 0.6388 Acc: 94.1212
+Test set: 90 Test Loss: 3.2984 Acc: 35.0000
+
+Epoch: 46, LR: [0.1]
+Train set: 52, Train Loss1: 0.4212, Train Loss2: 0.2070,                Train Loss: 0.6281 Acc: 94.0303
+Test set: 90 Test Loss: 3.2731 Acc: 35.9667
+
+Epoch: 47, LR: [0.1]
+Train set: 52, Train Loss1: 0.4213, Train Loss2: 0.2029,                Train Loss: 0.6242 Acc: 94.2121
+Test set: 90 Test Loss: 3.0948 Acc: 36.7333
+
+Epoch: 48, LR: [0.1]
+Train set: 52, Train Loss1: 0.4008, Train Loss2: 0.1735,                Train Loss: 0.5743 Acc: 95.0909
+Test set: 90 Test Loss: 2.9996 Acc: 39.0000
+
+Epoch: 49, LR: [0.1]
+Train set: 52, Train Loss1: 0.4042, Train Loss2: 0.1947,                Train Loss: 0.5989 Acc: 94.3030
+Test set: 90 Test Loss: 2.9783 Acc: 37.6667
+
+Epoch: 50, LR: [0.1]
+Train set: 52, Train Loss1: 0.4278, Train Loss2: 0.2095,                Train Loss: 0.6373 Acc: 94.1970
+Test set: 90 Test Loss: 3.0865 Acc: 36.3556
+
+Epoch: 51, LR: [0.1]
+Train set: 52, Train Loss1: 0.4342, Train Loss2: 0.2219,                Train Loss: 0.6560 Acc: 93.5303
+Test set: 90 Test Loss: 3.4561 Acc: 33.6000
+
+Epoch: 52, LR: [0.1]
+Train set: 52, Train Loss1: 0.4484, Train Loss2: 0.2375,                Train Loss: 0.6860 Acc: 92.9848
+Test set: 90 Test Loss: 3.0424 Acc: 37.8111
+
+Epoch: 53, LR: [0.1]
+Train set: 52, Train Loss1: 0.4584, Train Loss2: 0.2453,                Train Loss: 0.7038 Acc: 92.6818
+Test set: 90 Test Loss: 3.1513 Acc: 36.4111
+
+Epoch: 54, LR: [0.1]
+Train set: 52, Train Loss1: 0.4357, Train Loss2: 0.2265,                Train Loss: 0.6622 Acc: 93.2273
+Test set: 90 Test Loss: 3.3859 Acc: 34.7000
+
+Epoch: 55, LR: [0.1]
+Train set: 52, Train Loss1: 0.4548, Train Loss2: 0.2659,                Train Loss: 0.7208 Acc: 91.9242
+Test set: 90 Test Loss: 2.9880 Acc: 38.0444
+
+Epoch: 56, LR: [0.1]
+Train set: 52, Train Loss1: 0.4659, Train Loss2: 0.2640,                Train Loss: 0.7299 Acc: 92.2424
+Test set: 90 Test Loss: 3.5740 Acc: 33.0889
+
+Epoch: 57, LR: [0.1]
+Train set: 52, Train Loss1: 0.4269, Train Loss2: 0.2044,                Train Loss: 0.6313 Acc: 94.1970
+Test set: 90 Test Loss: 2.8379 Acc: 40.1556
+
+Epoch: 58, LR: [0.1]
+Train set: 52, Train Loss1: 0.3954, Train Loss2: 0.1714,                Train Loss: 0.5668 Acc: 95.5606
+Test set: 90 Test Loss: 3.1598 Acc: 35.6778
+
+Epoch: 59, LR: [0.1]
+Train set: 52, Train Loss1: 0.3760, Train Loss2: 0.1448,                Train Loss: 0.5207 Acc: 96.3030
+Test set: 90 Test Loss: 3.1730 Acc: 37.1556
+
+Epoch: 60, LR: [0.1]
+Train set: 52, Train Loss1: 0.3747, Train Loss2: 0.1402,                Train Loss: 0.5149 Acc: 96.3939
+Test set: 90 Test Loss: 2.5979 Acc: 42.1333
+
+Epoch: 61, LR: [0.1]
+Train set: 52, Train Loss1: 0.3742, Train Loss2: 0.1491,                Train Loss: 0.5233 Acc: 96.1061
+Test set: 90 Test Loss: 2.8600 Acc: 40.3778
+
+Epoch: 62, LR: [0.1]
+Train set: 52, Train Loss1: 0.3601, Train Loss2: 0.1445,                Train Loss: 0.5046 Acc: 96.4848
+Test set: 90 Test Loss: 2.8088 Acc: 41.4111
+
+Epoch: 63, LR: [0.1]
+Train set: 52, Train Loss1: 0.3559, Train Loss2: 0.1349,                Train Loss: 0.4908 Acc: 96.7727
+Test set: 90 Test Loss: 3.2797 Acc: 35.5111
+
+Epoch: 64, LR: [0.1]
+Train set: 52, Train Loss1: 0.3901, Train Loss2: 0.1823,                Train Loss: 0.5723 Acc: 95.1970
+Test set: 90 Test Loss: 2.6220 Acc: 42.1222
+
+Epoch: 65, LR: [0.1]
+Train set: 52, Train Loss1: 0.4227, Train Loss2: 0.2012,                Train Loss: 0.6239 Acc: 94.5455
+Test set: 90 Test Loss: 3.3958 Acc: 34.0556
+
+Epoch: 66, LR: [0.1]
+Train set: 52, Train Loss1: 0.4499, Train Loss2: 0.2467,                Train Loss: 0.6966 Acc: 92.5606
+Test set: 90 Test Loss: 4.4290 Acc: 23.8333
+
+Epoch: 67, LR: [0.1]
+Train set: 52, Train Loss1: 0.4663, Train Loss2: 0.2527,                Train Loss: 0.7190 Acc: 92.2424
+Test set: 90 Test Loss: 3.1557 Acc: 36.5889
+
+Epoch: 68, LR: [0.1]
+Train set: 52, Train Loss1: 0.4951, Train Loss2: 0.2950,                Train Loss: 0.7901 Acc: 91.0000
+Test set: 90 Test Loss: 3.1958 Acc: 35.2222
+
+Epoch: 69, LR: [0.1]
+Train set: 52, Train Loss1: 0.4675, Train Loss2: 0.2509,                Train Loss: 0.7184 Acc: 92.7879
+Test set: 90 Test Loss: 3.5678 Acc: 30.8556
+
+Epoch: 70, LR: [0.1]
+Train set: 52, Train Loss1: 0.4354, Train Loss2: 0.2039,                Train Loss: 0.6393 Acc: 94.3333
+Test set: 90 Test Loss: 3.0807 Acc: 35.4333
+
+Epoch: 71, LR: [0.1]
+Train set: 52, Train Loss1: 0.4241, Train Loss2: 0.2022,                Train Loss: 0.6262 Acc: 94.1212
+Test set: 90 Test Loss: 3.3394 Acc: 34.5444
+
+Epoch: 72, LR: [0.1]
+Train set: 52, Train Loss1: 0.3998, Train Loss2: 0.1678,                Train Loss: 0.5676 Acc: 95.3485
+Test set: 90 Test Loss: 2.7440 Acc: 41.1778
+
+Epoch: 73, LR: [0.1]
+Train set: 52, Train Loss1: 0.3650, Train Loss2: 0.1345,                Train Loss: 0.4995 Acc: 96.6515
+Test set: 90 Test Loss: 2.9809 Acc: 39.2556
+
+Epoch: 74, LR: [0.1]
+Train set: 52, Train Loss1: 0.3684, Train Loss2: 0.1439,                Train Loss: 0.5123 Acc: 96.2273
+Test set: 90 Test Loss: 2.9669 Acc: 38.9222
+
+Epoch: 75, LR: [0.1]
+Train set: 52, Train Loss1: 0.3722, Train Loss2: 0.1434,                Train Loss: 0.5157 Acc: 96.5455
+Test set: 90 Test Loss: 3.0713 Acc: 37.8333
+
+Epoch: 76, LR: [0.1]
+Train set: 52, Train Loss1: 0.3801, Train Loss2: 0.1537,                Train Loss: 0.5338 Acc: 96.1667
+Test set: 90 Test Loss: 3.0625 Acc: 36.5556
+
+Epoch: 77, LR: [0.1]
+Train set: 52, Train Loss1: 0.3743, Train Loss2: 0.1469,                Train Loss: 0.5211 Acc: 96.5909
+Test set: 90 Test Loss: 3.0490 Acc: 38.6778
+
+Epoch: 78, LR: [0.1]
+Train set: 52, Train Loss1: 0.4032, Train Loss2: 0.1789,                Train Loss: 0.5821 Acc: 95.3636
+Test set: 90 Test Loss: 3.2350 Acc: 35.2111
+
+Epoch: 79, LR: [0.1]
+Train set: 52, Train Loss1: 0.4429, Train Loss2: 0.2262,                Train Loss: 0.6690 Acc: 93.6667
+Test set: 90 Test Loss: 3.1908 Acc: 36.1889
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.3486, Train Loss2: 0.1137,                Train Loss: 0.4622 Acc: 97.4848
+Test set: 90 Test Loss: 2.5051 Acc: 45.3000
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2931, Train Loss2: 0.0673,                Train Loss: 0.3604 Acc: 99.2879
+Test set: 90 Test Loss: 2.5107 Acc: 45.5444
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2745, Train Loss2: 0.0609,                Train Loss: 0.3354 Acc: 99.2576
+Test set: 90 Test Loss: 2.4652 Acc: 46.4556
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2613, Train Loss2: 0.0523,                Train Loss: 0.3135 Acc: 99.7727
+Test set: 90 Test Loss: 2.4620 Acc: 46.6889
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2520, Train Loss2: 0.0490,                Train Loss: 0.3010 Acc: 99.7424
+Test set: 90 Test Loss: 2.4792 Acc: 46.2556
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2466, Train Loss2: 0.0503,                Train Loss: 0.2970 Acc: 99.6970
+Test set: 90 Test Loss: 2.4304 Acc: 47.2333
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2440, Train Loss2: 0.0480,                Train Loss: 0.2920 Acc: 99.7121
+Test set: 90 Test Loss: 2.4357 Acc: 47.1889
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2382, Train Loss2: 0.0456,                Train Loss: 0.2838 Acc: 99.8182
+Test set: 90 Test Loss: 2.4434 Acc: 46.9667
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2333, Train Loss2: 0.0460,                Train Loss: 0.2793 Acc: 99.7879
+Test set: 90 Test Loss: 2.4266 Acc: 47.3556
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2300, Train Loss2: 0.0451,                Train Loss: 0.2751 Acc: 99.8030
+Test set: 90 Test Loss: 2.4303 Acc: 47.1444
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2260, Train Loss2: 0.0450,                Train Loss: 0.2710 Acc: 99.7879
+Test set: 90 Test Loss: 2.4222 Acc: 47.1667
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2236, Train Loss2: 0.0436,                Train Loss: 0.2672 Acc: 99.7879
+Test set: 90 Test Loss: 2.4455 Acc: 46.7222
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2230, Train Loss2: 0.0442,                Train Loss: 0.2672 Acc: 99.8636
+Test set: 90 Test Loss: 2.4359 Acc: 47.1444
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2180, Train Loss2: 0.0435,                Train Loss: 0.2615 Acc: 99.7424
+Test set: 90 Test Loss: 2.4208 Acc: 47.0889
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2173, Train Loss2: 0.0426,                Train Loss: 0.2599 Acc: 99.8788
+Test set: 90 Test Loss: 2.4217 Acc: 47.1556
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2139, Train Loss2: 0.0405,                Train Loss: 0.2544 Acc: 99.9697
+Test set: 90 Test Loss: 2.4083 Acc: 47.2778
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2114, Train Loss2: 0.0419,                Train Loss: 0.2533 Acc: 99.9545
+Test set: 90 Test Loss: 2.4153 Acc: 47.3889
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2114, Train Loss2: 0.0403,                Train Loss: 0.2517 Acc: 99.9394
+Test set: 90 Test Loss: 2.4278 Acc: 46.9778
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2101, Train Loss2: 0.0430,                Train Loss: 0.2532 Acc: 99.8788
+Test set: 90 Test Loss: 2.4154 Acc: 47.0000
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2088, Train Loss2: 0.0415,                Train Loss: 0.2503 Acc: 99.8485
+Test set: 90 Test Loss: 2.4372 Acc: 47.1000
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2071, Train Loss2: 0.0424,                Train Loss: 0.2495 Acc: 99.8636
+Test set: 90 Test Loss: 2.4263 Acc: 46.9000
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2051, Train Loss2: 0.0418,                Train Loss: 0.2470 Acc: 99.8030
+Test set: 90 Test Loss: 2.4340 Acc: 46.8556
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2046, Train Loss2: 0.0410,                Train Loss: 0.2455 Acc: 99.8636
+Test set: 90 Test Loss: 2.3897 Acc: 47.6444
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2022, Train Loss2: 0.0394,                Train Loss: 0.2416 Acc: 99.9697
+Test set: 90 Test Loss: 2.4305 Acc: 46.8111
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.2022, Train Loss2: 0.0410,                Train Loss: 0.2433 Acc: 99.9394
+Test set: 90 Test Loss: 2.3924 Acc: 47.2889
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1972, Train Loss2: 0.0399,                Train Loss: 0.2371 Acc: 99.9091
+Test set: 90 Test Loss: 2.3819 Acc: 47.4667
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1976, Train Loss2: 0.0397,                Train Loss: 0.2373 Acc: 99.9091
+Test set: 90 Test Loss: 2.3875 Acc: 47.4222
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1977, Train Loss2: 0.0399,                Train Loss: 0.2375 Acc: 99.9242
+Test set: 90 Test Loss: 2.3827 Acc: 47.5556
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1969, Train Loss2: 0.0404,                Train Loss: 0.2373 Acc: 99.8939
+Test set: 90 Test Loss: 2.3941 Acc: 47.3889
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1966, Train Loss2: 0.0401,                Train Loss: 0.2367 Acc: 99.9394
+Test set: 90 Test Loss: 2.3787 Acc: 47.7000
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1941, Train Loss2: 0.0393,                Train Loss: 0.2335 Acc: 99.9394
+Test set: 90 Test Loss: 2.4041 Acc: 46.9667
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1920, Train Loss2: 0.0410,                Train Loss: 0.2330 Acc: 99.8333
+Test set: 90 Test Loss: 2.3799 Acc: 47.3556
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1948, Train Loss2: 0.0390,                Train Loss: 0.2338 Acc: 99.9242
+Test set: 90 Test Loss: 2.3717 Acc: 47.5778
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1928, Train Loss2: 0.0391,                Train Loss: 0.2319 Acc: 99.9545
+Test set: 90 Test Loss: 2.3774 Acc: 47.3667
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1889, Train Loss2: 0.0387,                Train Loss: 0.2276 Acc: 99.9242
+Test set: 90 Test Loss: 2.3927 Acc: 47.1667
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1909, Train Loss2: 0.0392,                Train Loss: 0.2301 Acc: 99.9394
+Test set: 90 Test Loss: 2.3898 Acc: 47.3667
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1886, Train Loss2: 0.0392,                Train Loss: 0.2278 Acc: 99.9091
+Test set: 90 Test Loss: 2.3695 Acc: 47.5667
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1863, Train Loss2: 0.0388,                Train Loss: 0.2252 Acc: 99.9242
+Test set: 90 Test Loss: 2.3944 Acc: 47.1111
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1871, Train Loss2: 0.0378,                Train Loss: 0.2249 Acc: 99.9545
+Test set: 90 Test Loss: 2.3997 Acc: 47.2111
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 52, Train Loss1: 0.1860, Train Loss2: 0.0388,                Train Loss: 0.2248 Acc: 99.9545
+Test set: 90 Test Loss: 2.3824 Acc: 47.3333
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1837, Train Loss2: 0.0391,                Train Loss: 0.2229 Acc: 99.8939
+Test set: 90 Test Loss: 2.3869 Acc: 47.2000
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1860, Train Loss2: 0.0391,                Train Loss: 0.2251 Acc: 99.9091
+Test set: 90 Test Loss: 2.4246 Acc: 46.6000
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1829, Train Loss2: 0.0385,                Train Loss: 0.2214 Acc: 99.9697
+Test set: 90 Test Loss: 2.3942 Acc: 47.3111
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1817, Train Loss2: 0.0399,                Train Loss: 0.2216 Acc: 99.9091
+Test set: 90 Test Loss: 2.3915 Acc: 47.5333
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1824, Train Loss2: 0.0387,                Train Loss: 0.2211 Acc: 99.9697
+Test set: 90 Test Loss: 2.3929 Acc: 46.9889
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1817, Train Loss2: 0.0376,                Train Loss: 0.2194 Acc: 99.9697
+Test set: 90 Test Loss: 2.3921 Acc: 47.2556
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1854, Train Loss2: 0.0378,                Train Loss: 0.2232 Acc: 99.9545
+Test set: 90 Test Loss: 2.4017 Acc: 46.9222
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1827, Train Loss2: 0.0379,                Train Loss: 0.2206 Acc: 99.9697
+Test set: 90 Test Loss: 2.3960 Acc: 47.2333
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1840, Train Loss2: 0.0381,                Train Loss: 0.2220 Acc: 99.9242
+Test set: 90 Test Loss: 2.3789 Acc: 47.3556
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1826, Train Loss2: 0.0374,                Train Loss: 0.2200 Acc: 99.9697
+Test set: 90 Test Loss: 2.4099 Acc: 47.1111
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1829, Train Loss2: 0.0392,                Train Loss: 0.2221 Acc: 99.9242
+Test set: 90 Test Loss: 2.3960 Acc: 47.2667
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1843, Train Loss2: 0.0381,                Train Loss: 0.2224 Acc: 99.9545
+Test set: 90 Test Loss: 2.3944 Acc: 47.2111
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1829, Train Loss2: 0.0377,                Train Loss: 0.2206 Acc: 99.9394
+Test set: 90 Test Loss: 2.3843 Acc: 47.4333
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1834, Train Loss2: 0.0393,                Train Loss: 0.2227 Acc: 99.9394
+Test set: 90 Test Loss: 2.3858 Acc: 47.2778
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1826, Train Loss2: 0.0387,                Train Loss: 0.2213 Acc: 99.9545
+Test set: 90 Test Loss: 2.3793 Acc: 47.4889
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1816, Train Loss2: 0.0366,                Train Loss: 0.2182 Acc: 99.9697
+Test set: 90 Test Loss: 2.3773 Acc: 47.3778
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1823, Train Loss2: 0.0383,                Train Loss: 0.2206 Acc: 99.9545
+Test set: 90 Test Loss: 2.3880 Acc: 47.1333
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1808, Train Loss2: 0.0376,                Train Loss: 0.2184 Acc: 99.9394
+Test set: 90 Test Loss: 2.3734 Acc: 47.5556
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1794, Train Loss2: 0.0369,                Train Loss: 0.2163 Acc: 99.9394
+Test set: 90 Test Loss: 2.3705 Acc: 47.5111
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1824, Train Loss2: 0.0375,                Train Loss: 0.2198 Acc: 99.9697
+Test set: 90 Test Loss: 2.3943 Acc: 47.3000
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1804, Train Loss2: 0.0390,                Train Loss: 0.2194 Acc: 99.8030
+Test set: 90 Test Loss: 2.3720 Acc: 47.4778
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1807, Train Loss2: 0.0384,                Train Loss: 0.2191 Acc: 99.8939
+Test set: 90 Test Loss: 2.3892 Acc: 47.2667
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1816, Train Loss2: 0.0385,                Train Loss: 0.2201 Acc: 99.9394
+Test set: 90 Test Loss: 2.3904 Acc: 47.0667
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1841, Train Loss2: 0.0383,                Train Loss: 0.2224 Acc: 99.9394
+Test set: 90 Test Loss: 2.3935 Acc: 47.1111
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1805, Train Loss2: 0.0377,                Train Loss: 0.2182 Acc: 99.9545
+Test set: 90 Test Loss: 2.3821 Acc: 47.2000
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1809, Train Loss2: 0.0378,                Train Loss: 0.2187 Acc: 99.9091
+Test set: 90 Test Loss: 2.3895 Acc: 47.2889
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1807, Train Loss2: 0.0369,                Train Loss: 0.2176 Acc: 99.9848
+Test set: 90 Test Loss: 2.3921 Acc: 47.1444
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1807, Train Loss2: 0.0382,                Train Loss: 0.2189 Acc: 99.9394
+Test set: 90 Test Loss: 2.3964 Acc: 47.0556
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1817, Train Loss2: 0.0377,                Train Loss: 0.2194 Acc: 99.9545
+Test set: 90 Test Loss: 2.3865 Acc: 47.1556
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1817, Train Loss2: 0.0373,                Train Loss: 0.2190 Acc: 99.9545
+Test set: 90 Test Loss: 2.3884 Acc: 47.4111
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1832, Train Loss2: 0.0393,                Train Loss: 0.2225 Acc: 99.8485
+Test set: 90 Test Loss: 2.3983 Acc: 47.0111
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1805, Train Loss2: 0.0382,                Train Loss: 0.2187 Acc: 99.9545
+Test set: 90 Test Loss: 2.3915 Acc: 47.2000
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1790, Train Loss2: 0.0375,                Train Loss: 0.2165 Acc: 99.9697
+Test set: 90 Test Loss: 2.3589 Acc: 47.5556
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1800, Train Loss2: 0.0364,                Train Loss: 0.2164 Acc: 99.9848
+Test set: 90 Test Loss: 2.3653 Acc: 47.6222
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1790, Train Loss2: 0.0383,                Train Loss: 0.2173 Acc: 99.9545
+Test set: 90 Test Loss: 2.3704 Acc: 47.4444
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1804, Train Loss2: 0.0378,                Train Loss: 0.2182 Acc: 99.9545
+Test set: 90 Test Loss: 2.3612 Acc: 47.6667
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1810, Train Loss2: 0.0371,                Train Loss: 0.2181 Acc: 99.9394
+Test set: 90 Test Loss: 2.3857 Acc: 47.2000
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1782, Train Loss2: 0.0368,                Train Loss: 0.2150 Acc: 99.9697
+Test set: 90 Test Loss: 2.3892 Acc: 47.1556
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1799, Train Loss2: 0.0372,                Train Loss: 0.2171 Acc: 99.9091
+Test set: 90 Test Loss: 2.3720 Acc: 47.5111
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 52, Train Loss1: 0.1783, Train Loss2: 0.0391,                Train Loss: 0.2174 Acc: 99.9091
+Test set: 90 Test Loss: 2.3751 Acc: 47.4556
+Removing register_forward_hook
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		40.54 %
-  top 1 accuracy iCaRL          :		52.02 %
-  top 1 accuracy NCM            :		56.90 %
+  top 1 accuracy CNN            :		41.38 %
+  top 1 accuracy iCaRL          :		51.98 %
+  top 1 accuracy NCM            :		56.82 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		47.09 %
-  top 1 accuracy iCaRL          :		52.91 %
-  top 1 accuracy NCM            :		54.76 %
+  top 1 accuracy CNN            :		47.46 %
+  top 1 accuracy iCaRL          :		53.56 %
+  top 1 accuracy NCM            :		55.21 %
 Computing confusion matrix...
 in_features: 64 out_features1: 80 out_features2: 10
 Batch of classes number 10 arrives ...
@@ -109,17 +3303,656 @@ Imprint weights
 Max and Min of train labels: 0, 99
 Max and Min of valid labels: 0, 99
 ckp_name ./checkpoint/seed_1993_rs_ratio_0.0_class_incremental_MS_IPW_cosine_cifar100_nb_cl_fg_50_nb_cl_10_nb_protos_20_run_0_iteration_9_model.pth
-###############################
-Loading models from checkpoint
-###############################
+incremental_train_and_eval_MS
+
+Epoch: 0, LR: [0.1]
+Train set: 54, Train Loss1: 0.6326, Train Loss2: 1.1610,                Train Loss: 1.7936 Acc: 64.5735
+Test set: 100 Test Loss: 3.9494 Acc: 21.4300
+
+Epoch: 1, LR: [0.1]
+Train set: 54, Train Loss1: 0.7476, Train Loss2: 1.1248,                Train Loss: 1.8724 Acc: 66.0735
+Test set: 100 Test Loss: 4.0891 Acc: 21.2200
+
+Epoch: 2, LR: [0.1]
+Train set: 54, Train Loss1: 0.7123, Train Loss2: 0.9695,                Train Loss: 1.6818 Acc: 70.8676
+Test set: 100 Test Loss: 4.3304 Acc: 20.4600
+
+Epoch: 3, LR: [0.1]
+Train set: 54, Train Loss1: 0.6382, Train Loss2: 0.8676,                Train Loss: 1.5058 Acc: 73.8382
+Test set: 100 Test Loss: 3.3163 Acc: 29.4100
+
+Epoch: 4, LR: [0.1]
+Train set: 54, Train Loss1: 0.6699, Train Loss2: 0.8511,                Train Loss: 1.5210 Acc: 73.8529
+Test set: 100 Test Loss: 3.1578 Acc: 31.2200
+
+Epoch: 5, LR: [0.1]
+Train set: 54, Train Loss1: 0.5452, Train Loss2: 0.6702,                Train Loss: 1.2155 Acc: 80.3235
+Test set: 100 Test Loss: 3.1586 Acc: 33.0300
+
+Epoch: 6, LR: [0.1]
+Train set: 54, Train Loss1: 0.5673, Train Loss2: 0.6630,                Train Loss: 1.2303 Acc: 79.6912
+Test set: 100 Test Loss: 3.2164 Acc: 31.7100
+
+Epoch: 7, LR: [0.1]
+Train set: 54, Train Loss1: 0.5854, Train Loss2: 0.6722,                Train Loss: 1.2576 Acc: 78.9559
+Test set: 100 Test Loss: 2.8743 Acc: 36.6100
+
+Epoch: 8, LR: [0.1]
+Train set: 54, Train Loss1: 0.5485, Train Loss2: 0.6009,                Train Loss: 1.1494 Acc: 81.8529
+Test set: 100 Test Loss: 2.9419 Acc: 36.8900
+
+Epoch: 9, LR: [0.1]
+Train set: 54, Train Loss1: 0.5448, Train Loss2: 0.5761,                Train Loss: 1.1210 Acc: 82.4853
+Test set: 100 Test Loss: 3.0243 Acc: 33.3700
+
+Epoch: 10, LR: [0.1]
+Train set: 54, Train Loss1: 0.5144, Train Loss2: 0.5330,                Train Loss: 1.0474 Acc: 83.1618
+Test set: 100 Test Loss: 2.6097 Acc: 39.9800
+
+Epoch: 11, LR: [0.1]
+Train set: 54, Train Loss1: 0.4757, Train Loss2: 0.4321,                Train Loss: 0.9079 Acc: 87.4853
+Test set: 100 Test Loss: 2.9479 Acc: 36.5700
+
+Epoch: 12, LR: [0.1]
+Train set: 54, Train Loss1: 0.4889, Train Loss2: 0.4342,                Train Loss: 0.9231 Acc: 86.7353
+Test set: 100 Test Loss: 2.8416 Acc: 37.5000
+
+Epoch: 13, LR: [0.1]
+Train set: 54, Train Loss1: 0.4492, Train Loss2: 0.3915,                Train Loss: 0.8407 Acc: 88.5441
+Test set: 100 Test Loss: 3.2910 Acc: 32.3700
+
+Epoch: 14, LR: [0.1]
+Train set: 54, Train Loss1: 0.5017, Train Loss2: 0.4416,                Train Loss: 0.9433 Acc: 86.4853
+Test set: 100 Test Loss: 3.2426 Acc: 34.7900
+
+Epoch: 15, LR: [0.1]
+Train set: 54, Train Loss1: 0.5241, Train Loss2: 0.4697,                Train Loss: 0.9937 Acc: 85.4412
+Test set: 100 Test Loss: 2.9239 Acc: 36.9300
+
+Epoch: 16, LR: [0.1]
+Train set: 54, Train Loss1: 0.4996, Train Loss2: 0.4219,                Train Loss: 0.9215 Acc: 87.4265
+Test set: 100 Test Loss: 3.0199 Acc: 36.5800
+
+Epoch: 17, LR: [0.1]
+Train set: 54, Train Loss1: 0.5220, Train Loss2: 0.4277,                Train Loss: 0.9497 Acc: 86.8382
+Test set: 100 Test Loss: 2.7100 Acc: 40.7900
+
+Epoch: 18, LR: [0.1]
+Train set: 54, Train Loss1: 0.5091, Train Loss2: 0.4136,                Train Loss: 0.9226 Acc: 88.0735
+Test set: 100 Test Loss: 2.9423 Acc: 35.8000
+
+Epoch: 19, LR: [0.1]
+Train set: 54, Train Loss1: 0.5689, Train Loss2: 0.5227,                Train Loss: 1.0916 Acc: 83.6029
+Test set: 100 Test Loss: 3.0689 Acc: 36.6700
+
+Epoch: 20, LR: [0.1]
+Train set: 54, Train Loss1: 0.5344, Train Loss2: 0.4364,                Train Loss: 0.9708 Acc: 86.8824
+Test set: 100 Test Loss: 3.3947 Acc: 31.4800
+
+Epoch: 21, LR: [0.1]
+Train set: 54, Train Loss1: 0.5749, Train Loss2: 0.4931,                Train Loss: 1.0679 Acc: 85.2794
+Test set: 100 Test Loss: 2.8660 Acc: 38.5500
+
+Epoch: 22, LR: [0.1]
+Train set: 54, Train Loss1: 0.5576, Train Loss2: 0.4697,                Train Loss: 1.0274 Acc: 85.5147
+Test set: 100 Test Loss: 2.9246 Acc: 38.4300
+
+Epoch: 23, LR: [0.1]
+Train set: 54, Train Loss1: 0.4759, Train Loss2: 0.3375,                Train Loss: 0.8134 Acc: 90.3971
+Test set: 100 Test Loss: 2.9312 Acc: 38.4900
+
+Epoch: 24, LR: [0.1]
+Train set: 54, Train Loss1: 0.4896, Train Loss2: 0.3641,                Train Loss: 0.8537 Acc: 89.1029
+Test set: 100 Test Loss: 3.3381 Acc: 33.8200
+
+Epoch: 25, LR: [0.1]
+Train set: 54, Train Loss1: 0.4610, Train Loss2: 0.3024,                Train Loss: 0.7634 Acc: 90.8824
+Test set: 100 Test Loss: 3.1692 Acc: 36.1600
+
+Epoch: 26, LR: [0.1]
+Train set: 54, Train Loss1: 0.4875, Train Loss2: 0.3355,                Train Loss: 0.8229 Acc: 89.9118
+Test set: 100 Test Loss: 3.1539 Acc: 35.8200
+
+Epoch: 27, LR: [0.1]
+Train set: 54, Train Loss1: 0.5092, Train Loss2: 0.3751,                Train Loss: 0.8842 Acc: 89.2059
+Test set: 100 Test Loss: 3.1289 Acc: 34.7700
+
+Epoch: 28, LR: [0.1]
+Train set: 54, Train Loss1: 0.5432, Train Loss2: 0.4369,                Train Loss: 0.9801 Acc: 86.1176
+Test set: 100 Test Loss: 2.9171 Acc: 37.6400
+
+Epoch: 29, LR: [0.1]
+Train set: 54, Train Loss1: 0.5212, Train Loss2: 0.3701,                Train Loss: 0.8913 Acc: 88.3971
+Test set: 100 Test Loss: 3.5020 Acc: 31.7700
+
+Epoch: 30, LR: [0.1]
+Train set: 54, Train Loss1: 0.5059, Train Loss2: 0.3661,                Train Loss: 0.8720 Acc: 88.8824
+Test set: 100 Test Loss: 2.9394 Acc: 38.0900
+
+Epoch: 31, LR: [0.1]
+Train set: 54, Train Loss1: 0.4651, Train Loss2: 0.2809,                Train Loss: 0.7460 Acc: 92.0294
+Test set: 100 Test Loss: 2.7238 Acc: 41.5200
+
+Epoch: 32, LR: [0.1]
+Train set: 54, Train Loss1: 0.4848, Train Loss2: 0.3296,                Train Loss: 0.8144 Acc: 90.5000
+Test set: 100 Test Loss: 3.4572 Acc: 32.3100
+
+Epoch: 33, LR: [0.1]
+Train set: 54, Train Loss1: 0.5040, Train Loss2: 0.3339,                Train Loss: 0.8379 Acc: 90.5294
+Test set: 100 Test Loss: 3.5812 Acc: 33.7500
+
+Epoch: 34, LR: [0.1]
+Train set: 54, Train Loss1: 0.6116, Train Loss2: 0.5211,                Train Loss: 1.1327 Acc: 84.1618
+Test set: 100 Test Loss: 3.1649 Acc: 36.1200
+
+Epoch: 35, LR: [0.1]
+Train set: 54, Train Loss1: 0.5959, Train Loss2: 0.4844,                Train Loss: 1.0802 Acc: 84.8676
+Test set: 100 Test Loss: 3.2058 Acc: 34.2400
+
+Epoch: 36, LR: [0.1]
+Train set: 54, Train Loss1: 0.5253, Train Loss2: 0.3747,                Train Loss: 0.9000 Acc: 89.3529
+Test set: 100 Test Loss: 3.2569 Acc: 34.2100
+
+Epoch: 37, LR: [0.1]
+Train set: 54, Train Loss1: 0.5199, Train Loss2: 0.3439,                Train Loss: 0.8638 Acc: 90.1324
+Test set: 100 Test Loss: 2.9439 Acc: 37.2900
+
+Epoch: 38, LR: [0.1]
+Train set: 54, Train Loss1: 0.5407, Train Loss2: 0.3583,                Train Loss: 0.8990 Acc: 89.4559
+Test set: 100 Test Loss: 2.9038 Acc: 37.5900
+
+Epoch: 39, LR: [0.1]
+Train set: 54, Train Loss1: 0.4727, Train Loss2: 0.2920,                Train Loss: 0.7647 Acc: 91.8676
+Test set: 100 Test Loss: 3.0579 Acc: 37.6500
+
+Epoch: 40, LR: [0.1]
+Train set: 54, Train Loss1: 0.4907, Train Loss2: 0.3159,                Train Loss: 0.8066 Acc: 90.6912
+Test set: 100 Test Loss: 2.9501 Acc: 38.0600
+
+Epoch: 41, LR: [0.1]
+Train set: 54, Train Loss1: 0.4496, Train Loss2: 0.2626,                Train Loss: 0.7121 Acc: 92.6618
+Test set: 100 Test Loss: 3.1010 Acc: 36.9500
+
+Epoch: 42, LR: [0.1]
+Train set: 54, Train Loss1: 0.5153, Train Loss2: 0.3512,                Train Loss: 0.8664 Acc: 89.4559
+Test set: 100 Test Loss: 3.0237 Acc: 37.6500
+
+Epoch: 43, LR: [0.1]
+Train set: 54, Train Loss1: 0.5476, Train Loss2: 0.3798,                Train Loss: 0.9274 Acc: 88.3529
+Test set: 100 Test Loss: 3.3741 Acc: 32.8900
+
+Epoch: 44, LR: [0.1]
+Train set: 54, Train Loss1: 0.5287, Train Loss2: 0.3467,                Train Loss: 0.8753 Acc: 89.5294
+Test set: 100 Test Loss: 3.0044 Acc: 36.6900
+
+Epoch: 45, LR: [0.1]
+Train set: 54, Train Loss1: 0.4788, Train Loss2: 0.2766,                Train Loss: 0.7554 Acc: 92.2353
+Test set: 100 Test Loss: 2.8914 Acc: 39.2100
+
+Epoch: 46, LR: [0.1]
+Train set: 54, Train Loss1: 0.4751, Train Loss2: 0.2698,                Train Loss: 0.7449 Acc: 92.6029
+Test set: 100 Test Loss: 3.2832 Acc: 35.4000
+
+Epoch: 47, LR: [0.1]
+Train set: 54, Train Loss1: 0.5258, Train Loss2: 0.3452,                Train Loss: 0.8710 Acc: 89.5882
+Test set: 100 Test Loss: 3.2092 Acc: 36.3800
+
+Epoch: 48, LR: [0.1]
+Train set: 54, Train Loss1: 0.4748, Train Loss2: 0.2660,                Train Loss: 0.7407 Acc: 92.6912
+Test set: 100 Test Loss: 2.9454 Acc: 38.0900
+
+Epoch: 49, LR: [0.1]
+Train set: 54, Train Loss1: 0.4694, Train Loss2: 0.2681,                Train Loss: 0.7375 Acc: 92.4853
+Test set: 100 Test Loss: 3.2377 Acc: 35.6800
+
+Epoch: 50, LR: [0.1]
+Train set: 54, Train Loss1: 0.5813, Train Loss2: 0.4109,                Train Loss: 0.9922 Acc: 87.4412
+Test set: 100 Test Loss: 3.2081 Acc: 35.8300
+
+Epoch: 51, LR: [0.1]
+Train set: 54, Train Loss1: 0.5320, Train Loss2: 0.3499,                Train Loss: 0.8818 Acc: 89.6912
+Test set: 100 Test Loss: 3.5182 Acc: 31.3500
+
+Epoch: 52, LR: [0.1]
+Train set: 54, Train Loss1: 0.5487, Train Loss2: 0.3724,                Train Loss: 0.9211 Acc: 88.8235
+Test set: 100 Test Loss: 3.2731 Acc: 34.6800
+
+Epoch: 53, LR: [0.1]
+Train set: 54, Train Loss1: 0.4544, Train Loss2: 0.2473,                Train Loss: 0.7017 Acc: 93.3088
+Test set: 100 Test Loss: 2.8906 Acc: 38.9900
+
+Epoch: 54, LR: [0.1]
+Train set: 54, Train Loss1: 0.5318, Train Loss2: 0.3581,                Train Loss: 0.8899 Acc: 88.9853
+Test set: 100 Test Loss: 3.0507 Acc: 36.6500
+
+Epoch: 55, LR: [0.1]
+Train set: 54, Train Loss1: 0.5082, Train Loss2: 0.3273,                Train Loss: 0.8355 Acc: 90.7794
+Test set: 100 Test Loss: 3.0734 Acc: 36.3100
+
+Epoch: 56, LR: [0.1]
+Train set: 54, Train Loss1: 0.5934, Train Loss2: 0.4123,                Train Loss: 1.0057 Acc: 87.7941
+Test set: 100 Test Loss: 3.1785 Acc: 35.4700
+
+Epoch: 57, LR: [0.1]
+Train set: 54, Train Loss1: 0.5185, Train Loss2: 0.3169,                Train Loss: 0.8354 Acc: 90.8971
+Test set: 100 Test Loss: 3.0876 Acc: 36.7700
+
+Epoch: 58, LR: [0.1]
+Train set: 54, Train Loss1: 0.5288, Train Loss2: 0.3268,                Train Loss: 0.8556 Acc: 90.4118
+Test set: 100 Test Loss: 3.1052 Acc: 37.1600
+
+Epoch: 59, LR: [0.1]
+Train set: 54, Train Loss1: 0.4789, Train Loss2: 0.2785,                Train Loss: 0.7574 Acc: 91.8529
+Test set: 100 Test Loss: 3.3027 Acc: 35.1300
+
+Epoch: 60, LR: [0.1]
+Train set: 54, Train Loss1: 0.4824, Train Loss2: 0.2935,                Train Loss: 0.7759 Acc: 91.8088
+Test set: 100 Test Loss: 3.1920 Acc: 37.4700
+
+Epoch: 61, LR: [0.1]
+Train set: 54, Train Loss1: 0.4813, Train Loss2: 0.2754,                Train Loss: 0.7568 Acc: 92.4118
+Test set: 100 Test Loss: 3.4973 Acc: 33.5200
+
+Epoch: 62, LR: [0.1]
+Train set: 54, Train Loss1: 0.5734, Train Loss2: 0.4203,                Train Loss: 0.9937 Acc: 87.0882
+Test set: 100 Test Loss: 3.2657 Acc: 35.0500
+
+Epoch: 63, LR: [0.1]
+Train set: 54, Train Loss1: 0.4830, Train Loss2: 0.2685,                Train Loss: 0.7515 Acc: 92.0735
+Test set: 100 Test Loss: 3.0428 Acc: 37.2800
+
+Epoch: 64, LR: [0.1]
+Train set: 54, Train Loss1: 0.4763, Train Loss2: 0.2547,                Train Loss: 0.7310 Acc: 93.1618
+Test set: 100 Test Loss: 3.1904 Acc: 35.9000
+
+Epoch: 65, LR: [0.1]
+Train set: 54, Train Loss1: 0.5908, Train Loss2: 0.4387,                Train Loss: 1.0295 Acc: 86.6765
+Test set: 100 Test Loss: 3.5464 Acc: 30.3600
+
+Epoch: 66, LR: [0.1]
+Train set: 54, Train Loss1: 0.5281, Train Loss2: 0.3357,                Train Loss: 0.8638 Acc: 90.1176
+Test set: 100 Test Loss: 3.5746 Acc: 32.0100
+
+Epoch: 67, LR: [0.1]
+Train set: 54, Train Loss1: 0.5305, Train Loss2: 0.3224,                Train Loss: 0.8529 Acc: 90.5000
+Test set: 100 Test Loss: 3.1636 Acc: 35.6000
+
+Epoch: 68, LR: [0.1]
+Train set: 54, Train Loss1: 0.5241, Train Loss2: 0.3214,                Train Loss: 0.8455 Acc: 90.2647
+Test set: 100 Test Loss: 2.9913 Acc: 37.1900
+
+Epoch: 69, LR: [0.1]
+Train set: 54, Train Loss1: 0.5256, Train Loss2: 0.3042,                Train Loss: 0.8298 Acc: 90.8824
+Test set: 100 Test Loss: 3.0104 Acc: 37.1000
+
+Epoch: 70, LR: [0.1]
+Train set: 54, Train Loss1: 0.5368, Train Loss2: 0.3430,                Train Loss: 0.8798 Acc: 89.9412
+Test set: 100 Test Loss: 3.1842 Acc: 36.0400
+
+Epoch: 71, LR: [0.1]
+Train set: 54, Train Loss1: 0.4911, Train Loss2: 0.2640,                Train Loss: 0.7551 Acc: 92.8971
+Test set: 100 Test Loss: 2.8703 Acc: 38.9500
+
+Epoch: 72, LR: [0.1]
+Train set: 54, Train Loss1: 0.5254, Train Loss2: 0.3292,                Train Loss: 0.8546 Acc: 90.3676
+Test set: 100 Test Loss: 3.0443 Acc: 37.7200
+
+Epoch: 73, LR: [0.1]
+Train set: 54, Train Loss1: 0.4725, Train Loss2: 0.2427,                Train Loss: 0.7152 Acc: 93.3235
+Test set: 100 Test Loss: 3.0272 Acc: 37.7300
+
+Epoch: 74, LR: [0.1]
+Train set: 54, Train Loss1: 0.4914, Train Loss2: 0.2855,                Train Loss: 0.7769 Acc: 91.8088
+Test set: 100 Test Loss: 2.9918 Acc: 37.8200
+
+Epoch: 75, LR: [0.1]
+Train set: 54, Train Loss1: 0.4482, Train Loss2: 0.2193,                Train Loss: 0.6674 Acc: 94.2500
+Test set: 100 Test Loss: 3.5194 Acc: 34.1700
+
+Epoch: 76, LR: [0.1]
+Train set: 54, Train Loss1: 0.4957, Train Loss2: 0.2912,                Train Loss: 0.7869 Acc: 91.7941
+Test set: 100 Test Loss: 3.2190 Acc: 34.6500
+
+Epoch: 77, LR: [0.1]
+Train set: 54, Train Loss1: 0.5496, Train Loss2: 0.3640,                Train Loss: 0.9136 Acc: 89.0000
+Test set: 100 Test Loss: 3.3527 Acc: 33.6000
+
+Epoch: 78, LR: [0.1]
+Train set: 54, Train Loss1: 0.6042, Train Loss2: 0.4300,                Train Loss: 1.0342 Acc: 86.6471
+Test set: 100 Test Loss: 3.5303 Acc: 31.3200
+
+Epoch: 79, LR: [0.1]
+Train set: 54, Train Loss1: 0.5637, Train Loss2: 0.3345,                Train Loss: 0.8982 Acc: 90.2206
+Test set: 100 Test Loss: 3.1321 Acc: 36.0500
+
+Epoch: 80, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.4160, Train Loss2: 0.1638,                Train Loss: 0.5798 Acc: 96.4118
+Test set: 100 Test Loss: 2.5778 Acc: 43.4500
+
+Epoch: 81, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3599, Train Loss2: 0.1107,                Train Loss: 0.4705 Acc: 98.1029
+Test set: 100 Test Loss: 2.5349 Acc: 44.4100
+
+Epoch: 82, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3407, Train Loss2: 0.0993,                Train Loss: 0.4400 Acc: 98.7059
+Test set: 100 Test Loss: 2.5484 Acc: 44.2000
+
+Epoch: 83, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3288, Train Loss2: 0.0883,                Train Loss: 0.4171 Acc: 98.8824
+Test set: 100 Test Loss: 2.4902 Acc: 45.5100
+
+Epoch: 84, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3175, Train Loss2: 0.0846,                Train Loss: 0.4022 Acc: 99.2059
+Test set: 100 Test Loss: 2.5015 Acc: 45.3900
+
+Epoch: 85, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3136, Train Loss2: 0.0833,                Train Loss: 0.3970 Acc: 99.1471
+Test set: 100 Test Loss: 2.4797 Acc: 45.3100
+
+Epoch: 86, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.3039, Train Loss2: 0.0766,                Train Loss: 0.3805 Acc: 99.2500
+Test set: 100 Test Loss: 2.4578 Acc: 45.5600
+
+Epoch: 87, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2973, Train Loss2: 0.0731,                Train Loss: 0.3704 Acc: 99.4118
+Test set: 100 Test Loss: 2.4452 Acc: 45.9100
+
+Epoch: 88, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2943, Train Loss2: 0.0753,                Train Loss: 0.3696 Acc: 99.4412
+Test set: 100 Test Loss: 2.4016 Acc: 46.5200
+
+Epoch: 89, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2891, Train Loss2: 0.0744,                Train Loss: 0.3635 Acc: 99.2941
+Test set: 100 Test Loss: 2.4611 Acc: 45.8100
+
+Epoch: 90, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2900, Train Loss2: 0.0724,                Train Loss: 0.3623 Acc: 99.5000
+Test set: 100 Test Loss: 2.4689 Acc: 45.6600
+
+Epoch: 91, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2827, Train Loss2: 0.0709,                Train Loss: 0.3536 Acc: 99.4559
+Test set: 100 Test Loss: 2.4579 Acc: 45.7400
+
+Epoch: 92, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2845, Train Loss2: 0.0695,                Train Loss: 0.3540 Acc: 99.4265
+Test set: 100 Test Loss: 2.4894 Acc: 45.4800
+
+Epoch: 93, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2778, Train Loss2: 0.0630,                Train Loss: 0.3408 Acc: 99.5882
+Test set: 100 Test Loss: 2.4498 Acc: 46.1800
+
+Epoch: 94, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2716, Train Loss2: 0.0671,                Train Loss: 0.3387 Acc: 99.6176
+Test set: 100 Test Loss: 2.4465 Acc: 46.0800
+
+Epoch: 95, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2806, Train Loss2: 0.0654,                Train Loss: 0.3460 Acc: 99.6324
+Test set: 100 Test Loss: 2.4853 Acc: 45.6200
+
+Epoch: 96, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2699, Train Loss2: 0.0663,                Train Loss: 0.3362 Acc: 99.6618
+Test set: 100 Test Loss: 2.4541 Acc: 46.2800
+
+Epoch: 97, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2735, Train Loss2: 0.0665,                Train Loss: 0.3400 Acc: 99.6912
+Test set: 100 Test Loss: 2.4399 Acc: 46.2100
+
+Epoch: 98, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2665, Train Loss2: 0.0638,                Train Loss: 0.3303 Acc: 99.6324
+Test set: 100 Test Loss: 2.4714 Acc: 46.0400
+
+Epoch: 99, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2658, Train Loss2: 0.0654,                Train Loss: 0.3312 Acc: 99.6176
+Test set: 100 Test Loss: 2.4593 Acc: 46.1800
+
+Epoch: 100, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2624, Train Loss2: 0.0614,                Train Loss: 0.3237 Acc: 99.6912
+Test set: 100 Test Loss: 2.4406 Acc: 46.4600
+
+Epoch: 101, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2593, Train Loss2: 0.0592,                Train Loss: 0.3184 Acc: 99.6618
+Test set: 100 Test Loss: 2.4436 Acc: 46.5100
+
+Epoch: 102, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2586, Train Loss2: 0.0587,                Train Loss: 0.3173 Acc: 99.7941
+Test set: 100 Test Loss: 2.4772 Acc: 46.0000
+
+Epoch: 103, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2588, Train Loss2: 0.0614,                Train Loss: 0.3202 Acc: 99.6912
+Test set: 100 Test Loss: 2.4458 Acc: 46.2800
+
+Epoch: 104, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2564, Train Loss2: 0.0606,                Train Loss: 0.3170 Acc: 99.6618
+Test set: 100 Test Loss: 2.4687 Acc: 46.1100
+
+Epoch: 105, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2583, Train Loss2: 0.0614,                Train Loss: 0.3197 Acc: 99.7353
+Test set: 100 Test Loss: 2.4649 Acc: 46.0700
+
+Epoch: 106, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2552, Train Loss2: 0.0686,                Train Loss: 0.3238 Acc: 99.6618
+Test set: 100 Test Loss: 2.4180 Acc: 46.7700
+
+Epoch: 107, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2587, Train Loss2: 0.0657,                Train Loss: 0.3244 Acc: 99.5147
+Test set: 100 Test Loss: 2.4289 Acc: 46.5500
+
+Epoch: 108, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2537, Train Loss2: 0.0586,                Train Loss: 0.3123 Acc: 99.7500
+Test set: 100 Test Loss: 2.4475 Acc: 46.3100
+
+Epoch: 109, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2562, Train Loss2: 0.0578,                Train Loss: 0.3141 Acc: 99.7353
+Test set: 100 Test Loss: 2.4633 Acc: 46.2300
+
+Epoch: 110, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2500, Train Loss2: 0.0556,                Train Loss: 0.3056 Acc: 99.7941
+Test set: 100 Test Loss: 2.4447 Acc: 46.5600
+
+Epoch: 111, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2457, Train Loss2: 0.0577,                Train Loss: 0.3035 Acc: 99.8529
+Test set: 100 Test Loss: 2.4568 Acc: 46.1100
+
+Epoch: 112, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2502, Train Loss2: 0.0546,                Train Loss: 0.3048 Acc: 99.7794
+Test set: 100 Test Loss: 2.4930 Acc: 45.8600
+
+Epoch: 113, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2455, Train Loss2: 0.0557,                Train Loss: 0.3012 Acc: 99.7647
+Test set: 100 Test Loss: 2.4471 Acc: 46.4200
+
+Epoch: 114, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2427, Train Loss2: 0.0558,                Train Loss: 0.2986 Acc: 99.8235
+Test set: 100 Test Loss: 2.4262 Acc: 46.7800
+
+Epoch: 115, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2456, Train Loss2: 0.0590,                Train Loss: 0.3045 Acc: 99.7941
+Test set: 100 Test Loss: 2.4792 Acc: 46.1600
+
+Epoch: 116, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2450, Train Loss2: 0.0593,                Train Loss: 0.3043 Acc: 99.8088
+Test set: 100 Test Loss: 2.4070 Acc: 46.9700
+
+Epoch: 117, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2405, Train Loss2: 0.0555,                Train Loss: 0.2960 Acc: 99.8529
+Test set: 100 Test Loss: 2.4465 Acc: 46.5500
+
+Epoch: 118, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2402, Train Loss2: 0.0551,                Train Loss: 0.2953 Acc: 99.7794
+Test set: 100 Test Loss: 2.4423 Acc: 46.5900
+
+Epoch: 119, LR: [0.010000000000000002]
+Train set: 54, Train Loss1: 0.2364, Train Loss2: 0.0529,                Train Loss: 0.2893 Acc: 99.7941
+Test set: 100 Test Loss: 2.4153 Acc: 46.7900
+
+Epoch: 120, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2348, Train Loss2: 0.0532,                Train Loss: 0.2881 Acc: 99.8088
+Test set: 100 Test Loss: 2.4313 Acc: 46.6200
+
+Epoch: 121, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2354, Train Loss2: 0.0539,                Train Loss: 0.2893 Acc: 99.8382
+Test set: 100 Test Loss: 2.4133 Acc: 46.8000
+
+Epoch: 122, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2330, Train Loss2: 0.0520,                Train Loss: 0.2850 Acc: 99.9412
+Test set: 100 Test Loss: 2.4184 Acc: 46.8800
+
+Epoch: 123, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2353, Train Loss2: 0.0536,                Train Loss: 0.2889 Acc: 99.8529
+Test set: 100 Test Loss: 2.4346 Acc: 46.5600
+
+Epoch: 124, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2312, Train Loss2: 0.0522,                Train Loss: 0.2834 Acc: 99.8824
+Test set: 100 Test Loss: 2.3984 Acc: 47.2400
+
+Epoch: 125, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2319, Train Loss2: 0.0538,                Train Loss: 0.2857 Acc: 99.8824
+Test set: 100 Test Loss: 2.4389 Acc: 46.5700
+
+Epoch: 126, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2329, Train Loss2: 0.0516,                Train Loss: 0.2845 Acc: 99.7794
+Test set: 100 Test Loss: 2.4139 Acc: 46.7700
+
+Epoch: 127, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2327, Train Loss2: 0.0525,                Train Loss: 0.2852 Acc: 99.8235
+Test set: 100 Test Loss: 2.4266 Acc: 46.6600
+
+Epoch: 128, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2376, Train Loss2: 0.0570,                Train Loss: 0.2946 Acc: 99.7794
+Test set: 100 Test Loss: 2.4678 Acc: 46.2100
+
+Epoch: 129, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2360, Train Loss2: 0.0528,                Train Loss: 0.2887 Acc: 99.8235
+Test set: 100 Test Loss: 2.4068 Acc: 46.8900
+
+Epoch: 130, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2295, Train Loss2: 0.0524,                Train Loss: 0.2819 Acc: 99.7647
+Test set: 100 Test Loss: 2.4205 Acc: 46.6300
+
+Epoch: 131, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2333, Train Loss2: 0.0536,                Train Loss: 0.2869 Acc: 99.7941
+Test set: 100 Test Loss: 2.4206 Acc: 46.9100
+
+Epoch: 132, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2345, Train Loss2: 0.0528,                Train Loss: 0.2873 Acc: 99.8235
+Test set: 100 Test Loss: 2.4470 Acc: 46.6400
+
+Epoch: 133, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2305, Train Loss2: 0.0502,                Train Loss: 0.2806 Acc: 99.8088
+Test set: 100 Test Loss: 2.4401 Acc: 46.7900
+
+Epoch: 134, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2329, Train Loss2: 0.0522,                Train Loss: 0.2851 Acc: 99.8971
+Test set: 100 Test Loss: 2.4203 Acc: 46.7300
+
+Epoch: 135, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2326, Train Loss2: 0.0523,                Train Loss: 0.2849 Acc: 99.8088
+Test set: 100 Test Loss: 2.4116 Acc: 47.1300
+
+Epoch: 136, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2304, Train Loss2: 0.0537,                Train Loss: 0.2842 Acc: 99.8824
+Test set: 100 Test Loss: 2.4161 Acc: 46.8100
+
+Epoch: 137, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2298, Train Loss2: 0.0508,                Train Loss: 0.2806 Acc: 99.9265
+Test set: 100 Test Loss: 2.4428 Acc: 46.7900
+
+Epoch: 138, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2325, Train Loss2: 0.0539,                Train Loss: 0.2863 Acc: 99.8235
+Test set: 100 Test Loss: 2.4263 Acc: 46.7900
+
+Epoch: 139, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2321, Train Loss2: 0.0525,                Train Loss: 0.2847 Acc: 99.7941
+Test set: 100 Test Loss: 2.4156 Acc: 46.7400
+
+Epoch: 140, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2300, Train Loss2: 0.0526,                Train Loss: 0.2826 Acc: 99.8382
+Test set: 100 Test Loss: 2.4316 Acc: 46.6100
+
+Epoch: 141, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2316, Train Loss2: 0.0516,                Train Loss: 0.2831 Acc: 99.8382
+Test set: 100 Test Loss: 2.4086 Acc: 47.0000
+
+Epoch: 142, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2295, Train Loss2: 0.0501,                Train Loss: 0.2795 Acc: 99.8824
+Test set: 100 Test Loss: 2.4223 Acc: 46.8700
+
+Epoch: 143, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2319, Train Loss2: 0.0513,                Train Loss: 0.2831 Acc: 99.8382
+Test set: 100 Test Loss: 2.4461 Acc: 46.4800
+
+Epoch: 144, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2310, Train Loss2: 0.0512,                Train Loss: 0.2822 Acc: 99.9265
+Test set: 100 Test Loss: 2.4014 Acc: 47.1400
+
+Epoch: 145, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2277, Train Loss2: 0.0483,                Train Loss: 0.2760 Acc: 99.8676
+Test set: 100 Test Loss: 2.4297 Acc: 46.7200
+
+Epoch: 146, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2292, Train Loss2: 0.0512,                Train Loss: 0.2804 Acc: 99.8676
+Test set: 100 Test Loss: 2.4534 Acc: 46.3800
+
+Epoch: 147, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2292, Train Loss2: 0.0513,                Train Loss: 0.2806 Acc: 99.9118
+Test set: 100 Test Loss: 2.4363 Acc: 46.6000
+
+Epoch: 148, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2300, Train Loss2: 0.0508,                Train Loss: 0.2808 Acc: 99.8235
+Test set: 100 Test Loss: 2.4170 Acc: 47.0000
+
+Epoch: 149, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2311, Train Loss2: 0.0522,                Train Loss: 0.2833 Acc: 99.8971
+Test set: 100 Test Loss: 2.4893 Acc: 45.7400
+
+Epoch: 150, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2290, Train Loss2: 0.0499,                Train Loss: 0.2788 Acc: 99.8382
+Test set: 100 Test Loss: 2.4290 Acc: 46.6100
+
+Epoch: 151, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2295, Train Loss2: 0.0523,                Train Loss: 0.2818 Acc: 99.8088
+Test set: 100 Test Loss: 2.4426 Acc: 46.6500
+
+Epoch: 152, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2286, Train Loss2: 0.0516,                Train Loss: 0.2802 Acc: 99.8971
+Test set: 100 Test Loss: 2.4174 Acc: 46.6600
+
+Epoch: 153, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2272, Train Loss2: 0.0523,                Train Loss: 0.2795 Acc: 99.8971
+Test set: 100 Test Loss: 2.4531 Acc: 46.3800
+
+Epoch: 154, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2282, Train Loss2: 0.0518,                Train Loss: 0.2800 Acc: 99.8971
+Test set: 100 Test Loss: 2.4337 Acc: 46.6500
+
+Epoch: 155, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2287, Train Loss2: 0.0493,                Train Loss: 0.2780 Acc: 99.8971
+Test set: 100 Test Loss: 2.4296 Acc: 46.6600
+
+Epoch: 156, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2295, Train Loss2: 0.0509,                Train Loss: 0.2804 Acc: 99.8824
+Test set: 100 Test Loss: 2.4319 Acc: 46.7700
+
+Epoch: 157, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2327, Train Loss2: 0.0503,                Train Loss: 0.2831 Acc: 99.8529
+Test set: 100 Test Loss: 2.4497 Acc: 46.5800
+
+Epoch: 158, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2284, Train Loss2: 0.0502,                Train Loss: 0.2786 Acc: 99.9118
+Test set: 100 Test Loss: 2.4190 Acc: 46.7200
+
+Epoch: 159, LR: [0.0010000000000000002]
+Train set: 54, Train Loss1: 0.2291, Train Loss2: 0.0510,                Train Loss: 0.2802 Acc: 99.9118
+Test set: 100 Test Loss: 2.4290 Acc: 46.8600
+Removing register_forward_hook
 Updating exemplar set...
 Computing mean-of_exemplars and theoretical mean...
 Computing accuracy on the original batch of classes...
-  top 1 accuracy CNN            :		39.22 %
-  top 1 accuracy iCaRL          :		50.76 %
-  top 1 accuracy NCM            :		56.34 %
+  top 1 accuracy CNN            :		40.62 %
+  top 1 accuracy iCaRL          :		51.66 %
+  top 1 accuracy NCM            :		56.00 %
 Computing cumulative accuracy...
-  top 1 accuracy CNN            :		46.02 %
-  top 1 accuracy iCaRL          :		50.48 %
-  top 1 accuracy NCM            :		51.75 %
+  top 1 accuracy CNN            :		46.86 %
+  top 1 accuracy iCaRL          :		51.03 %
+  top 1 accuracy NCM            :		52.09 %
 Computing confusion matrix...
